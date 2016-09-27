@@ -1,0 +1,11 @@
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
+# regular expression
+import re
+
+pages = set()
+
+def getHttpLinkOnly(pageURL):
+    global pages
+    html = urlopen("http://en.wikipedia.com"+pageURL)
+    bsObj = BeautifulSoup(html)
