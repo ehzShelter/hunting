@@ -1,0 +1,1487 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+<meta content="Search jobs &amp; apply online at Bdjobs, including training &amp; more. Bdjobs has many features to help you find your desired job or fill your company's hiring needs." name="description"/>
+<meta content="http://joblist.bdjobs.com/images/bdjobslogo.gif" property="og:image"/>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>bdjobs.com :: Largest Job Site in Bangladesh</title>
+<!-- Bootstrap -->
+<link href="https://plus.google.com/108187491389507693092" rel="publisher"/>
+<link href="css/bootstrap.min.css" rel="stylesheet"/>
+<!--<link href="css/ui-icon.css" rel="stylesheet" />-->
+<link href="css/style_home_ver1.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/common2.min.css" rel="stylesheet" type="text/css"/>
+<!--<link rel="stylesheet" type="text/css" href="css/ramadan.css" />-->
+<link href="css/responsive.min.css" rel="stylesheet" type="text/css"/>
+<!--    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css' />
+      
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css' />-->
+<!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/enquire.min.js"></script>
+<script src="js/ramadan.js"></script>
+<script type="text/javascript">
+        function GetXmlHttpHotjobs()
+        { 
+            xmlHttp = null;
+            if (window.XMLHttpRequest)
+            {// code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlHttp=new XMLHttpRequest();
+            }
+            else
+            {// code for IE6, IE5
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            return xmlHttp;
+        }
+    </script>
+<script type="text/javascript">
+    function goto(language) {
+        // var chkBox = document.getElementById('remember').checked;
+        if (language == 'Bangla') {
+
+            // if (chkBox == true) {
+            var now = new Date();
+            var time = now.getTime();
+            time += 3600 * 1000 * 24 * 365;
+            now.setTime(time);
+            document.cookie = 'homeCoockies=BN; expires=' + now.toUTCString() + '; path=/';
+            //chkBox = false;
+
+            //            }
+            //            else {
+            //                document.cookie = 'welcomeCoockies=' + '' + '; path=/';
+            //            }
+            window.location = "http://bdjobs.com/bn/defaultbn.asp";
+            
+        }
+        else {
+
+            // if (chkBox == true) {
+            var now = new Date();
+            var time = now.getTime();
+            time += 3600 * 1000 * 24 * 365;
+            now.setTime(time);
+            document.cookie = 'homeCoockies=EN; expires=' + now.toUTCString() + '; path=/';
+            //chkBox = false;
+
+            //            }
+            //            else {
+            //                document.cookie = 'welcomeCoockies=' + '' + '; path=/';
+            //            }
+
+            window.location = "http://bdjobs.com/default.asp";
+        }
+    }
+    
+    
+    function setlog() {
+        var today = new Date();
+        var expire = new Date();
+        
+        expire.setTime(3600000 * 24 * 30);
+        document.cookie = "versionswitch=mobile;domain=.bdjobs.com;path=/";
+
+        _gaq.push(['_trackEvent', 'SwitchLog', '-1', '/Default.asp', 1.00, true]);
+    }
+    </script>
+<script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-2113640-1']);
+      _gaq.push(['_setDomainName', 'bdjobs.com']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    
+    </script>
+</head>
+<body onload="init();">
+<!--  for cookie --------------- start  -->
+<script type="text/javascript">
+
+ var showEngBngMessage2 ;//= 1 ;
+ checkCookie('showEngBngMessage2');
+ //alert("showEngBngMessage2 = " + showEngBngMessage2);
+ if(showEngBngMessage2==1)
+ {
+    // alert("yes message");
+ }else{
+    // alert("No message");
+     }
+
+ function setCookie(cname, cvalue) {
+    var d = new Date();
+    exdays=30;
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + "; "+ expires ;
+/* 
+    setCookie(cname, cvalue, exdays)
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + "; " + expires;
+*/
+
+ }
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(name) != -1) return c.substring(name.length, c.length);
+    }
+     // alert("showEngBngMessage2 47 = " + showEngBngMessage2);
+
+    return "";
+}
+//function checkCookie() {
+
+function checkCookie(cookieName) {
+    var user = getCookie(cookieName);
+    //console.log(user);
+    if (user != '') {
+        //alert("Welcome again " + user);
+        showEngBngMessage2 = 0 ;
+    } else {
+        //user = prompt("Please enter your name:", "");
+        //if (user != "" && user != null)
+        // {
+          //  setCookie("username", user, 365);
+        //}
+        showEngBngMessage2 = 1 ;
+    }
+}
+
+
+function cookieWorks(elementId)
+{
+    chkk = document.getElementById(elementId).checked ;
+    if (chkk){setCookie("showEngBngMessage2", 0 );} 
+    // alert("showEngBngMessage2 73 = " + showEngBngMessage2);
+}
+</script>
+<!-- for cookie ------------------ end ------------------------------------------- -->
+<script type="text/javascript">
+         
+        function off_layer()
+        { 
+           // cookieWorks('remember');  
+           
+           //document.getElementById("preloaderLayer").style.display = "none" ;
+           // toggle('blanket');
+           popup('popUpDiv');
+           
+           document.getElementById("popUpDiv").style.display = "none" ;
+           document.getElementById("blanket").style.height = '0%';
+        }
+        
+        function on_layer()
+        { 
+            // check cookie set
+            if( showEngBngMessage2 == 0 ){/*do nothing;*/}
+            else{/* show the message */
+            //document.getElementById("preloaderLayer").style.display = "block" ;
+            
+            document.getElementById("popUpDiv").style.display = "block" ;
+            //document.getElementById("closehref").focus(); 
+            }
+            //alert(document.cookie); //document.cookie = 1 ;            //alert(document.cookie);
+        }
+        
+    </script>
+<script type="text/javascript">
+        $(document).ready(function(){
+        
+        // setTimeout("off_layer()", 5000);
+        // OFF 23nov2014 628pm // setTimeout("on_layer()", 1000);
+        // setTimeout("on_layer()", 1000);
+        
+        // $('.close_btn').click(function(){off_layer();});
+        
+        });
+    </script>
+<!--  start new popup -->
+<script type="text/javascript">
+
+
+ 
+$(document).ready(function(){
+        
+
+ 
+        //onload="popup('popUpDiv');"
+        //console.log(showEngBngMessage2);
+            if(showEngBngMessage2!=0)
+            {
+                // popup('popUpDiv');
+            }
+        
+        });
+        
+function toggle(div_id) {
+    var el = document.getElementById(div_id);
+    if ( el.style.display == 'none' ) { el.style.display = 'block';}
+    else {el.style.display = 'none';}
+}
+function blanket_size(popUpDivVar) {
+    if (typeof window.innerWidth != 'undefined') {
+        viewportheight = window.innerHeight;
+    } else {
+        viewportheight = document.documentElement.clientHeight;
+    }
+    if ((viewportheight > document.body.parentNode.scrollHeight) && (viewportheight > document.body.parentNode.clientHeight)) {
+        blanket_height = viewportheight;
+    } else {
+        if (document.body.parentNode.clientHeight > document.body.parentNode.scrollHeight) {
+            blanket_height = document.body.parentNode.clientHeight;
+        } else {
+            blanket_height = document.body.parentNode.scrollHeight;
+        }
+    }
+    var blanket = document.getElementById('blanket');
+    blanket.style.height = blanket_height + 'px';
+    var popUpDiv = document.getElementById(popUpDivVar);
+    popUpDiv_height=blanket_height/16
+    popUpDiv_height=popUpDiv_height-200; //200 is half popup's height
+    popUpDiv.style.top = popUpDiv_height + 'px';
+    
+    //ostadi 
+    /*
+     if ( blanket.style.display == 'block' )
+     {  //el.style.display = 'block';
+        blanket.style.height = '0%';
+     }*/
+    //
+    blanket.style.height = '100%';//'10000px';
+    blanket.style.position = 'fixed'; // azhar
+    popUpDiv.style.position = 'fixed'; //azhar
+    
+    
+}
+function window_pos(popUpDivVar) {
+    if (typeof window.innerWidth != 'undefined') {
+        viewportwidth = window.innerHeight;
+    } else {
+        viewportwidth = document.documentElement.clientHeight;
+    }
+    if ((viewportwidth > document.body.parentNode.scrollWidth) && (viewportwidth > document.body.parentNode.clientWidth)) {
+        window_width = viewportwidth;
+    } else {
+        if (document.body.parentNode.clientWidth > document.body.parentNode.scrollWidth) {
+            window_width = document.body.parentNode.clientWidth;
+        } else {
+            window_width = document.body.parentNode.scrollWidth;
+        }
+    }
+    var popUpDiv = document.getElementById(popUpDivVar);
+    window_width=window_width/2;
+    window_width=window_width-260;//200 is half popup's width
+    popUpDiv.style.left = window_width + 'px';
+}
+function popup(windowname) {
+    blanket_size(windowname);
+    window_pos(windowname);
+    toggle('blanket');
+    toggle(windowname);     
+}
+</script>
+<style type="text/css">
+/*
+#blanket {
+   background-color:#111;
+   opacity: 0.65;
+   *background:none;
+   position:absolute;
+   z-index: 99999;
+   top:0px;
+   left:0px;
+   width:100%;
+}
+*/
+#blanket {
+   background-color:#fff;
+    /*opacity:1;*/ 
+    opacity:.5;
+    filter:alpha(opacity=100);
+    -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+
+   /*
+   
+    opacity:1; 0.65; 
+    filter:alpha(opacity=60);
+    -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    */
+   *background:none;
+   position: relative; /*position:absolute;*/
+   z-index: 99999;
+   top:0px;
+   left:0px;
+   width:100%;
+}
+/*
+#popUpDiv {
+    position:absolute;
+    background-color:#fff;
+    width:417px;
+    height:345px;
+    border:0px solid #000;
+    z-index: 999999;
+    top:0px;
+}
+*/
+#popUpDiv {
+    margin-top:200px;
+    position:absolute;
+    /*background-color:#fff;*/
+    background-color:transparent;
+    width:649px;
+    height:560px;
+    border:0px solid #000;
+    z-index: 999999;
+    top:200px;
+}
+
+
+
+
+/*#popUpDiv a {position:relative; top:20px; left:20px}*/
+#popUpDiv a {position:relative; top:20px;}
+
+
+
+
+
+
+</style>
+<!--  end new popup -->
+<!--div style=" height:1299px;" id="preloaderLayer"-->
+<div id="blanket" style="display:none;"></div>
+<div id="popUpDiv" style="display:none;">
+<a href="javascript:off_layer();"><img alt="Close" border="0" onload="_gaq.push(['_trackEvent', 'mashrafipreloader' , 'impression', 'homedefault',2.00,true]);" src="/images/closebox.png" style="float:right; background-color: transparent; padding:5px;margin: 0px -10px -25px 0px;" title="Close"/></a>
+<style type="text/css">
+img{
+    border:none;
+    }
+
+.clear{
+    clear:both;
+}
+/* ----- Main Class's ----- */
+.header{
+    border-bottom:1px solid #eeeeee; background:#ffffff; margin:0px auto 0px auto;
+}
+.header,.content,.footer,.nav{
+    font-size:12px;
+}
+/* ----- Header ----- */
+
+.blog{
+    padding:10px; background:#ffffff;
+}
+.blog-img{
+    text-align:center; margin:0 auto; padding:10px 0 5px 0;
+}
+.blog-content{
+    color:#2d2d2d;
+}
+.blog-content-c{
+    color:#2d2d2d; text-align:center; padding:15px 0 5px 0; font-size:12px;
+}
+
+/* ----- Footer ----- */
+input[type=button] {height:34px; margin:5px auto 8px auto; color:#fff; font-size:14px; text-align:center; position:relative; border:1px solid #063851; background: #063851;
+}
+</style>
+<div class="content" style="margin: 0px auto; width: 650px; height:480px;text-align:center; ">
+<!--div id="powerDiv" -->
+<!--<table border="0" cellspacing="0" cellpadding="0" align="center" style="" >
+<tbody><tr>
+<td align="center">
+<div style="font-family:SolaimanLipi;font-size:16px;font-style:normal; font-weight:bold;color:#757575;;">&#2476;&#2495;&#2460;&#2509;&#2462;&#2494;&#2474;&#2472;</div></td>
+<td align="right" width="30">
+
+</td>
+</tr>-->
+<tr><td colspan="2">
+<a href="http://ajkerdeal.com" onclick="_gaq.push(['_trackEvent', 'ajkerdeal' , 'click', 'homedefault',1.00,true]);">
+<img src="http://bdjobs.com/images/Bdjobs-preloader-mashrafi.png "/>
+</a>
+</td>
+</tr>
+<tr><td align="center" colspan="2"><a href="javascript:off_layer();" style="font-family:Arial, Helvetica, sans-serif;font-size:16px;font-style:normal; font-weight:bold; text-decoration:none; color:#757575;;">Go to Bdjobs.com</a></td></tr>
+<!-- /div -->
+</div>
+</div>
+<script type="text/javascript">
+ 
+ function gobng()
+ {
+     location.href = "http://www.bdjobs.com/bn/?lanset=bng"
+     
+ }
+ // this.setTimeout("off_layer()" , 3800);
+ 
+ $(document).ready(function(){ setTimeout("off_layer()" , 5000);});
+ 
+ 
+ $(window).load(function() {
+    
+/** this is come when complete page is fully loaded, including all frames, objects and images **/
+  }); 
+  
+ popup('popUpDiv');
+ </script>
+<!-- Start feedback -->
+<div class="feedback-left">
+<a class="btn btn-default" href="http://jobs.bdjobs.com/feedback.asp?val=home" target="_blank"><i class="icon-chat"></i> Feedback</a>
+</div>
+<!-- End feedback -->
+<!-- Light site message -->
+<!--<div class="welcomeMessage hidden-sm hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h6>
+                        Welcome to the new look of <strong>Bdjobs.com</strong> with more attractive design and more comfortable interface. Please send your feedback <a class="feedback" href="http://joblist.bdjobs.com/feedback.asp?val=home" target="_blank">here</a>
+                    </h6>
+                    <div class="pull-right">
+                        <a href="javascript:void(0);" class="btn btn-default close"><i class="icon-times-o"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+<!-- Start Topbar -->
+<div id="lout_header_top"></div>
+<div id="lin_header_top01"></div>
+<div id="lin_header_top02">
+<div class="topBar hidden-sm hidden-xs">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<ul class="pull-left brands">
+<li><a class="jobs active" href="http://jobs.bdjobs.com/jobsearch.asp">Jobs</a></li>
+<li><a class="mybdjobs" href="http://mybdjobs.bdjobs.com/" target="_blank">My Bdjobs</a></li>
+<li><a class="training" href="http://bdjobstraining.com/" target="_blank">Training</a></li>
+<li><a class="corporate" href="http://corporate3.bdjobs.com/" target="_blank">Employers</a></li>
+</ul>
+<div class="topBar-right pull-right">
+<ul class="pull-left icons">
+<li><a href="https://www.facebook.com/mybdjobs" target="_blank"><i class="icon-facebook"></i></a></li>
+<li><a href="https://plus.google.com/+BdjobscomLtdDhaka" target="_blank"><i class="icon-google-plus"></i></a></li>
+<li><a href="https://www.youtube.com/mybdjobs" target="_blank"><i class="icon-youtube"></i></a></li>
+<li><a href="http://www.bdjobs.com/contact.asp"><i class="icon-phone"></i></a></li>
+<!--<li><a href="http://bdjobs.com/bn/default_upcomingbn.asp"  target="_blank"><i class="icon-envelope"></i></a></li>-->
+</ul>
+<div aria-label="..." class="btn-group lang-btn" role="group">
+<button class="btn active" type="button">ENG</button>
+<!-- <button type="button" class="btn">BAN</button> -->
+<a class="btn bn" href="/bn/defaultbn.asp" onclick="goto('Bangla')"> <img alt="Bangla" src="/images/bn.png"/></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- End Topbar -->
+<!-- Start header -->
+<script language="JavaScript" src="/../JS/AlertBox.js"></script>
+<script language="JavaScript" src="/../JS/coo_get.js"></script>
+<script>
+ var strVersion="EN"
+</script>
+<script async="" defer="" src="https://plus.google.com/js/client:platform.js"></script>
+<script src="//platform.linkedin.com/in.js" type="text/javascript">
+  api_key:81w4aupl7jopgl
+ 
+  authorize: true
+
+</script>
+<script src="/../../JS/spin.min.js" type="text/javascript"></script>
+<script language="JavaScript" src="../../JS/home_social_login.js"></script>
+<script type="text/javascript">
+
+
+function validation(system)
+{
+    
+    if (system=='mybdjobs')
+    {
+        var username=document.getElementById("TXTUSERNAME");
+        var password=document.getElementById("TXTPASS");
+         if (username.value=="")
+         {
+             $(username).tooltip('show');
+            username.style.background="#FFFFCC";
+            
+            return false;
+         }
+         if (password.value=="")
+         {
+             $(password).tooltip('show');
+            password.style.background="#FFFFCC";
+            
+            return false;
+         }
+         
+           if (username.value!="" && password.value!="")
+        {
+              
+           $('.login-form').fadeOut(100);
+            document.getElementById("loginForm").submit();
+            return true;
+        }
+    }
+    else
+    {
+        var username_c=document.getElementById("NAME");
+         var password_c=document.getElementById("PASS");
+        
+        if (username_c.value=="")
+         {
+             $(username_c).tooltip('show');
+             
+            username_c.style.background="#FFFFCC";
+            return false;
+         }
+         if (password_c.value=="")
+         {
+             $(password_c).tooltip('show');
+             
+            password_c.style.background="#FFFFCC";
+            return false;
+         }
+        if (username_c!="" && password_c!="")
+        {
+            
+            document.getElementById("login_Form").submit();
+            return true
+        }
+        
+    }
+        
+    
+}
+
+
+
+
+
+    function signOut()
+    {
+       $.ajax({
+            xhrFields: {withCredentials: true},
+             crossDomain: true,
+        type: "GET",
+        
+        url: "http://bdjobs.com/upcoming/job_logout.asp?d=False",
+        contentType: "application/x-www-form-urlencoded; charset=utf-8",
+        cache: false,
+         data: {},
+        success: function (data) 
+        {
+             if(data.trim()!="")
+             {
+                var strData=data.toString();
+                //alert(strData);
+                if(strData.indexOf("###")>1)
+                {  
+                
+                    
+                    document.getElementById("lin_header_top01").style.display='none'
+                    document.getElementById("lin_header_mid01").style.display='none'
+                    document.getElementById("lin_footer01").style.display='none'
+                    document.getElementById("lin_header_top02").style.display='none'
+                    document.getElementById("lin_header_mid02").style.display='none'
+                    document.getElementById("lin_footer02").style.display='none'
+                
+                    var strArraydata=strData.split("###");
+                    var header_top=strArraydata[0];
+                    var header_mid=strArraydata[1];
+                    var footer=strArraydata[2]
+                    
+                    
+                    
+                    
+                    
+                    document.getElementById("lout_header_top").innerHTML=header_top;
+                    //alert(header_mid);
+                    document.getElementById("lout_header_mid").innerHTML=header_mid;
+                    
+                    document.getElementById("lout_footer").innerHTML=footer;
+                    
+                    
+                
+                    //getNotification();
+                }
+             }
+            
+        }
+     })
+    }
+
+
+
+var isWindowActiveEN;
+$(window).focus(function(){
+        isWindowActiveEN = true;
+   
+});
+
+$(window).blur(function(){
+        isWindowActiveEN = false;
+
+});
+
+setInterval(function() {
+    if (window.isWindowActiveEN)
+    {
+   getNotification();
+    }
+   
+ },600000);
+
+    
+    
+ function getNotification()
+ {
+
+    $.ajax({ 
+    type: "GET", 
+    async : false,
+    url: "http://bdjobs.com/upcoming/job_notification.asp?v=EN",
+    contentType: "application/x-www-form-urlencoded; charset=utf-8",
+    cache : false,
+   
+    data: {},
+   
+    success: function(data){
+          
+         if (data!="")
+         { 
+           
+            var strArrayData=data.split("#");
+            var count=strArrayData[0];
+            var string=strArrayData[1];
+            
+           
+            if (parseInt(count)!=0)
+            {
+                var strHtml="<span  class='badge bubble'>"+count+"</span>";
+                $("#notired").empty().append(strHtml);
+                $("#notired").css('display','block');
+                if (string.trim()!="")
+                {
+                    
+                    $("#messages").html(string);
+                    
+                }
+                
+            }
+            else
+            {   if (string.trim()!="")
+                {
+                    
+                    $("#messages").html(string);
+                    
+                    $("#notired").empty();
+                }
+                
+            }
+            
+          } 
+          else
+          {
+              
+              $("#notired").empty();
+             
+          }
+         
+          
+         
+      }
+    })
+ }
+var interval
+function change_Title(title) {
+    if (interval)
+
+        clearInterval(interval);
+
+    var text = [title, document.title];
+    var counter = 0;
+    function change() {
+        document.title = text[counter];
+        counter++;
+
+        if (counter >= text.length) { counter = 0; }
+    }
+    interval = setInterval(change, 2000);
+}
+
+function stopChange() {
+    clearInterval(interval);
+    document.title = document.title;
+}
+
+var delay = (function () {
+    var timer = 0;
+    return function (callback, ms) {
+        clearTimeout(timer);
+        timer = setTimeout(callback, ms);
+    };
+})();
+
+function showNotification() {
+    var d = new Date();
+    var strDate = d.toLocaleDateString();
+    var strTime = d.toLocaleTimeString();
+    var fullDateTime = strDate + " " + strTime;
+    SetCookieInDomain("MybdjobsJobDate", fullDateTime, 1);
+    $("#notired").empty();
+     $("#notired").css('display','none');
+}
+function setData_v() {
+    SetCookie("CV", "", 1);
+    $("#trCv").addClass("disable").html("<a href='javascript:void(0);' style='cursor:default'><i class='icon-view-resume'></i> CV Viewed : <span class='badge nf'>0</span></a>");
+    return true;
+}
+function setData_m() {
+    SetCookie("EM", "", 1);
+    $("#trEM").addClass("disable").html("<a href='javascript:void(0);' style='cursor:default'><i class='icon-envelope'></i> Employer Message : <span class='badge nf'>0</span></a>");
+    return true;
+}
+function setData_j() {
+    SetCookie("JM", "", 1);
+    $("#trJm").addClass("disable").html("<a href='javascript:void(0);' style='cursor:default'><i class='icon-puzzle'></i> Matched Jobs : <span class='badge nf'>0</span></a>");
+    return true;
+}
+function setData_t() {
+    SetCookie("TR", "", 1);
+    $("#trTra").addClass("disable").html("<a href='javascript:void(0);' style='cursor:default'><i class='icon-training'></i> Relevant Training : <span class='badge nf'>0</span></a>");
+    return true;
+}
+function SetCookie(cookieName, cookieValue, nDays) {
+    var today = new Date();
+    var expire = new Date();
+    if (nDays == null || nDays == 0) nDays = 1;
+    expire.setTime(3600000 * 24 * nDays);
+    document.cookie = cookieName + "=" + escape(cookieValue)+";path=/";
+}
+ function SetCookieInDomain(cookieName, cookieValue, nDays) {
+    var today = new Date();
+    var expire = new Date();
+    if (nDays == null || nDays == 0) nDays = 1;
+    expire.setTime(3600000 * 24 * nDays);
+    document.cookie = cookieName + "=" + escape(cookieValue)+";domain=.bdjobs.com;path=/";
+}
+function ReadCookie(cookieName) {
+    var theCookie = " " + document.cookie;
+    var ind = theCookie.indexOf(" " + cookieName + "=");
+    if (ind == -1) ind = theCookie.indexOf(";" + cookieName + "=");
+    if (ind == -1 || cookieName == "") return "";
+    var ind1 = theCookie.indexOf(";", ind + 1);
+    if (ind1 == -1) ind1 = theCookie.length;
+    return unescape(theCookie.substring(ind + cookieName.length + 2, ind1));
+}
+
+
+  $(function () {
+    $('[data-toggle="popover"]').popover()
+  });
+
+  $(document).on("click",'.social-button .btn',function(){
+        var $this = $(this);
+        $this.button('loading');
+          setTimeout(function() {
+             $this.button('reset');
+         }, 1000);
+      });
+
+
+    </script>
+<div class="spinner-container" id="spinner-container">
+<div class="layer-mask">
+<div class="spinner-body" id="spinnerHolder">
+</div>
+</div>
+</div>
+<div id="lout_header_mid"></div>
+<div id="lin_header_mid01"></div>
+<div id="lin_header_mid02">
+<div class="social-modal-container" id="social-modal-container">
+<div class="layer-mask"></div>
+<div class=" social-modal" id="my_Modal" role="dialog" style="margin-top: 50px;" tabindex="-1">
+</div>
+</div>
+<div class="createAccount">
+<div aria-labelledby="myLargeModalLabel" class="modal fade caModal" id="caModal" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header text-center">
+<button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
+<h4 class="modal-title" id="gridSystemModalLabel">Create Your Account</h4>
+<p>
+                    Please choose an option
+                </p>
+</div>
+<div class="modal-body">
+<div class="row">
+<!-- Job seekers -->
+<div class="col-md-6">
+<div class="job-seekers text-center">
+<img alt="" src="images/job-seeker.png"/>
+<h5>Job seekers</h5>
+<p>Post/Manage resume and apply to right jobs in the easiest way</p>
+<a class="btn btn-default" href="http://mybdjobs.bdjobs.com/createaccount.asp" onclick="_gaq.push(['_trackEvent', 'nabarmenu_new', 'Mybdjobs Create new account' , 'click',1.00,true]);" target="mine">Create Account</a>
+</div>
+</div>
+<!-- For employers -->
+<div class="col-md-6">
+<div class="for-employers text-center">
+<img alt="" src="images/for-employers.png"/>
+<h5>Employers</h5>
+<p>Find the best candidates in the fastest way</p>
+<a class="btn btn-default" href="http://corporate3.bdjobs.com/Corporate_NewAccount.asp" onclick="_gaq.push(['_trackEvent', 'nabarmenu_new', 'Employers Create new account' , 'click',1.00,true]);" target="_blank">Create Account</a>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div>
+</div>
+<div class="header">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<nav class="navbar navbar-default">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="logo">
+<img alt="Logo" class="img-responsive" src="/images/logo.png" title="bdjobs.com logo"/>
+</div>
+<div class="navbar-option">
+<!-- <div class="navbar-user">
+                                <a href="javascript:void(0)" onclick="_gaq.push(['_trackEvent', 'nabarmenu_new' , 'click', 'Sign In',1.00,true]);" class="btn btn-default btn-login"></a>
+                                <a href="javascript:void(0)" class="hidden-xs">Create New</a>
+                            </div>-->
+<div class="navbar-user">
+<ul>
+<li><a class="btn btn-default btn-login" href="javascript:void(0)" onclick="_gaq.push(['_trackEvent', 'nabarmenu_new', 'Sign In' , 'click',1.00,true]);">Sign In</a></li>
+<li class="offset-mobile"><a data-target=".caModal" data-toggle="modal" href="javascript:void(0)" onclick="_gaq.push(['_trackEvent', 'nabarmenu_new', 'Create account' , 'click',1.00,true]);">Create account</a></li>
+<li class="offset-mobile"><a class="contact-btn" href="http://www.bdjobs.com/contact.asp?lanset=eng" target="_blank"><i class="icon-phone"></i> Contact Us</a></li>
+<li class="offset-mobile hidden-sm hidden-md hidden-lg">
+<a href="http://bdjobs.com/bn/defaultbn.asp"><img alt="" src="images/bn-switch.png"/></a>
+</li>
+</ul>
+</div>
+<ul style="float:left;">
+<li class="notification-mobile">
+<ul></ul>
+</li>
+</ul>
+<a class="btn navbar-toggle hidden-md hidden-lg" href="javascript:void(0)">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</a>
+</div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-menu navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav">
+<li class="user-details-mobile">
+<ul></ul>
+</li>
+<li><a href="http://forum.bdjobs.com/" onclick="_gaq.push(['_trackEvent', 'nabarmenu_new', 'Forum' , 'click',1.00,true]);" target="_blank">Forum</a></li>
+<li>
+<a aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" href="javascript:void(0)" role="button">Career Resources <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="http://www.bdjobs.com/career/CareerGuide/" onclick="_gaq.push(['_trackEvent', 'CareerResource_new', 'Career Guide' , 'click',1.00,true]);" target="_blank">Career Guide</a></li>
+<li><a href="http://www.bdjobs.com/career/interview.asp" onclick="_gaq.push(['_trackEvent', 'CareerResource_new', 'Interview Tips' , 'click',1.00,true]);" target="_blank">Interview Tips</a></li>
+<li><a href="http://www.bdjobs.com/career/resumewriting/resume.asp" onclick="_gaq.push(['_trackEvent', 'CareerResource_new', 'Resume Writing Tips' , 'click',1.00,true]);" target="_blank">Resume Writing Tips</a></li>
+<li><a href="http://www.bdjobs.com/cover_letter/" onclick="_gaq.push(['_trackEvent', 'CareerResource_new', 'Cover Letter' , 'click',1.00,true]);" target="_blank">Cover Letter</a></li>
+<li><a href="http://www.bdjobs.com/career/article/" onclick="_gaq.push(['_trackEvent', 'CareerResource_new', 'Articles' , 'click',1.00,true]);" target="_blank">Articles</a></li>
+<li><a href="http://www.bdjobs.com/career/counsel.asp" onclick="_gaq.push(['_trackEvent', 'CareerResource_new', 'Career Counseling' , 'click',1.00,true]);" target="_blank">Career Counseling</a></li>
+</ul>
+</li>
+<li class="notification-desktop">
+<ul></ul>
+</li>
+<li class="user-details-desktop">
+<ul></ul>
+</li>
+</ul>
+</div><!-- /.navbar-collapse -->
+</nav>
+</div>
+<div class="col-md-12">
+<!-- Login form -->
+<div class="login-form">
+<!-- Tabs -->
+<div class="tab">
+<div aria-label="..." class="btn-group" role="group">
+<button class="btn btn-default mybdjobs active">
+                                    My Bdjobs
+                                </button>
+<button class="btn btn-default corporate">
+                                    Employers
+                                </button>
+</div>
+</div>
+<div id="status">
+</div>
+<form action="https://mybdjobs.bdjobs.com/mybdjobs/agent_log.asp" id="loginForm" method="post" name="loginForm" target="_blank">
+<div id="errorMessage" style="color:#900;padding-left:30px;"></div>
+<div class="login-jobseeker">
+<div class="inner-addon">
+<i class="icon-user"></i>
+</div>
+<input class="form-control u-name" data-placement="auto" data-toggle="tooltip" id="TXTUSERNAME" name="TXTUSERNAME" placeholder="Username" required="required" title="Username cannot be blank!" type="text"/>
+<div class="inner-addon">
+<i class="icon-lock"></i>
+</div>
+<input class="form-control" data-placement="auto" data-toggle="tooltip" id="TXTPASS" name="TXTPASS" placeholder="Password" required="required" title="Password cannot be blank!" type="password"/>
+<!--<div class="checkbox">
+                                <label>
+                                <input name="checkRemember" id="checkRemember" onclick="rememberId();" type="checkbox" value="true"> Remember me
+                                </label>
+                            </div>  -->
+<input id="hVersion" name="hVersion" type="hidden" value="EN"/>
+<input id="hDevice" name="hDevice" type="hidden" value="False"/>
+<input class="btn btn-default btn-login" id="mybdj" onclick="return validation('mybdjobs');_gaq.push(['_trackEvent', 'nabarmenu_new' , 'click', 'Mybdjobs Sign In',1.00,true]);" type="submit" value="Sign In"/>
+<a class="for-pass" href="http://mybdjobs.bdjobs.com/mybdjobs/password/" onclick="_gaq.push(['_trackEvent', 'nabarmenu_new' , 'click', 'Mybdjobs Forgot password',1.00,true]);" target="mine">Forgot password?</a>
+<div class="new-account">
+<p>Don't have an account?</p>
+<a class="btn btn-default btn-create" href="http://mybdjobs.bdjobs.com/createaccount.asp" onclick="_gaq.push(['_trackEvent', 'nabarmenu_new' , 'click', 'Mybdjobs Create account',1.00,true]);" target="mine">Create account</a>
+</div>
+</div>
+</form>
+<form action="https://corporate3.bdjobs.com/corporate_submit.asp" id="login_Form" method="post" name="login_Form" target="_blank">
+<div class="login-corporate">
+<div class="inner-addon">
+<i class="icon-user"></i>
+</div>
+<input class="form-control u-name" data-placement="auto" data-toggle="tooltip" id="NAME" name="NAME" placeholder="Username" required="required" title="Username cannot be blank!" type="text"/>
+<div class="inner-addon">
+<i class="icon-lock"></i>
+</div>
+<input class="form-control" data-placement="auto" data-toggle="tooltip" id="PASS" maxlength="8" name="PASS" placeholder="Password" required="required" title="Password cannot be black!" type="password"/>
+<input class="btn btn-default btn-login" id="mybdj" onclick="return validation('Employers');_gaq.push(['_trackEvent', 'nabarmenu_new' , 'click', 'Corporate Sign In',1.00,true]);" type="submit" value="Sign In"/>
+<a class="for-pass" href="http://corporate3.bdjobs.com/password/" onclick="_gaq.push(['_trackEvent', 'nabarmenu_new' , 'click', 'Corporate Forgot password',1.00,true]);" target="_blank">Forgot password?</a>
+<div class="new-account">
+<p>Don't have an account?</p>
+<a class="btn btn-default btn-create" href="http://corporate3.bdjobs.com/Corporate_NewAccount.asp" onclick="_gaq.push(['_trackEvent', 'nabarmenu_new' , 'click', 'Corporate Create account',1.00,true]);" target="_blank">Create account</a>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tmpLegend"></div>
+</div>
+<!-- End header -->
+<!-- Offset menu -->
+<div class="offset-menu hidden-md hidden-lg hidden-sm">
+<div class="transparent"></div>
+<div class="wrapper">
+<a aria-label="Close" class="btn btn-close" href="javascript:void(0)" type="button"><span class="m-times">Ã—</span> <span aria-hidden="true">Close</span></a>
+</div>
+</div>
+<!-- Start search panel area -->
+<div class="searchPanelContainer " image="url(/images/gljobSearchBg_1.jpg)">
+<div class="container">
+<div class="row">
+<div class="col-md-9 col-sm-12">
+<!--<link rel="stylesheet" href="css/odometer-theme-default.css" />-->
+<div class="search-panel">
+<h1>Find the right job</h1>
+<div class="search-form">
+<form action="http://jobs.bdjobs.com/jobsearch.asp" method="post" target="_blank">
+<div class="inner-addon keyword-search">
+<i class="icon-tag"></i>
+<input class="form-control" id="txtKeyword" name="txtsearch" placeholder="Search by keyword" type="text"/>
+</div>
+<div class="inner-addon categoryCombo hidden-sm hidden-xs">
+<i class="icon-briefcase"></i>
+<select class="form-control" id="qOT" name="qOT">
+<option selected="" value="0">        Organization Type</option>
+<option value="1">        Government</option>
+<option value="2">        Semi Government</option>
+<option value="3">        NGO</option>
+<option value="4">        Private Firm/Company</option>
+<option value="5">        International Agencies</option>
+<option value="6">        Others</option>
+</select>
+</div>
+<!--<a href="http://www.bdjobs.com/"  class="btn btn-default">
+          <i class="icon-search"></i>&nbsp;Search
+        </a>-->
+<input id="hidJobSearch" name="hidJobSearch" type="hidden" value="jobsearch"/>
+<input class="btn btn-default" onclick="Generategglevent()" type="submit" value="Search"/>
+</form>
+</div>
+<!-- Start counter //JopApply'JobShow'CompnayShow-->
+<div class="counter hidden-xs hidden-sm">
+<a href="http://jobs.bdjobs.com/jobsearch.asp?log=stats" target="_blank">
+<div class="live-jobs">
+<div class="border">
+<div class="counter-icon">
+<i class="icon-live"></i>
+</div>
+</div>
+<h6>Live Jobs</h6>
+<p id="JobShow">0</p>
+</div>
+</a>
+<a href="http://jobs.bdjobs.com/Company_list.asp?log=stats" target="_blank">
+<div class="companies">
+<div class="border">
+<div class="counter-icon">
+<i class="icon-buildings"></i>
+</div>
+</div>
+<h6>Companies</h6>
+<p id="CompnayShow">0</p>
+</div>
+</a>
+<a href="http://jobs.bdjobs.com/OtherJobs.asp?JobType=new&amp;log=stats" target="_blank">
+<div class="apply-online">
+<div class="border">
+<div class="counter-icon">
+<i class="icon-mouse-click"></i>
+</div>
+</div>
+<h6>New Jobs</h6>
+<p id="JopApply">0</p>
+</div>
+</a>
+</div>
+<!-- End counter -->
+</div>
+<script type="text/javascript">
+
+window.odometerOptions = {
+    //auto: false,
+    format: '(dd,dd,dd,ddd)',
+    selector: '#JopApply, #CompnayShow, #JobShow',      
+};
+
+
+var HomeStatsURL = "http://corporate3.bdjobs.com/getHomeStats.asp"
+var HomeStatsTiming = 310000
+
+var num = 0;
+ajaxObject_xmlhttp = new Array();
+countLoading = 0;
+function showHint(str)
+{
+      
+    if (str.length == 0)
+    { 
+        return;
+    }
+    cid = "?bda=bdh";
+    num = num+1;  
+    ajaxObject_xmlhttp[ num ] = GetXmlHttpObjectBdjStats() ;
+      
+    ajaxObject_xmlhttp[ num ].onreadystatechange = function()
+    {  
+        
+       
+        if ( ajaxObject_xmlhttp[ num ].readyState == 4 && ajaxObject_xmlhttp[ num ].status == 200 )//.statusText == "OK"
+        {   
+            HomeStatsResponseText = ajaxObject_xmlhttp[ num ].responseText;
+            arrHomeStats = HomeStatsResponseText.split("#")
+            //JopApply,JobShow,CompnayShow
+            document.getElementById("JobShow").innerHTML=arrHomeStats[0]
+            document.getElementById("CompnayShow").innerHTML=arrHomeStats[1]
+            document.getElementById("JopApply").innerHTML=arrHomeStats[2]
+            
+        }
+    }
+
+    ajaxObject_xmlhttp[ num ].open("GET",""+str+"",true);
+    ajaxObject_xmlhttp[ num ].send();
+    
+}
+
+var ie8plus;
+function GetXmlHttpObjectBdjStats()
+{ 
+    xmlHttp = null;
+    if (window.XMLHttpRequest)
+    {// code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlHttp=new XMLHttpRequest();
+    }
+    else
+    {// code for IE6, IE5
+        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    return xmlHttp;
+}
+
+var vcat;
+var ajaxCallJA = true;
+var ajaxCallJAds = true;
+var ajaxCallCB = true;
+
+var strNumArray;
+strNumArray = 0;
+
+function startLiveScore()
+{
+    
+    if(navigator.userAgent.toUpperCase().indexOf('MSIE') >= 0)
+    {
+        showVisitorNumber()
+    }
+    else
+    {
+        showHint(HomeStatsURL);
+    }
+}
+
+var isActive;
+
+startLiveScore()
+
+window.onfocus = function () { 
+    isActive = true;
+    startLiveScore()
+}; 
+
+window.onblur = function () { 
+    isActive = false; 
+    
+}; 
+if(navigator.userAgent.toUpperCase().indexOf('MSIE') >= 0)
+{
+    setInterval("showVisitorNumber()", HomeStatsTiming);
+
+    setInterval(function(){
+        if (window.isActive)
+        {
+            showVisitorNumber();
+        }
+    },HomeStatsTiming);
+
+}
+else
+{
+    setInterval(function(){
+        if (window.isActive)
+        {
+            showHint(HomeStatsURL);
+        }
+        else
+        {
+            
+        }
+    },HomeStatsTiming);
+
+}
+
+function showVisitorNumber()
+{
+
+    xmlhttp=GetXmlHttpObjectBdjStats()
+
+    if (xmlhttp==null)
+    {
+        return;
+    }       
+    url=HomeStatsURL;
+    LoadType=ActType;
+    if (ie8plus == true)
+    {
+        xmlhttp.open("get",url);
+        xmlhttp.onload =stateChanged;
+    
+    }
+    else
+    {
+        xmlhttp.onreadystatechange=stateChanged;
+        xmlhttp.open("POST",url,true);
+    }
+
+
+    if (ie8plus == true)
+    {
+        xmlhttp.send();
+    }
+    else
+    {
+        xmlhttp.setRequestHeader("Content-length", url.length); 
+        xmlhttp.send(url);
+    }
+
+}
+
+function stateChanged() 
+{ 
+    var strResponseText;
+    if(ie8plus == true) 
+    {       
+        HomeStatsResponseText = xmlhttp.responseText;
+        arrHomeStats = HomeStatsResponseText.split("#")
+        //JopApply,JobShow,CompnayShow
+        document.getElementById("JobShow").innerHTML=arrHomeStats[0]
+        document.getElementById("CompnayShow").innerHTML=arrHomeStats[1]
+        document.getElementById("JopApply").innerHTML=arrHomeStats[2]
+        
+        
+    }
+}
+
+
+function Generategglevent()
+{
+    if(document.getElementById("txtKeyword").value.trim()!="")
+    {
+        _gaq.push(['_trackEvent', 'SeachPanelKeyword' , document.getElementById("txtKeyword").value,'EN',1.00,true]);
+    }
+    
+    var e = document.getElementById("qOT");
+    var strorg = e.options[e.selectedIndex].value;
+    var strorgText = e.options[e.selectedIndex].text.trim();
+    if(strorg!="0")
+    {
+        _gaq.push(['_trackEvent', 'OrganizationDropdown' , strorgText,'EN',1.00,true]);
+        
+    }
+    
+    
+    _gaq.push(['_trackEvent', 'SeachPanelButton' , 'Search','EN',1.00,true]);
+}
+</script>
+<script src="js/odometer.js"></script>
+</div>
+<div class="col-md-3 col-sm-12">
+<div class="sliderSidebar">
+<div class="division">
+<h4>Divisional Jobs</h4>
+<div class="all-division">
+<a class="btn btn-default" href="http://jobs.bdjobs.com/JobSearch.asp?LocationId=Dhaka" target="_blank">Dhaka <span>(1859)</span></a>
+<a class="btn btn-default" href="http://jobs.bdjobs.com/JobSearch.asp?LocationId=Barisal" target="_blank">Barisal <span>(20)</span></a>
+<a class="btn btn-default" href="http://jobs.bdjobs.com/JobSearch.asp?LocationId=Khulna" target="_blank">Khulna <span>(103)</span></a>
+<a class="btn btn-default" href="http://jobs.bdjobs.com/JobSearch.asp?LocationId=Sylhet" target="_blank">Sylhet <span>(58)</span></a>
+<a class="btn btn-default" href="http://jobs.bdjobs.com/JobSearch.asp?LocationId=Chittagong" target="_blank">Chittagong <span>(295)</span></a>
+<a class="btn btn-default" href="http://jobs.bdjobs.com/JobSearch.asp?LocationId=Rajshahi" target="_blank">Rajshahi <span>(124)</span></a>
+<a class="btn btn-default" href="http://jobs.bdjobs.com/JobSearch.asp?LocationId=Rangpur" target="_blank">Rangpur <span>(58)</span></a>
+<!--<a href="http://www.bdjobs.com/"  class="btn btn-default">Mymensingh <span>()</span></a>-->
+<a class="btn btn-default" href="http://jobs.bdjobs.com/JobSearch.asp?LocationId=Mymensingh" target="_blank">Mymensingh <span>(53)</span></a>
+</div>
+</div>
+<div class="quick-links">
+<h4>Quick links</h4>
+<div class="ql-list">
+<ul>
+<li><a href="http://jobs.bdjobs.com/Company_list.asp" target="_blank"><i class="icon-right-angle-double"></i> Employer List</a></li>
+<li><a href="http://jobs.bdjobs.com/OtherJobs.asp?JobType=new" target="_blank"><i class="icon-right-angle-double"></i> New Jobs (24 hrs)</a></li>
+<li><a href="http://jobs.bdjobs.com/OtherJobs.asp?JobType=deadline" target="_blank"><i class="icon-right-angle-double"></i> Deadline Tomorrow</a></li>
+<li><a href="http://jobs.bdjobs.com/OtherJobs.asp?JobType=contract" target="_blank"><i class="icon-right-angle-double"></i> Contractual Jobs</a></li>
+<li><a class="yellow" href="http://jobs.bdjobs.com/JobSearch.asp?fcatId=&amp;icatId=&amp;requestType=parttime" target="_blank"><i class="icon-right-angle-double"></i> Part time Jobs</a></li>
+<li>
+<a href="http://jobs.bdjobs.com/Locationwisejobs.asp?jobtype=overseas" target="_blank"><i class="icon-right-angle-double"></i> Overseas Jobs</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<script type="application/javascript">
+                function init() {}
+                </script>
+<!--eid background ends-->
+</div>
+</div>
+</div>
+<!-- End search panel area -->
+<!-- Start job category -->
+<div class="jobCategory">
+<div class="container">
+<div class="row">
+<div class="col-md-9 col-sm-12">
+<div class="tab padding-mobile fun-tab">
+<div class="tab-header padding-mobile">
+<h4 class="m-text-center"><i class="icon-list"></i> Browse Category</h4>
+<div class="tab-btn padding-mobile">
+<div class="btn-group">
+<button class="btn btn-default btn-funtional active" type="button">
+                  Functional
+                  <!-- <span class="badge">71</span> -->
+</button>
+<button class="btn btn-default btn-industrial" type="button">
+                  Industrial
+                  <!-- <span class="badge">71</span>   -->
+</button>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<div class="category-list padding-mobile functional active">
+<div class="col-md-4 col-lg-4 category-col-1">
+<ul>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=1&amp;icatId=" target="_blank" title="Accounting/Finance"><i class="icon-angle-right"></i> Accounting/Finance <span>(193)</span></a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=2&amp;icatId=" target="_blank" title="Bank/ Non-Bank Fin. Institution"><i class="icon-angle-right"></i> Bank/ Non-Bank Fin. Institution  <span>(42)</span></a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=3&amp;icatId=" target="_blank" title="Commercial/Supply Chain"><i class="icon-angle-right"></i> Commercial/Supply Chain <span>(103)</span></a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=4&amp;icatId=" target="_blank" title="Education/Training"><i class="icon-angle-right"></i> Education/Training <span>(268)</span></a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=5&amp;icatId=" target="_blank" title="Engineer/Architects"><i class="icon-angle-right"></i> Engineer/Architects <span>(266)</span></a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=6&amp;icatId=" target="_blank" title="Garments/Textile"><i class="icon-angle-right"></i> Garments/Textile <span>(348)</span></a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=17&amp;icatId=" target="_blank" title="HR/Org. Development"><i class="icon-angle-right"></i> HR/Org. Development <span>(106)</span></a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=7&amp;icatId=" target="_blank" title="Gen Mgt/Admin"><i class="icon-angle-right"></i> Gen Mgt/Admin <span>(148)</span></a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=18&amp;icatId=" target="_blank" title="Design/Creative"><i class="icon-angle-right"></i> Design/Creative <span>(44)</span></a>
+</li>
+</ul>
+</div>
+<div class="col-md-4 col-lg-4 category-col-2 m-active">
+<ul>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=19&amp;icatId=" target="_blank" title="Production/Operation"><i class="icon-angle-right"></i> Production/Operation <span>(74)</span></a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=20&amp;icatId=" target="_blank" title="Hospitality/ Travel/ Tourism"><i class="icon-angle-right"></i> Hospitality/ Travel/ Tourism <span>(89)</span></a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=21&amp;icatId=" target="_blank" title="Beauty Care/ Health &amp; Fitness"><i class="icon-angle-right"></i> Beauty Care/ Health &amp; Fitness <span>(2)</span></a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=23&amp;icatId=" target="_blank" title="Electrician/ Construction/ Repair"><i class="icon-angle-right"></i> Electrician/ Construction/ Repair <span>(55)</span></a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=8&amp;icatId=" target="_blank" title="IT &amp; Telecommunication"><i class="icon-angle-right"></i> IT &amp; Telecommunication <span>(302</span>)</a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=9&amp;icatId=" target="_blank" title="Marketing/Sales"><i class="icon-angle-right"></i> Marketing/Sales <span>(498</span>)</a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=16&amp;icatId=" target="_blank" title=" Customer Support/Call Centre"><i class="icon-angle-right"></i> Customer Support/Call Centre <span>(65)</span></a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=10&amp;icatId=" target="_blank" title="Media/Advertisement/Event Mgt."><i class="icon-angle-right"></i> Media/Ad./Event Mgt. <span>(32)</span></a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=11&amp;icatId=" target="_blank" title="Medical/Pharma"><i class="icon-angle-right"></i> Medical/Pharma <span>(170)</span></a>
+</li>
+</ul>
+</div>
+<div class="col-md-4 col-lg-4 category-col-3 m-active">
+<ul>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=26&amp;icatId=" target="_blank" title="Agro (Plant/Animal/Fisheries)"><i class="icon-angle-right"></i> Agro (Plant/Animal/Fisheries) <span>(50)</span></a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=12&amp;icatId=" target="_blank" title="NGO/Development"><i class="icon-angle-right"></i> NGO/Development <span>(165)</span></a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=13&amp;icatId=" target="_blank" title="Research/Consultancy"><i class="icon-angle-right"></i> Research/Consultancy <span>(15)</span></a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=14&amp;icatId=" target="_blank" title="Secretary/Receptionist"><i class="icon-angle-right"></i> Secretary/Receptionist <span>(62)</span></a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=15&amp;icatId=" target="_blank" title="Data Entry/Operator/BPO"><i class="icon-angle-right"></i> Data Entry/Operator/BPO <span>(63)</span></a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=25&amp;icatId=" target="_blank" title="Driving/Motor Technician"><i class="icon-angle-right"></i> Driving/Motor Technician <span>(25)</span></a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=24&amp;icatId=" target="_blank" title="Security/Support Service"><i class="icon-angle-right"></i> Security/Support Service <span>(80)</span></a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=22&amp;icatId=" target="_blank" title="Law/Legal"><i class="icon-angle-right"></i> Law/Legal <span>(16)</span></a>
+</li>
+<li>
+<a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=-10&amp;icatId=" target="_blank" title="Others"><i class="icon-angle-right"></i> Others <span>(46)</span></a>
+</li>
+</ul>
+</div>
+<div class="category-view fun-cat active">
+<a class="btn btn-default more-cat hidden-md hidden-lg active">More <i class="icon-plus"></i></a>
+<a class="btn btn-default less-cat">Less <i class="icon-minus"></i></a>
+</div>
+<!-- <div id="loadMore" class="hidden-md hidden-lg">Load more</div> -->
+</div>
+<div class="category-list padding-mobile industrial">
+<div class="col-md-4 col-lg-4 category-col-1">
+<ul>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=3" target="_blank" title="Agro based Industry"><i class="icon-angle-right"></i> Agro based Industry (65)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=5" target="_blank" title="Architecture/Engineering/Construction"><i class="icon-angle-right"></i> Archi./Engg./Construction (109)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=14" target="_blank" title="Automobile/Industrial Machine"><i class="icon-angle-right"></i> Automobile/Industrial Machine (30)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=1" target="_blank" title="Bank/Non-Bank Fin. Institution"><i class="icon-angle-right"></i> Bank/Non-Bank Fin. Institution (48)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=19" target="_blank" title="Education"><i class="icon-angle-right"></i> Education (162)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=8" target="_blank" title="Electronics/Consumer Durables"><i class="icon-angle-right"></i> Electronics/Consumer Durables (73) </a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=15" target="_blank" title="Energy/Power/Fuel"><i class="icon-angle-right"></i> Energy/Power/Fuel (13)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=2" target="_blank" title="Garments/Textile"><i class="icon-angle-right"></i> Garments/Textile (513)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=18" target="_blank" title="Govt./Semi-Govt./Autonomous"><i class="icon-angle-right"></i> Govt./Semi-Govt./Autonomous  (360)</a></li>
+</ul>
+</div>
+<div class="col-md-4 col-lg-4 category-col-2 m-active">
+<ul>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=4" target="_blank" title="Pharmaceuticals"><i class="icon-angle-right"></i>Pharmaceuticals (68)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=20" target="_blank" title="Hospital/ Diagnostic Center"><i class="icon-angle-right"></i> Hospital/ Diagnostic Center (82)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=21" target="_blank" title="Airline/ Travel/ Tourism"><i class="icon-angle-right"></i> Airline/ Travel/ Tourism (29)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=22" target="_blank" title="Manufacturing (Light Industry)"><i class="icon-angle-right"></i> Manufacturing (Light Industry) (25)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=7" target="_blank" title="Manufacturing (Heavy Industry)"><i class="icon-angle-right"></i> Manufacturing (Heavy Industry) (232)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=13" target="_blank" title="Hotel/Restaurant"><i class="icon-angle-right"></i> Hotel/Restaurant (81)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=11" target="_blank" title="Information Technology (IT)"><i class="icon-angle-right"></i> Information Technology (IT) (321)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=16" target="_blank" title="Logistics/ Transportation"><i class="icon-angle-right"></i> Logistics/ Transportation (21)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=23" target="_blank" title="Entertainment/ Recreation"><i class="icon-angle-right"></i> Entertainment/ Recreation (12)</a></li>
+</ul>
+</div>
+<div class="col-md-4 col-lg-4 category-col-3 m-active">
+<ul>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=10" target="_blank" title="Media / Advertising/ Event Mgt."><i class="icon-angle-right"></i> Media / Advertising/ Event Mgt. (47)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=17" target="_blank" title="NGO/Development"><i class="icon-angle-right"></i> NGO/Development (190)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=6" target="_blank" title="Real Estate/Development"><i class="icon-angle-right"></i> Real Estate/Development (91)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=9" target="_blank" title="Wholesale/ Retail/ Export-Import"><i class="icon-angle-right"></i> Wholesale/ Retail/ Export-Import (104)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=12" target="_blank" title="Telecommunication"><i class="icon-angle-right"></i> Telecommunication (28)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=24" target="_blank" title="Food &amp; Beverage Industry"><i class="icon-angle-right"></i> Food &amp; Beverage Industry (1)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=25" target="_blank" title="Security Service"><i class="icon-angle-right"></i> Security Service (3)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=26" target="_blank" title="Fire, Safety &amp; Protection"><i class="icon-angle-right"></i> Fire, Safety &amp; Protection (0)</a></li>
+<li><a href="http://jobs.bdjobs.com/jobsearch.asp?fcatId=&amp;icatId=-10" target="_blank" title="Others"><i class="icon-angle-right"></i> Others (274)</a></li>
+</ul>
+</div>
+<div class="category-view ind-cat">
+<a class="btn btn-default more-cat hidden-md hidden-lg active">More <i class="icon-plus"></i></a>
+<a class="btn btn-default less-cat">Less <i class="icon-minus"></i></a>
+</div>
+</div>
+</div>
+</div>
+<!-- Start government jobs -->
+<div class="col-md-3 col-sm-12"><div class="govtJobs sidebar-common"><h4><i class="icon-bd-map"></i> Govt Jobs</h4><div class="carousel slide" data-ride="carousel" id="carousel-example-generic"><div class="carousel-inner" role="listbox"><div class="item active"><div class="govt-job-list"><a href="http://jobs.bdjobs.com/jobdetails.asp?id=247563&amp;ln=2" onclick="_gaq.push(['_trackEvent', 'Govt Jobs' , 'Popular Jobs','Job No.:247563',1.00,true]);" target="_blank"><span class="title-bn"></span></a></div></div></div></div></div></div></div></div></div></body></html>

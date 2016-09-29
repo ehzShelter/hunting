@@ -1,0 +1,2705 @@
+<body>
+<div class="cba-bar" onclick="tlog();">
+<div class="container" onclick="tlog();">
+<div class="row" onclick="tlog();">
+<div class="col-sm-12" onclick="tlog();">
+<div class="cont" onclick="tlog();">
+<object data="http://www.ajkerdeal.com/images/Files/HTML/BdjobsTopCat.html" onclick="ga('send', 'event', 'ajkerdeal', 'click', '/jobsearch.asp - Top', 1);tlog();" style=" overflow:hidden; height:120px; width: 100%;" type="text/html"></object>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Job Header Top Start -->
+<div id="lout_header_top"></div>
+<div id="lin_header_top01"></div>
+<div id="lin_header_top02">
+<div class="topBar">
+<div class="container">
+<ul class="pull-left brands">
+<li><a class="jobs active" href="javascript:void(0);">Jobs</a></li>
+<li><a class="mybdjobs" href="http://mybdjobs.bdjobs.com/" target="_blank">My Bdjobs</a></li>
+<li><a class="training" href="http://bdjobstraining.com/" target="_blank">Training</a></li>
+<li><a class="corporate" href="http://corporate3.bdjobs.com/" target="_blank">Employers</a></li>
+</ul>
+<div class="topBar-right pull-right">
+<ul class="pull-left icons">
+<li>
+<a class="facebook" href="https://www.facebook.com/mybdjobs" target="_blank">
+<i class="icon-facebook"></i>
+</a>
+</li>
+<li>
+<a class="google-plus" href="https://plus.google.com/+BdjobscomLtdDhaka" target="_blank">
+<i class="icon-google-plus"></i>
+</a>
+</li>
+<li>
+<a class="youtube" href="https://www.youtube.com/mybdjobs" target="_blank">
+<i class="icon-youtube"></i>
+</a>
+</li>
+<li>
+<a class="phone" href="http://www.bdjobs.com/contact.asp" target="_blank">
+<i class="icon-phone"></i>
+</a>
+</li>
+</ul>
+<div aria-label="..." class="btn-group lang-btn" role="group">
+<a class="btn active">ENG</a>
+<a class="btn bn" href="/bn/jobsearchbn.asp"> <img alt="Bangla" src="http://jobs.bdjobs.com/images/bn.png"/></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Job Header Top End -->
+<!-- Job Header Start -->
+<div class="spinner-container" id="spinner-container">
+<div class="layer-mask">
+<div class="spinner-body" id="spinnerHolder">
+</div>
+</div>
+</div>
+<div id="lout_header_mid"></div>
+<div id="lin_header_mid01"></div>
+<div id="lin_header_mid02">
+<div class="social-modal-container" id="social-modal-container">
+<div class="layer-mask"></div>
+<div class=" social-modal" id="my_Modal" role="dialog" style="margin-top: 50px;" tabindex="-1">
+</div>
+</div>
+<div class="createAccount">
+<div aria-labelledby="myLargeModalLabel" class="modal fade caModal" id="caModal" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header text-center">
+<button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
+<h4 class="modal-title" id="gridSystemModalLabel">Create Your Account</h4>
+<p>
+Please choose an option
+</p>
+</div>
+<div class="modal-body">
+<div class="row">
+<!-- Job seekers -->
+<div class="col-md-6">
+<div class="job-seekers text-center">
+<img alt="" src="images/job-seeker.png"/>
+<h5>Job seekers</h5>
+<p>Post/Manage  resume and apply to right jobs in the easiest way</p>
+<a class="btn btn-default" href="http://mybdjobs.bdjobs.com/createaccount.asp" onclick="ga('send','event','nabarmenu' ,'Mybdjobs Create account','click',1);" target="mine">Create Account</a>
+</div>
+</div>
+<!-- For employers -->
+<div class="col-md-6">
+<div class="for-employers text-center">
+<img alt="" src="images/for-employers.png"/>
+<h5>Employers</h5>
+<p>Find the best candidates in the fastest way</p>
+<a class="btn btn-default" href="http://corporate3.bdjobs.com/Corporate_NewAccount.asp" onclick="ga('send','event','UserMenu' ,'Corporate Create account','click',1);" target="_blank">Create Account</a>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div>
+</div>
+<div class="header">
+<div class="container">
+<div class="logo">
+<a href="http://bdjobs.com"><img alt="Logo" class="img-responsive" height="52" src="http://jobs.bdjobs.com/images/logo.png" title="bdjobs.com logo" width="175"/></a>
+</div>
+<ul class="navbar-nav">
+<li class="m-menu switch">
+<a href="/bn/jobsearchbn.asp"><img alt="switch to bangla" src="http://jobs.bdjobs.com/images/bn-switch.png"/></a>
+</li>
+<li class="m-menu active"><a href="http://jobs.bdjobs.com/jobsearch.asp">Job Search</a></li>
+<li class="m-menu career-list">
+<a href="javascript:void(0);">Quick Links <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="http://jobs.bdjobs.com/OtherJobs.asp?JobType=new">New Jobs</a></li>
+<li><a href="http://jobs.bdjobs.com/OtherJobs.asp?JobType=deadline">Deadline Tomorrow</a></li>
+<li><a href="http://jobs.bdjobs.com/OtherJobs.asp?JobType=parttime">Part Time</a></li>
+<li><a href="http://jobs.bdjobs.com/OtherJobs.asp?JobType=contract">Contractual</a></li>
+<li><a href="http://jobs.bdjobs.com/OtherJobs.asp?JobType=government">Government</a></li>
+<li><a href="http://jobs.bdjobs.com/locationwisejobs.asp">Location Wise</a></li>
+<li><a href="http://jobs.bdjobs.com/locationwisejobs.asp?jobtype=overseas">Overseas</a></li>
+</ul>
+</li>
+<li class="m-menu"><a href="http://jobs.bdjobs.com/Company_list.asp">Employer List</a></li>
+<li class="m-menu career-list">
+<a href="javascript:void(0);">Career Resources <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="http://www.bdjobs.com/career/CareerGuide/" target="_blank">Career Guide</a></li>
+<li><a href="http://www.bdjobs.com/career/interview.asp" target="_blank">Interview Tips</a></li>
+<li><a href="http://www.bdjobs.com/career/resumewriting/resume.asp" target="_blank">Resume Writing Tips</a></li>
+<li><a href="http://www.bdjobs.com/cover_letter/" target="_blank">Cover Letter</a></li>
+<li><a href="http://www.bdjobs.com/career/article/" target="_blank">Articles</a></li>
+<li><a href="http://www.bdjobs.com/career/counsel.asp" target="_blank">Career Counseling</a></li>
+<li><a href="http://www.bdjobs.com/career/training/" target="_blank">Education Guide</a></li>
+</ul>
+</li>
+<li class="login">
+<a class="btn btn-success btn-login" href="javascript:void(0);">Sign In</a>
+</li>
+<li class="m-menu">
+<a data-target="#caModal" data-toggle="modal">Create Account</a>
+</li>
+<li class="login-list" style="position: relative;">
+<div class="login-form">
+<div class="tab">
+<div aria-label="..." class="btn-group" role="group">
+<button class="btn btn-default mybdjobs active">
+My Bdjobs
+</button>
+<button class="btn btn-default corporate">
+Employers
+</button>
+</div>
+</div>
+<div id="status">
+</div>
+<form action="https://jobs.bdjobs.com/job_agent_log.asp" id="loginForm" method="post" name="loginForm">
+<div id="errorMessage" style="color:#900;padding-left:30px;"></div>
+<div class="login-jobseeker">
+<div class="inner-addon">
+<i class="icon-user"></i>
+</div>
+<input class="form-control u-name" data-placement="auto" data-toggle="tooltip" id="txtusername" maxlength="50" name="txtusername" placeholder="Username" required="required" size="10" title="Username cannot be blank!" type="text"/>
+<div class="inner-addon">
+<i class="icon-lock"></i>
+</div>
+<input class="form-control" data-placement="auto" data-toggle="tooltip" id="txtPassword" maxlength="50" name="txtPassword" placeholder="Password" required="required" size="10" title="Password cannot be blank!" type="password"/>
+<input class="btn btn-success btn-login" id="mybdj" name="btSignin" onclick="submitForm();ga('send', 'event', '/jobsearch.asp', 'click', 'Sign in', 1);" type="submit" value="Sign In"/>
+<a class="for-pass" href="http://mybdjobs.bdjobs.com/mybdjobs/password/" onclick="ga('send','event','nabarmenu' ,'Mybdjobs Forgot password','click',1);" target="mine">Forgot password?</a>
+<div class="new-account">
+<p>Don't have an account?</p>
+<a class="btn btn-default btn-create" href="http://mybdjobs.bdjobs.com/createaccount.asp" onclick="ga('send','event','nabarmenu' ,'Mybdjobs Create account','click',1);" target="mine">Create account</a>
+</div>
+</div>
+</form>
+<div id="status"></div>
+<form action="https://corporate3.bdjobs.com/corporate_submit.asp" id="login_Form" method="post" name="login_Form" target="_blank">
+<div class="login-corporate">
+<div class="inner-addon">
+<i class="icon-user"></i>
+</div>
+<input class="form-control u-name" data-placement="auto" data-toggle="tooltip" id="NAME" name="NAME" placeholder="Username" required="required" title="Username cannot be blank!" type="text"/>
+<div class="inner-addon">
+<i class="icon-lock"></i>
+</div>
+<input class="form-control" data-placement="auto" data-toggle="tooltip" id="PASS" name="PASS" placeholder="Password" required="required" title="Password cannot be blank!" type="password"/>
+<input class="btn btn-success btn-login" type="submit" value="Sign In"/>
+<a class="for-pass" href="http://corporate3.bdjobs.com/password/" onclick="ga('send','event','UserMenu' ,'Corporate Forgot password','click',1);" target="_blank">Forgot password?</a>
+<div class="new-account">
+<p>Don't have an account?</p>
+<a class="btn btn-default btn-create" href="http://corporate3.bdjobs.com/Corporate_NewAccount.asp" onclick="ga('send','event','UserMenu' ,'Corporate Create account','click',1);" target="_blank">Create account</a>
+</div>
+</div>
+</form>
+</div>
+</li>
+<!--<li class="m-menu"><a href="http://www.bdjobs.com/contact.asp?lanset=eng" class="contact-btn" target="_blank">
+<i class="icon-phone"></i> Contact Us</a>
+</li> -->
+<li class="mobile-menu">
+<a class="btn navbar-toggle" href="javascript:void(0);">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<ul class="phone-show dropdown-menu">
+<li class="close-btn">
+<a href="javascript:void(0);"><span class="m-times">×</span>Close</a>
+</li>
+<li class="divider"></li>
+</ul>
+<div class="modal-backdrop in header-mobile-menu"></div>
+</div>
+<!--Top And Header End-->
+<!-- Job Header End -->
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="top-stat-wrapper">
+<div class="row">
+<div class="col-sm-6">
+<div class="top-stat-box">
+<h1 id="TopTotalRecord">3014</h1>
+</div>
+<div class="top-stat-text">
+<h2 id="bngEngJobs">
+jobs
+matching your search criteria
+</h2>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="pagination" id="topPagging">
+<ul> <li><h3>Pages :</h3> </li>
+<li><a class="currentpage">1</a></li>
+<li><a href="javascript:GoPage(2)">2</a> </li>
+<li><a href="javascript:GoPage(3)">3</a> </li>
+<li><a href="javascript:GoPage(4)">4</a> </li>
+<li><a href="javascript:GoPage(5)">5</a> </li>
+<li><a href="javascript:GoPage(151)">...151</a></li></ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="active-filter">
+<div class="Afilter-text">
+<h4>Active filters
+</h4>
+</div>
+<div class="Afilter-tag" id="filterList">
+</div>
+<div class="clear-all">
+<a href="javascript:ClearAllFilters()"><span>
+<img alt="Clear All" height="12" src="images/Cross_Icon.png" width="12"/>
+Clear all </span></a>
+</div>
+</div>
+<div class="triangle-right"></div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div class="cont-wrap">
+<div class="left">
+<script type="text/javascript">
+
+var arrLocation = new Array();
+
+arrLocation[0]=new Array();arrLocation[0][0] = 101 ; arrLocation[0][1] = 'Afghanistan' ; arrLocation[0][2] = 'Country' ; arrLocation[1]=new Array();arrLocation[1][0] = 102 ; arrLocation[1][1] = 'Albania' ; arrLocation[1][2] = 'Country' ; arrLocation[2]=new Array();arrLocation[2][0] = 103 ; arrLocation[2][1] = 'Algeria' ; arrLocation[2][2] = 'Country' ; arrLocation[3]=new Array();arrLocation[3][0] = 104 ; arrLocation[3][1] = 'American Samoa' ; arrLocation[3][2] = 'Country' ; arrLocation[4]=new Array();arrLocation[4][0] = 105 ; arrLocation[4][1] = 'Andorra' ; arrLocation[4][2] = 'Country' ; arrLocation[5]=new Array();arrLocation[5][0] = 106 ; arrLocation[5][1] = 'Angola' ; arrLocation[5][2] = 'Country' ; arrLocation[6]=new Array();arrLocation[6][0] = 107 ; arrLocation[6][1] = 'Anguilla' ; arrLocation[6][2] = 'Country' ; arrLocation[7]=new Array();arrLocation[7][0] = 108 ; arrLocation[7][1] = 'Antarctica' ; arrLocation[7][2] = 'Country' ; arrLocation[8]=new Array();arrLocation[8][0] = 109 ; arrLocation[8][1] = 'Antigua' ; arrLocation[8][2] = 'Country' ; arrLocation[9]=new Array();arrLocation[9][0] = 110 ; arrLocation[9][1] = 'Argentina' ; arrLocation[9][2] = 'Country' ; arrLocation[10]=new Array();arrLocation[10][0] = 111 ; arrLocation[10][1] = 'Armenia' ; arrLocation[10][2] = 'Country' ; arrLocation[11]=new Array();arrLocation[11][0] = 112 ; arrLocation[11][1] = 'Aruba' ; arrLocation[11][2] = 'Country' ; arrLocation[12]=new Array();arrLocation[12][0] = 113 ; arrLocation[12][1] = 'Australia' ; arrLocation[12][2] = 'Country' ; arrLocation[13]=new Array();arrLocation[13][0] = 114 ; arrLocation[13][1] = 'Austria' ; arrLocation[13][2] = 'Country' ; arrLocation[14]=new Array();arrLocation[14][0] = 115 ; arrLocation[14][1] = 'Azerbaijan' ; arrLocation[14][2] = 'Country' ; arrLocation[15]=new Array();arrLocation[15][0] = 1 ; arrLocation[15][1] = 'B. Baria' ; arrLocation[15][2] = 'Chittagong' ; arrLocation[16]=new Array();arrLocation[16][0] = 2 ; arrLocation[16][1] = 'Bagerhat' ; arrLocation[16][2] = 'Khulna' ; arrLocation[17]=new Array();arrLocation[17][0] = 116 ; arrLocation[17][1] = 'Bahamas' ; arrLocation[17][2] = 'Country' ; arrLocation[18]=new Array();arrLocation[18][0] = 117 ; arrLocation[18][1] = 'Bahrain' ; arrLocation[18][2] = 'Country' ; arrLocation[19]=new Array();arrLocation[19][0] = 3 ; arrLocation[19][1] = 'Bandarban' ; arrLocation[19][2] = 'Chittagong' ; arrLocation[20]=new Array();arrLocation[20][0] = 118 ; arrLocation[20][1] = 'Bangladesh' ; arrLocation[20][2] = 'Country' ; arrLocation[21]=new Array();arrLocation[21][0] = 119 ; arrLocation[21][1] = 'Barbados' ; arrLocation[21][2] = 'Country' ; arrLocation[22]=new Array();arrLocation[22][0] = 7 ; arrLocation[22][1] = 'Barguna' ; arrLocation[22][2] = 'Barisal' ; arrLocation[23]=new Array();arrLocation[23][0] = 4 ; arrLocation[23][1] = 'Barisal' ; arrLocation[23][2] = 'Barisal' ; arrLocation[24]=new Array();arrLocation[24][0] = 120 ; arrLocation[24][1] = 'Belarus' ; arrLocation[24][2] = 'Country' ; arrLocation[25]=new Array();arrLocation[25][0] = 121 ; arrLocation[25][1] = 'Belgium' ; arrLocation[25][2] = 'Country' ; arrLocation[26]=new Array();arrLocation[26][0] = 122 ; arrLocation[26][1] = 'Belize' ; arrLocation[26][2] = 'Country' ; arrLocation[27]=new Array();arrLocation[27][0] = 123 ; arrLocation[27][1] = 'Benin' ; arrLocation[27][2] = 'Country' ; arrLocation[28]=new Array();arrLocation[28][0] = 124 ; arrLocation[28][1] = 'Bermuda' ; arrLocation[28][2] = 'Country' ; arrLocation[29]=new Array();arrLocation[29][0] = 5 ; arrLocation[29][1] = 'Bhola' ; arrLocation[29][2] = 'Barisal' ; arrLocation[30]=new Array();arrLocation[30][0] = 125 ; arrLocation[30][1] = 'Bhutan' ; arrLocation[30][2] = 'Country' ; arrLocation[31]=new Array();arrLocation[31][0] = 6 ; arrLocation[31][1] = 'Bogra' ; arrLocation[31][2] = 'Rajshahi' ; arrLocation[32]=new Array();arrLocation[32][0] = 126 ; arrLocation[32][1] = 'Bolivia' ; arrLocation[32][2] = 'Country' ; arrLocation[33]=new Array();arrLocation[33][0] = 127 ; arrLocation[33][1] = 'Bosnia and Herzegovina' ; arrLocation[33][2] = 'Country' ; arrLocation[34]=new Array();arrLocation[34][0] = 128 ; arrLocation[34][1] = 'Botswana' ; arrLocation[34][2] = 'Country' ; arrLocation[35]=new Array();arrLocation[35][0] = 129 ; arrLocation[35][1] = 'Brazil' ; arrLocation[35][2] = 'Country' ; arrLocation[36]=new Array();arrLocation[36][0] = 130 ; arrLocation[36][1] = 'British Virgin Islands' ; arrLocation[36][2] = 'Country' ; arrLocation[37]=new Array();arrLocation[37][0] = 131 ; arrLocation[37][1] = 'Brunei' ; arrLocation[37][2] = 'Country' ; arrLocation[38]=new Array();arrLocation[38][0] = 132 ; arrLocation[38][1] = 'Bulgaria' ; arrLocation[38][2] = 'Country' ; arrLocation[39]=new Array();arrLocation[39][0] = 133 ; arrLocation[39][1] = 'Burkina Faso' ; arrLocation[39][2] = 'Country' ; arrLocation[40]=new Array();arrLocation[40][0] = 135 ; arrLocation[40][1] = 'Burundi' ; arrLocation[40][2] = 'Country' ; arrLocation[41]=new Array();arrLocation[41][0] = 136 ; arrLocation[41][1] = 'Cambodia' ; arrLocation[41][2] = 'Country' ; arrLocation[42]=new Array();arrLocation[42][0] = 137 ; arrLocation[42][1] = 'Cameroon' ; arrLocation[42][2] = 'Country' ; arrLocation[43]=new Array();arrLocation[43][0] = 138 ; arrLocation[43][1] = 'Canada' ; arrLocation[43][2] = 'Country' ; arrLocation[44]=new Array();arrLocation[44][0] = 139 ; arrLocation[44][1] = 'Cape Verde' ; arrLocation[44][2] = 'Country' ; arrLocation[45]=new Array();arrLocation[45][0] = 140 ; arrLocation[45][1] = 'Central African Republic' ; arrLocation[45][2] = 'Country' ; arrLocation[46]=new Array();arrLocation[46][0] = 141 ; arrLocation[46][1] = 'Chad' ; arrLocation[46][2] = 'Country' ; arrLocation[47]=new Array();arrLocation[47][0] = 8 ; arrLocation[47][1] = 'Chandpur' ; arrLocation[47][2] = 'Chittagong' ; arrLocation[48]=new Array();arrLocation[48][0] = 9 ; arrLocation[48][1] = 'Chapainawabganj' ; arrLocation[48][2] = 'Rajshahi' ; arrLocation[49]=new Array();arrLocation[49][0] = 142 ; arrLocation[49][1] = 'Chile' ; arrLocation[49][2] = 'Country' ; arrLocation[50]=new Array();arrLocation[50][0] = 143 ; arrLocation[50][1] = 'China' ; arrLocation[50][2] = 'Country' ; arrLocation[51]=new Array();arrLocation[51][0] = 10 ; arrLocation[51][1] = 'Chittagong' ; arrLocation[51][2] = 'Chittagong' ; arrLocation[52]=new Array();arrLocation[52][0] = 11 ; arrLocation[52][1] = 'Chuadanga' ; arrLocation[52][2] = 'Khulna' ; arrLocation[53]=new Array();arrLocation[53][0] = 144 ; arrLocation[53][1] = 'Colombia' ; arrLocation[53][2] = 'Country' ; arrLocation[54]=new Array();arrLocation[54][0] = 12 ; arrLocation[54][1] = 'Comilla' ; arrLocation[54][2] = 'Chittagong' ; arrLocation[55]=new Array();arrLocation[55][0] = 145 ; arrLocation[55][1] = 'Comoros' ; arrLocation[55][2] = 'Country' ; arrLocation[56]=new Array();arrLocation[56][0] = 147 ; arrLocation[56][1] = 'Congo' ; arrLocation[56][2] = 'Country' ; arrLocation[57]=new Array();arrLocation[57][0] = 146 ; arrLocation[57][1] = 'Congo (Zaire)' ; arrLocation[57][2] = 'Country' ; arrLocation[58]=new Array();arrLocation[58][0] = 148 ; arrLocation[58][1] = 'Cook Islands' ; arrLocation[58][2] = 'Country' ; arrLocation[59]=new Array();arrLocation[59][0] = 149 ; arrLocation[59][1] = 'Costa Rica' ; arrLocation[59][2] = 'Country' ; arrLocation[60]=new Array();arrLocation[60][0] = 150 ; arrLocation[60][1] = 'Cote d`Ivoire (Ivory Coast)' ; arrLocation[60][2] = 'Country' ; arrLocation[61]=new Array();arrLocation[61][0] = 13 ; arrLocation[61][1] = 'Cox`s Bazar' ; arrLocation[61][2] = 'Chittagong' ; arrLocation[62]=new Array();arrLocation[62][0] = 151 ; arrLocation[62][1] = 'Croatia' ; arrLocation[62][2] = 'Country' ; arrLocation[63]=new Array();arrLocation[63][0] = 152 ; arrLocation[63][1] = 'Cuba' ; arrLocation[63][2] = 'Country' ; arrLocation[64]=new Array();arrLocation[64][0] = 153 ; arrLocation[64][1] = 'Cyprus' ; arrLocation[64][2] = 'Country' ; arrLocation[65]=new Array();arrLocation[65][0] = 154 ; arrLocation[65][1] = 'Czech Republic' ; arrLocation[65][2] = 'Country' ; arrLocation[66]=new Array();arrLocation[66][0] = 155 ; arrLocation[66][1] = 'Denmark' ; arrLocation[66][2] = 'Country' ; arrLocation[67]=new Array();arrLocation[67][0] = 14 ; arrLocation[67][1] = 'Dhaka' ; arrLocation[67][2] = 'Dhaka' ; arrLocation[68]=new Array();arrLocation[68][0] = 15 ; arrLocation[68][1] = 'Dinajpur' ; arrLocation[68][2] = 'Rangpur' ; arrLocation[69]=new Array();arrLocation[69][0] = 156 ; arrLocation[69][1] = 'Djibouti' ; arrLocation[69][2] = 'Country' ; arrLocation[70]=new Array();arrLocation[70][0] = 157 ; arrLocation[70][1] = 'Dominica' ; arrLocation[70][2] = 'Country' ; arrLocation[71]=new Array();arrLocation[71][0] = 158 ; arrLocation[71][1] = 'Dominican Republic' ; arrLocation[71][2] = 'Country' ; arrLocation[72]=new Array();arrLocation[72][0] = 323 ; arrLocation[72][1] = 'East Timor' ; arrLocation[72][2] = 'Country' ; arrLocation[73]=new Array();arrLocation[73][0] = 159 ; arrLocation[73][1] = 'Ecuador' ; arrLocation[73][2] = 'Country' ; arrLocation[74]=new Array();arrLocation[74][0] = 160 ; arrLocation[74][1] = 'Egypt' ; arrLocation[74][2] = 'Country' ; arrLocation[75]=new Array();arrLocation[75][0] = 161 ; arrLocation[75][1] = 'El Salvador' ; arrLocation[75][2] = 'Country' ; arrLocation[76]=new Array();arrLocation[76][0] = 162 ; arrLocation[76][1] = 'Equatorial Guinea' ; arrLocation[76][2] = 'Country' ; arrLocation[77]=new Array();arrLocation[77][0] = 163 ; arrLocation[77][1] = 'Eritrea' ; arrLocation[77][2] = 'Country' ; arrLocation[78]=new Array();arrLocation[78][0] = 164 ; arrLocation[78][1] = 'Estonia' ; arrLocation[78][2] = 'Country' ; arrLocation[79]=new Array();arrLocation[79][0] = 165 ; arrLocation[79][1] = 'Ethiopia' ; arrLocation[79][2] = 'Country' ; arrLocation[80]=new Array();arrLocation[80][0] = 166 ; arrLocation[80][1] = 'Falkland Islands' ; arrLocation[80][2] = 'Country' ; arrLocation[81]=new Array();arrLocation[81][0] = 16 ; arrLocation[81][1] = 'Faridpur' ; arrLocation[81][2] = 'Dhaka' ; arrLocation[82]=new Array();arrLocation[82][0] = 232 ; arrLocation[82][1] = 'Federated States of Micronesia' ; arrLocation[82][2] = 'Country' ; arrLocation[83]=new Array();arrLocation[83][0] = 17 ; arrLocation[83][1] = 'Feni' ; arrLocation[83][2] = 'Chittagong' ; arrLocation[84]=new Array();arrLocation[84][0] = 167 ; arrLocation[84][1] = 'Fiji' ; arrLocation[84][2] = 'Country' ; arrLocation[85]=new Array();arrLocation[85][0] = 168 ; arrLocation[85][1] = 'Finland' ; arrLocation[85][2] = 'Country' ; arrLocation[86]=new Array();arrLocation[86][0] = 169 ; arrLocation[86][1] = 'France' ; arrLocation[86][2] = 'Country' ; arrLocation[87]=new Array();arrLocation[87][0] = 170 ; arrLocation[87][1] = 'French Guiana' ; arrLocation[87][2] = 'Country' ; arrLocation[88]=new Array();arrLocation[88][0] = 171 ; arrLocation[88][1] = 'French Polynesia' ; arrLocation[88][2] = 'Country' ; arrLocation[89]=new Array();arrLocation[89][0] = 172 ; arrLocation[89][1] = 'Gabon' ; arrLocation[89][2] = 'Country' ; arrLocation[90]=new Array();arrLocation[90][0] = 18 ; arrLocation[90][1] = 'Gaibandha' ; arrLocation[90][2] = 'Rangpur' ; arrLocation[91]=new Array();arrLocation[91][0] = 174 ; arrLocation[91][1] = 'Gaza Strip and West Bank' ; arrLocation[91][2] = 'Country' ; arrLocation[92]=new Array();arrLocation[92][0] = 19 ; arrLocation[92][1] = 'Gazipur' ; arrLocation[92][2] = 'Dhaka' ; arrLocation[93]=new Array();arrLocation[93][0] = 175 ; arrLocation[93][1] = 'Georgia' ; arrLocation[93][2] = 'Country' ; arrLocation[94]=new Array();arrLocation[94][0] = 176 ; arrLocation[94][1] = 'Germany' ; arrLocation[94][2] = 'Country' ; arrLocation[95]=new Array();arrLocation[95][0] = 177 ; arrLocation[95][1] = 'Ghana' ; arrLocation[95][2] = 'Country' ; arrLocation[96]=new Array();arrLocation[96][0] = 178 ; arrLocation[96][1] = 'Gibraltar' ; arrLocation[96][2] = 'Country' ; arrLocation[97]=new Array();arrLocation[97][0] = 20 ; arrLocation[97][1] = 'Gopalganj' ; arrLocation[97][2] = 'Dhaka' ; arrLocation[98]=new Array();arrLocation[98][0] = 179 ; arrLocation[98][1] = 'Greece' ; arrLocation[98][2] = 'Country' ; arrLocation[99]=new Array();arrLocation[99][0] = 180 ; arrLocation[99][1] = 'Greenland' ; arrLocation[99][2] = 'Country' ; arrLocation[100]=new Array();arrLocation[100][0] = 181 ; arrLocation[100][1] = 'Grenada' ; arrLocation[100][2] = 'Country' ; arrLocation[101]=new Array();arrLocation[101][0] = 182 ; arrLocation[101][1] = 'Guadeloupe' ; arrLocation[101][2] = 'Country' ; arrLocation[102]=new Array();arrLocation[102][0] = 183 ; arrLocation[102][1] = 'Guam' ; arrLocation[102][2] = 'Country' ; arrLocation[103]=new Array();arrLocation[103][0] = 184 ; arrLocation[103][1] = 'Guatemala' ; arrLocation[103][2] = 'Country' ; arrLocation[104]=new Array();arrLocation[104][0] = 185 ; arrLocation[104][1] = 'Guinea' ; arrLocation[104][2] = 'Country' ; arrLocation[105]=new Array();arrLocation[105][0] = 186 ; arrLocation[105][1] = 'Guinea-Bissau' ; arrLocation[105][2] = 'Country' ; arrLocation[106]=new Array();arrLocation[106][0] = 187 ; arrLocation[106][1] = 'Guyana' ; arrLocation[106][2] = 'Country' ; arrLocation[107]=new Array();arrLocation[107][0] = 21 ; arrLocation[107][1] = 'Habiganj' ; arrLocation[107][2] = 'Sylhet' ; arrLocation[108]=new Array();arrLocation[108][0] = 188 ; arrLocation[108][1] = 'Haiti' ; arrLocation[108][2] = 'Country' ; arrLocation[109]=new Array();arrLocation[109][0] = 190 ; arrLocation[109][1] = 'Honduras' ; arrLocation[109][2] = 'Country' ; arrLocation[110]=new Array();arrLocation[110][0] = 191 ; arrLocation[110][1] = 'Hong Kong' ; arrLocation[110][2] = 'Country' ; arrLocation[111]=new Array();arrLocation[111][0] = 192 ; arrLocation[111][1] = 'Hungary' ; arrLocation[111][2] = 'Country' ; arrLocation[112]=new Array();arrLocation[112][0] = 193 ; arrLocation[112][1] = 'Iceland' ; arrLocation[112][2] = 'Country' ; arrLocation[113]=new Array();arrLocation[113][0] = 194 ; arrLocation[113][1] = 'India' ; arrLocation[113][2] = 'Country' ; arrLocation[114]=new Array();arrLocation[114][0] = 195 ; arrLocation[114][1] = 'Indonesia' ; arrLocation[114][2] = 'Country' ; arrLocation[115]=new Array();arrLocation[115][0] = 196 ; arrLocation[115][1] = 'Iran' ; arrLocation[115][2] = 'Country' ; arrLocation[116]=new Array();arrLocation[116][0] = 197 ; arrLocation[116][1] = 'Iraq' ; arrLocation[116][2] = 'Country' ; arrLocation[117]=new Array();arrLocation[117][0] = 198 ; arrLocation[117][1] = 'Ireland' ; arrLocation[117][2] = 'Country' ; arrLocation[118]=new Array();arrLocation[118][0] = 199 ; arrLocation[118][1] = 'Israel' ; arrLocation[118][2] = 'Country' ; arrLocation[119]=new Array();arrLocation[119][0] = 200 ; arrLocation[119][1] = 'Italy' ; arrLocation[119][2] = 'Country' ; arrLocation[120]=new Array();arrLocation[120][0] = 201 ; arrLocation[120][1] = 'Jamaica' ; arrLocation[120][2] = 'Country' ; arrLocation[121]=new Array();arrLocation[121][0] = 22 ; arrLocation[121][1] = 'Jamalpur' ; arrLocation[121][2] = 'Mymensingh' ; arrLocation[122]=new Array();arrLocation[122][0] = 202 ; arrLocation[122][1] = 'Japan' ; arrLocation[122][2] = 'Country' ; arrLocation[123]=new Array();arrLocation[123][0] = 23 ; arrLocation[123][1] = 'Jessore' ; arrLocation[123][2] = 'Khulna' ; arrLocation[124]=new Array();arrLocation[124][0] = 24 ; arrLocation[124][1] = 'Jhalokathi' ; arrLocation[124][2] = 'Barisal' ; arrLocation[125]=new Array();arrLocation[125][0] = 25 ; arrLocation[125][1] = 'Jhenaidah' ; arrLocation[125][2] = 'Khulna' ; arrLocation[126]=new Array();arrLocation[126][0] = 203 ; arrLocation[126][1] = 'Jordan' ; arrLocation[126][2] = 'Country' ; arrLocation[127]=new Array();arrLocation[127][0] = 26 ; arrLocation[127][1] = 'Joypurhat' ; arrLocation[127][2] = 'Rajshahi' ; arrLocation[128]=new Array();arrLocation[128][0] = 204 ; arrLocation[128][1] = 'Kazakhstan' ; arrLocation[128][2] = 'Country' ; arrLocation[129]=new Array();arrLocation[129][0] = 205 ; arrLocation[129][1] = 'Kenya' ; arrLocation[129][2] = 'Country' ; arrLocation[130]=new Array();arrLocation[130][0] = 27 ; arrLocation[130][1] = 'Khagrachari' ; arrLocation[130][2] = 'Chittagong' ; arrLocation[131]=new Array();arrLocation[131][0] = 28 ; arrLocation[131][1] = 'Khulna' ; arrLocation[131][2] = 'Khulna' ; arrLocation[132]=new Array();arrLocation[132][0] = 206 ; arrLocation[132][1] = 'Kiribati' ; arrLocation[132][2] = 'Country' ; arrLocation[133]=new Array();arrLocation[133][0] = 29 ; arrLocation[133][1] = 'kishoreganj' ; arrLocation[133][2] = 'Dhaka' ; arrLocation[134]=new Array();arrLocation[134][0] = 30 ; arrLocation[134][1] = 'Kurigram' ; arrLocation[134][2] = 'Rangpur' ; arrLocation[135]=new Array();arrLocation[135][0] = 31 ; arrLocation[135][1] = 'Kushtia' ; arrLocation[135][2] = 'Khulna' ; arrLocation[136]=new Array();arrLocation[136][0] = 207 ; arrLocation[136][1] = 'Kuwait' ; arrLocation[136][2] = 'Country' ; arrLocation[137]=new Array();arrLocation[137][0] = 208 ; arrLocation[137][1] = 'Kyrgyzstan' ; arrLocation[137][2] = 'Country' ; arrLocation[138]=new Array();arrLocation[138][0] = 32 ; arrLocation[138][1] = 'Lalmonirhat' ; arrLocation[138][2] = 'Rangpur' ; arrLocation[139]=new Array();arrLocation[139][0] = 209 ; arrLocation[139][1] = 'Laos' ; arrLocation[139][2] = 'Country' ; arrLocation[140]=new Array();arrLocation[140][0] = 210 ; arrLocation[140][1] = 'Latvia' ; arrLocation[140][2] = 'Country' ; arrLocation[141]=new Array();arrLocation[141][0] = 33 ; arrLocation[141][1] = 'Laxmipur' ; arrLocation[141][2] = 'Chittagong' ; arrLocation[142]=new Array();arrLocation[142][0] = 211 ; arrLocation[142][1] = 'Lebanon' ; arrLocation[142][2] = 'Country' ; arrLocation[143]=new Array();arrLocation[143][0] = 212 ; arrLocation[143][1] = 'Lesotho' ; arrLocation[143][2] = 'Country' ; arrLocation[144]=new Array();arrLocation[144][0] = 213 ; arrLocation[144][1] = 'Liberia' ; arrLocation[144][2] = 'Country' ; arrLocation[145]=new Array();arrLocation[145][0] = 214 ; arrLocation[145][1] = 'Libya' ; arrLocation[145][2] = 'Country' ; arrLocation[146]=new Array();arrLocation[146][0] = 215 ; arrLocation[146][1] = 'Liechtenstein' ; arrLocation[146][2] = 'Country' ; arrLocation[147]=new Array();arrLocation[147][0] = 216 ; arrLocation[147][1] = 'Lithuania' ; arrLocation[147][2] = 'Country' ; arrLocation[148]=new Array();arrLocation[148][0] = 217 ; arrLocation[148][1] = 'Luxembourg' ; arrLocation[148][2] = 'Country' ; arrLocation[149]=new Array();arrLocation[149][0] = 218 ; arrLocation[149][1] = 'Macau' ; arrLocation[149][2] = 'Country' ; arrLocation[150]=new Array();arrLocation[150][0] = 219 ; arrLocation[150][1] = 'Macedonia' ; arrLocation[150][2] = 'Country' ; arrLocation[151]=new Array();arrLocation[151][0] = 220 ; arrLocation[151][1] = 'Madagascar' ; arrLocation[151][2] = 'Country' ; arrLocation[152]=new Array();arrLocation[152][0] = 34 ; arrLocation[152][1] = 'Madaripur' ; arrLocation[152][2] = 'Dhaka' ; arrLocation[153]=new Array();arrLocation[153][0] = 35 ; arrLocation[153][1] = 'Magura' ; arrLocation[153][2] = 'Khulna' ; arrLocation[154]=new Array();arrLocation[154][0] = 221 ; arrLocation[154][1] = 'Malawi' ; arrLocation[154][2] = 'Country' ; arrLocation[155]=new Array();arrLocation[155][0] = 222 ; arrLocation[155][1] = 'Malaysia' ; arrLocation[155][2] = 'Country' ; arrLocation[156]=new Array();arrLocation[156][0] = 223 ; arrLocation[156][1] = 'Maldives' ; arrLocation[156][2] = 'Country' ; arrLocation[157]=new Array();arrLocation[157][0] = 224 ; arrLocation[157][1] = 'Mali' ; arrLocation[157][2] = 'Country' ; arrLocation[158]=new Array();arrLocation[158][0] = 225 ; arrLocation[158][1] = 'Malta' ; arrLocation[158][2] = 'Country' ; arrLocation[159]=new Array();arrLocation[159][0] = 36 ; arrLocation[159][1] = 'Manikganj' ; arrLocation[159][2] = 'Dhaka' ; arrLocation[160]=new Array();arrLocation[160][0] = 226 ; arrLocation[160][1] = 'Marshall Islands' ; arrLocation[160][2] = 'Country' ; arrLocation[161]=new Array();arrLocation[161][0] = 227 ; arrLocation[161][1] = 'Martinique' ; arrLocation[161][2] = 'Country' ; arrLocation[162]=new Array();arrLocation[162][0] = 228 ; arrLocation[162][1] = 'Mauritania' ; arrLocation[162][2] = 'Country' ; arrLocation[163]=new Array();arrLocation[163][0] = 229 ; arrLocation[163][1] = 'Mauritius' ; arrLocation[163][2] = 'Country' ; arrLocation[164]=new Array();arrLocation[164][0] = 230 ; arrLocation[164][1] = 'Mayotte' ; arrLocation[164][2] = 'Country' ; arrLocation[165]=new Array();arrLocation[165][0] = 37 ; arrLocation[165][1] = 'Meherpur' ; arrLocation[165][2] = 'Khulna' ; arrLocation[166]=new Array();arrLocation[166][0] = 231 ; arrLocation[166][1] = 'Mexico' ; arrLocation[166][2] = 'Country' ; arrLocation[167]=new Array();arrLocation[167][0] = 233 ; arrLocation[167][1] = 'Moldova' ; arrLocation[167][2] = 'Country' ; arrLocation[168]=new Array();arrLocation[168][0] = 234 ; arrLocation[168][1] = 'Monaco' ; arrLocation[168][2] = 'Country' ; arrLocation[169]=new Array();arrLocation[169][0] = 235 ; arrLocation[169][1] = 'Mongolia' ; arrLocation[169][2] = 'Country' ; arrLocation[170]=new Array();arrLocation[170][0] = 236 ; arrLocation[170][1] = 'Montserrat' ; arrLocation[170][2] = 'Country' ; arrLocation[171]=new Array();arrLocation[171][0] = 237 ; arrLocation[171][1] = 'Morocco' ; arrLocation[171][2] = 'Country' ; arrLocation[172]=new Array();arrLocation[172][0] = 38 ; arrLocation[172][1] = 'MoulaviBazar' ; arrLocation[172][2] = 'Sylhet' ; arrLocation[173]=new Array();arrLocation[173][0] = 238 ; arrLocation[173][1] = 'Mozambique' ; arrLocation[173][2] = 'Country' ; arrLocation[174]=new Array();arrLocation[174][0] = 39 ; arrLocation[174][1] = 'Munshiganj' ; arrLocation[174][2] = 'Dhaka' ; arrLocation[175]=new Array();arrLocation[175][0] = 134 ; arrLocation[175][1] = 'Myanmar' ; arrLocation[175][2] = 'Country' ; arrLocation[176]=new Array();arrLocation[176][0] = 40 ; arrLocation[176][1] = 'Mymensingh' ; arrLocation[176][2] = 'Mymensingh' ; arrLocation[177]=new Array();arrLocation[177][0] = 239 ; arrLocation[177][1] = 'Namibia' ; arrLocation[177][2] = 'Country' ; arrLocation[178]=new Array();arrLocation[178][0] = 41 ; arrLocation[178][1] = 'Naogaon' ; arrLocation[178][2] = 'Rajshahi' ; arrLocation[179]=new Array();arrLocation[179][0] = 42 ; arrLocation[179][1] = 'Narail' ; arrLocation[179][2] = 'Khulna' ; arrLocation[180]=new Array();arrLocation[180][0] = 43 ; arrLocation[180][1] = 'Narayanganj' ; arrLocation[180][2] = 'Dhaka' ; arrLocation[181]=new Array();arrLocation[181][0] = 44 ; arrLocation[181][1] = 'Narsingdi' ; arrLocation[181][2] = 'Dhaka' ; arrLocation[182]=new Array();arrLocation[182][0] = 45 ; arrLocation[182][1] = 'Natore' ; arrLocation[182][2] = 'Rajshahi' ; arrLocation[183]=new Array();arrLocation[183][0] = 240 ; arrLocation[183][1] = 'Nauru' ; arrLocation[183][2] = 'Country' ; arrLocation[184]=new Array();arrLocation[184][0] = 241 ; arrLocation[184][1] = 'Nepal' ; arrLocation[184][2] = 'Country' ; arrLocation[185]=new Array();arrLocation[185][0] = 242 ; arrLocation[185][1] = 'Netherlands' ; arrLocation[185][2] = 'Country' ; arrLocation[186]=new Array();arrLocation[186][0] = 243 ; arrLocation[186][1] = 'Netherlands Antilles' ; arrLocation[186][2] = 'Country' ; arrLocation[187]=new Array();arrLocation[187][0] = 46 ; arrLocation[187][1] = 'Netrokona' ; arrLocation[187][2] = 'Mymensingh' ; arrLocation[188]=new Array();arrLocation[188][0] = 244 ; arrLocation[188][1] = 'New Caledonia' ; arrLocation[188][2] = 'Country' ; arrLocation[189]=new Array();arrLocation[189][0] = 245 ; arrLocation[189][1] = 'New Zealand' ; arrLocation[189][2] = 'Country' ; arrLocation[190]=new Array();arrLocation[190][0] = 246 ; arrLocation[190][1] = 'Nicaragua' ; arrLocation[190][2] = 'Country' ; arrLocation[191]=new Array();arrLocation[191][0] = 247 ; arrLocation[191][1] = 'Niger' ; arrLocation[191][2] = 'Country' ; arrLocation[192]=new Array();arrLocation[192][0] = 248 ; arrLocation[192][1] = 'Nigeria' ; arrLocation[192][2] = 'Country' ; arrLocation[193]=new Array();arrLocation[193][0] = 47 ; arrLocation[193][1] = 'Nilphamari' ; arrLocation[193][2] = 'Rangpur' ; arrLocation[194]=new Array();arrLocation[194][0] = 48 ; arrLocation[194][1] = 'Noakhali' ; arrLocation[194][2] = 'Chittagong' ; arrLocation[195]=new Array();arrLocation[195][0] = 249 ; arrLocation[195][1] = 'North Korea' ; arrLocation[195][2] = 'Country' ; arrLocation[196]=new Array();arrLocation[196][0] = 250 ; arrLocation[196][1] = 'Northern Mariana Islands' ; arrLocation[196][2] = 'Country' ; arrLocation[197]=new Array();arrLocation[197][0] = 251 ; arrLocation[197][1] = 'Norway' ; arrLocation[197][2] = 'Country' ; arrLocation[198]=new Array();arrLocation[198][0] = 252 ; arrLocation[198][1] = 'Oman' ; arrLocation[198][2] = 'Country' ; arrLocation[199]=new Array();arrLocation[199][0] = 49 ; arrLocation[199][1] = 'Pabna' ; arrLocation[199][2] = 'Rajshahi' ; arrLocation[200]=new Array();arrLocation[200][0] = 253 ; arrLocation[200][1] = 'Pakistan' ; arrLocation[200][2] = 'Country' ; arrLocation[201]=new Array();arrLocation[201][0] = 254 ; arrLocation[201][1] = 'Palau' ; arrLocation[201][2] = 'Country' ; arrLocation[202]=new Array();arrLocation[202][0] = 255 ; arrLocation[202][1] = 'Panama' ; arrLocation[202][2] = 'Country' ; arrLocation[203]=new Array();arrLocation[203][0] = 50 ; arrLocation[203][1] = 'Panchagarh' ; arrLocation[203][2] = 'Rangpur' ; arrLocation[204]=new Array();arrLocation[204][0] = 256 ; arrLocation[204][1] = 'Papua New Guinea' ; arrLocation[204][2] = 'Country' ; arrLocation[205]=new Array();arrLocation[205][0] = 257 ; arrLocation[205][1] = 'Paraguay' ; arrLocation[205][2] = 'Country' ; arrLocation[206]=new Array();arrLocation[206][0] = 51 ; arrLocation[206][1] = 'Patuakhali' ; arrLocation[206][2] = 'Barisal' ; arrLocation[207]=new Array();arrLocation[207][0] = 258 ; arrLocation[207][1] = 'Peru' ; arrLocation[207][2] = 'Country' ; arrLocation[208]=new Array();arrLocation[208][0] = 259 ; arrLocation[208][1] = 'Philippines' ; arrLocation[208][2] = 'Country' ; arrLocation[209]=new Array();arrLocation[209][0] = 52 ; arrLocation[209][1] = 'Pirojpur' ; arrLocation[209][2] = 'Barisal' ; arrLocation[210]=new Array();arrLocation[210][0] = 260 ; arrLocation[210][1] = 'Pitcairn Islands' ; arrLocation[210][2] = 'Country' ; arrLocation[211]=new Array();arrLocation[211][0] = 261 ; arrLocation[211][1] = 'Poland' ; arrLocation[211][2] = 'Country' ; arrLocation[212]=new Array();arrLocation[212][0] = 262 ; arrLocation[212][1] = 'Portugal' ; arrLocation[212][2] = 'Country' ; arrLocation[213]=new Array();arrLocation[213][0] = 263 ; arrLocation[213][1] = 'Puerto Rico' ; arrLocation[213][2] = 'Country' ; arrLocation[214]=new Array();arrLocation[214][0] = 264 ; arrLocation[214][1] = 'Qatar' ; arrLocation[214][2] = 'Country' ; arrLocation[215]=new Array();arrLocation[215][0] = 53 ; arrLocation[215][1] = 'Rajbari' ; arrLocation[215][2] = 'Dhaka' ; arrLocation[216]=new Array();arrLocation[216][0] = 54 ; arrLocation[216][1] = 'Rajshahi' ; arrLocation[216][2] = 'Rajshahi' ; arrLocation[217]=new Array();arrLocation[217][0] = 55 ; arrLocation[217][1] = 'Rangamati' ; arrLocation[217][2] = 'Chittagong' ; arrLocation[218]=new Array();arrLocation[218][0] = 56 ; arrLocation[218][1] = 'Rangpur' ; arrLocation[218][2] = 'Rangpur' ; arrLocation[219]=new Array();arrLocation[219][0] = 265 ; arrLocation[219][1] = 'Reunion' ; arrLocation[219][2] = 'Country' ; arrLocation[220]=new Array();arrLocation[220][0] = 266 ; arrLocation[220][1] = 'Romania' ; arrLocation[220][2] = 'Country' ; arrLocation[221]=new Array();arrLocation[221][0] = 267 ; arrLocation[221][1] = 'Russia' ; arrLocation[221][2] = 'Country' ; arrLocation[222]=new Array();arrLocation[222][0] = 268 ; arrLocation[222][1] = 'Rwanda' ; arrLocation[222][2] = 'Country' ; arrLocation[223]=new Array();arrLocation[223][0] = 269 ; arrLocation[223][1] = 'Saint Kitts and Nevis' ; arrLocation[223][2] = 'Country' ; arrLocation[224]=new Array();arrLocation[224][0] = 270 ; arrLocation[224][1] = 'Saint Lucia' ; arrLocation[224][2] = 'Country' ; arrLocation[225]=new Array();arrLocation[225][0] = 271 ; arrLocation[225][1] = 'Saint Pierre and Miquelon' ; arrLocation[225][2] = 'Country' ; arrLocation[226]=new Array();arrLocation[226][0] = 272 ; arrLocation[226][1] = 'Saint Vincent and the Grenadines' ; arrLocation[226][2] = 'Country' ; arrLocation[227]=new Array();arrLocation[227][0] = 273 ; arrLocation[227][1] = 'Samoa' ; arrLocation[227][2] = 'Country' ; arrLocation[228]=new Array();arrLocation[228][0] = 274 ; arrLocation[228][1] = 'San Marino' ; arrLocation[228][2] = 'Country' ; arrLocation[229]=new Array();arrLocation[229][0] = 275 ; arrLocation[229][1] = 'Sao Tome and Principe' ; arrLocation[229][2] = 'Country' ; arrLocation[230]=new Array();arrLocation[230][0] = 57 ; arrLocation[230][1] = 'Satkhira' ; arrLocation[230][2] = 'Khulna' ; arrLocation[231]=new Array();arrLocation[231][0] = 276 ; arrLocation[231][1] = 'Saudi Arabia' ; arrLocation[231][2] = 'Country' ; arrLocation[232]=new Array();arrLocation[232][0] = 277 ; arrLocation[232][1] = 'Senegal' ; arrLocation[232][2] = 'Country' ; arrLocation[233]=new Array();arrLocation[233][0] = 278 ; arrLocation[233][1] = 'Serbia and Montenegro (Yugoslavia)' ; arrLocation[233][2] = 'Country' ; arrLocation[234]=new Array();arrLocation[234][0] = 279 ; arrLocation[234][1] = 'Seychelles' ; arrLocation[234][2] = 'Country' ; arrLocation[235]=new Array();arrLocation[235][0] = 58 ; arrLocation[235][1] = 'Shariatpur' ; arrLocation[235][2] = 'Dhaka' ; arrLocation[236]=new Array();arrLocation[236][0] = 59 ; arrLocation[236][1] = 'Sherpur' ; arrLocation[236][2] = 'Mymensingh' ; arrLocation[237]=new Array();arrLocation[237][0] = 280 ; arrLocation[237][1] = 'Sierra Leone' ; arrLocation[237][2] = 'Country' ; arrLocation[238]=new Array();arrLocation[238][0] = 281 ; arrLocation[238][1] = 'Singapore' ; arrLocation[238][2] = 'Country' ; arrLocation[239]=new Array();arrLocation[239][0] = 60 ; arrLocation[239][1] = 'Sirajganj' ; arrLocation[239][2] = 'Rajshahi' ; arrLocation[240]=new Array();arrLocation[240][0] = 282 ; arrLocation[240][1] = 'Slovakia' ; arrLocation[240][2] = 'Country' ; arrLocation[241]=new Array();arrLocation[241][0] = 283 ; arrLocation[241][1] = 'Slovenia' ; arrLocation[241][2] = 'Country' ; arrLocation[242]=new Array();arrLocation[242][0] = 284 ; arrLocation[242][1] = 'Solomon Islands' ; arrLocation[242][2] = 'Country' ; arrLocation[243]=new Array();arrLocation[243][0] = 285 ; arrLocation[243][1] = 'Somalia' ; arrLocation[243][2] = 'Country' ; arrLocation[244]=new Array();arrLocation[244][0] = 286 ; arrLocation[244][1] = 'South Africa' ; arrLocation[244][2] = 'Country' ; arrLocation[245]=new Array();arrLocation[245][0] = 287 ; arrLocation[245][1] = 'South Korea' ; arrLocation[245][2] = 'Country' ; arrLocation[246]=new Array();arrLocation[246][0] = 324 ; arrLocation[246][1] = 'South Sudan' ; arrLocation[246][2] = 'Country' ; arrLocation[247]=new Array();arrLocation[247][0] = 288 ; arrLocation[247][1] = 'Spain' ; arrLocation[247][2] = 'Country' ; arrLocation[248]=new Array();arrLocation[248][0] = 289 ; arrLocation[248][1] = 'Sri Lanka' ; arrLocation[248][2] = 'Country' ; arrLocation[249]=new Array();arrLocation[249][0] = 290 ; arrLocation[249][1] = 'Sudan' ; arrLocation[249][2] = 'Country' ; arrLocation[250]=new Array();arrLocation[250][0] = 61 ; arrLocation[250][1] = 'Sunamganj' ; arrLocation[250][2] = 'Sylhet' ; arrLocation[251]=new Array();arrLocation[251][0] = 291 ; arrLocation[251][1] = 'Suriname' ; arrLocation[251][2] = 'Country' ; arrLocation[252]=new Array();arrLocation[252][0] = 292 ; arrLocation[252][1] = 'Swaziland' ; arrLocation[252][2] = 'Country' ; arrLocation[253]=new Array();arrLocation[253][0] = 293 ; arrLocation[253][1] = 'Sweden' ; arrLocation[253][2] = 'Country' ; arrLocation[254]=new Array();arrLocation[254][0] = 294 ; arrLocation[254][1] = 'Switzerland' ; arrLocation[254][2] = 'Country' ; arrLocation[255]=new Array();arrLocation[255][0] = 62 ; arrLocation[255][1] = 'Sylhet' ; arrLocation[255][2] = 'Sylhet' ; arrLocation[256]=new Array();arrLocation[256][0] = 295 ; arrLocation[256][1] = 'Syria' ; arrLocation[256][2] = 'Country' ; arrLocation[257]=new Array();arrLocation[257][0] = 296 ; arrLocation[257][1] = 'Taiwan' ; arrLocation[257][2] = 'Country' ; arrLocation[258]=new Array();arrLocation[258][0] = 297 ; arrLocation[258][1] = 'Tajikistan' ; arrLocation[258][2] = 'Country' ; arrLocation[259]=new Array();arrLocation[259][0] = 63 ; arrLocation[259][1] = 'Tangail' ; arrLocation[259][2] = 'Dhaka' ; arrLocation[260]=new Array();arrLocation[260][0] = 298 ; arrLocation[260][1] = 'Tanzania' ; arrLocation[260][2] = 'Country' ; arrLocation[261]=new Array();arrLocation[261][0] = 299 ; arrLocation[261][1] = 'Thailand' ; arrLocation[261][2] = 'Country' ; arrLocation[262]=new Array();arrLocation[262][0] = 64 ; arrLocation[262][1] = 'Thakurgaon' ; arrLocation[262][2] = 'Rangpur' ; arrLocation[263]=new Array();arrLocation[263][0] = 173 ; arrLocation[263][1] = 'The Gambia' ; arrLocation[263][2] = 'Country' ; arrLocation[264]=new Array();arrLocation[264][0] = 189 ; arrLocation[264][1] = 'The Holy See' ; arrLocation[264][2] = 'Country' ; arrLocation[265]=new Array();arrLocation[265][0] = 300 ; arrLocation[265][1] = 'Togo' ; arrLocation[265][2] = 'Country' ; arrLocation[266]=new Array();arrLocation[266][0] = 301 ; arrLocation[266][1] = 'Tonga' ; arrLocation[266][2] = 'Country' ; arrLocation[267]=new Array();arrLocation[267][0] = 302 ; arrLocation[267][1] = 'Trinidad and Tobago' ; arrLocation[267][2] = 'Country' ; arrLocation[268]=new Array();arrLocation[268][0] = 303 ; arrLocation[268][1] = 'Tunisia' ; arrLocation[268][2] = 'Country' ; arrLocation[269]=new Array();arrLocation[269][0] = 304 ; arrLocation[269][1] = 'Turkey' ; arrLocation[269][2] = 'Country' ; arrLocation[270]=new Array();arrLocation[270][0] = 305 ; arrLocation[270][1] = 'Turkmenistan' ; arrLocation[270][2] = 'Country' ; arrLocation[271]=new Array();arrLocation[271][0] = 306 ; arrLocation[271][1] = 'Turks and Caicos Islands' ; arrLocation[271][2] = 'Country' ; arrLocation[272]=new Array();arrLocation[272][0] = 307 ; arrLocation[272][1] = 'Tuvalu' ; arrLocation[272][2] = 'Country' ; arrLocation[273]=new Array();arrLocation[273][0] = 308 ; arrLocation[273][1] = 'Uganda' ; arrLocation[273][2] = 'Country' ; arrLocation[274]=new Array();arrLocation[274][0] = 309 ; arrLocation[274][1] = 'Ukraine' ; arrLocation[274][2] = 'Country' ; arrLocation[275]=new Array();arrLocation[275][0] = 310 ; arrLocation[275][1] = 'United Arab Emirates' ; arrLocation[275][2] = 'Country' ; arrLocation[276]=new Array();arrLocation[276][0] = 311 ; arrLocation[276][1] = 'United Kingdom' ; arrLocation[276][2] = 'Country' ; arrLocation[277]=new Array();arrLocation[277][0] = 312 ; arrLocation[277][1] = 'United States' ; arrLocation[277][2] = 'Country' ; arrLocation[278]=new Array();arrLocation[278][0] = 313 ; arrLocation[278][1] = 'United States Virgin Islands' ; arrLocation[278][2] = 'Country' ; arrLocation[279]=new Array();arrLocation[279][0] = 314 ; arrLocation[279][1] = 'Uruguay' ; arrLocation[279][2] = 'Country' ; arrLocation[280]=new Array();arrLocation[280][0] = 315 ; arrLocation[280][1] = 'Uzbekistan' ; arrLocation[280][2] = 'Country' ; arrLocation[281]=new Array();arrLocation[281][0] = 316 ; arrLocation[281][1] = 'Vanuatu' ; arrLocation[281][2] = 'Country' ; arrLocation[282]=new Array();arrLocation[282][0] = 317 ; arrLocation[282][1] = 'Venezuela' ; arrLocation[282][2] = 'Country' ; arrLocation[283]=new Array();arrLocation[283][0] = 318 ; arrLocation[283][1] = 'Vietnam' ; arrLocation[283][2] = 'Country' ; arrLocation[284]=new Array();arrLocation[284][0] = 319 ; arrLocation[284][1] = 'West Bank and Gaza Strip' ; arrLocation[284][2] = 'Country' ; arrLocation[285]=new Array();arrLocation[285][0] = 320 ; arrLocation[285][1] = 'Western Sahara' ; arrLocation[285][2] = 'Country' ; arrLocation[286]=new Array();arrLocation[286][0] = 321 ; arrLocation[286][1] = 'Yemen' ; arrLocation[286][2] = 'Country' ; arrLocation[287]=new Array();arrLocation[287][0] = 322 ; arrLocation[287][1] = 'Zambia' ; arrLocation[287][2] = 'Country' ; 
+function fillDistrictandCountry(locT, isSelected)
+{ 
+    //console.log(locT)
+    strString = "";
+        var strDistrictName = ""
+        var strLocID = "";
+        var strselectd = ""
+        
+        if (isSelected == true) 
+        {
+            strselectd = "checked";
+        }
+    //console.log(isSelected +"--"+strselectd)
+    switch (locT.toString())
+    {
+        case "1":
+                 strDistrictName = "Dhaka"
+                     strString = strString +"<label  id='lbLcationList82' class='label_radio' for='LcationList82'><input  name='LcationList' id='LcationList82' value='Dhaka'  type='radio' "+strselectd+" class='JObSerachLeftPannel'  /><span id='spLcationList82'>All in Dhaka</span></label>";
+                     strLocID = "LcationList82"
+                     break;
+        case "2":
+                 strDistrictName = "Chittagong"
+                     strString = strString +"<label  id='lbLcationList81' class='label_radio' for='LcationList81'><input  name='LcationList' id='LcationList81' value='Chittagong' "+strselectd+" type='radio' class='JObSerachLeftPannel'  /><span id='spLcationList81'>All in Chittagong</span></label>";
+                     strLocID = "LcationList81"
+                     break;
+        case "3":
+                 strDistrictName = "Rajshahi"
+                     strString = strString +"<label  id='lbLcationList84' class='label_radio' for='LcationList84'><input  name='LcationList' id='LcationList84' value='Rajshahi' "+strselectd+" type='radio' class='JObSerachLeftPannel'  /><span id='spLcationList84'>All in Rajshahi</span></label>";
+                     strLocID = "LcationList84"
+                     break;
+        case "4":
+                 strDistrictName = "Khulna"
+                     strString = strString +"<label  id='lbLcationList83' class='label_radio' for='LcationList83'><input  name='LcationList' id='LcationList83' value='Khulna' type='radio' "+strselectd+" class='JObSerachLeftPannel'  /><span id='spLcationList83'>All in Khulna</span></label>";
+                     strLocID = "LcationList83"
+                     break;
+        case "5":
+                 strDistrictName = "Sylhet"
+                     strString = strString +"<label  id='lbLcationList86' class='label_radio' for='LcationList86'><input  name='LcationList' id='LcationList86' value='Sylhet' type='radio' "+strselectd+" class='JObSerachLeftPannel'  /><span id='spLcationList86'>All in Sylhet</span></label>";
+                     strLocID = "LcationList86"
+                     break;
+        case "6":
+                 strDistrictName = "Rangpur"
+                     strString = strString +"<label  id='lbLcationList85' class='label_radio' for='LcationList85'><input  name='LcationList' id='LcationList85' value='Rangpur' type='radio' "+strselectd+" class='JObSerachLeftPannel'  /><span id='spLcationList85'>All in Rangpur</span></label>";
+                     strLocID = "LcationList85"
+                     break;
+        case "7":
+                 strDistrictName = "Barisal"
+                     strString = strString +"<label  id='lbLcationList80' class='label_radio' for='LcationList80'><input  name='LcationList' id='LcationList80' value='Barisal' "+strselectd+" type='radio' class='JObSerachLeftPannel'  /><span id='spLcationList80'>All in Barisal</span></label>";
+                     strLocID = "LcationList80"
+                     break;
+        case "8":
+                 strDistrictName = "Mymensingh"
+                     strString = strString +"<label  id='lbLcationList88' class='label_radio' for='LcationList88'><input  name='LcationList' id='LcationList88' value='Mymensingh'  type='radio' "+strselectd+" class='JObSerachLeftPannel'  /><span id='spLcationList88'>All in Mymensingh</span></label>";
+                     strLocID = "LcationList88"
+                     
+                     break;
+        case "9":
+                 
+                     strDistrictName = "Country"
+                     strString = strString +"<label  id='lbLcationList87' class='label_radio' for='LcationList87'><input  name='LcationList' id='LcationList87' value='Country'  type='radio' "+strselectd+" class='JObSerachLeftPannel'  /><span id='spLcationList87'>All Overseas</span></label>";
+                     strLocID = "LcationList87"
+                     break;
+        case "-1":
+                  
+                      strDistrictName = "-1"
+                      strString = strString +"<label  id='lbLcationList89' class='label_radio' for='LcationList89'><input  name='LcationList' id='LcationList89' value='-1'  type='radio' "+strselectd+" class='JObSerachLeftPannel'  /><span id='spLcationList89'>Anywhere in Bangladesh</span></label>";
+                      strLocID = "LcationList89"
+                      break;
+                      
+    }
+    
+        
+        for (i = 0; i<arrLocation.length; i++)
+        {
+            if (arrLocation[i][2].toLowerCase() == strDistrictName.toLowerCase())
+            {
+                //console.log(arrLocation[i][2])
+                if (arrLocation[i][0] != 118)
+                {
+                    strString = strString +"<label  id='lbLcationList"+arrLocation[i][0]+"' class='label_radio' for='LcationList"+arrLocation[i][0]+"'><input  name='LcationList' id='LcationList"+arrLocation[i][0]+"' value='"+arrLocation[i][0]+"'  type='radio' class='JObSerachLeftPannel'   /><span id='spLcationList"+arrLocation[i][0]+"'>"+arrLocation[i][1]+"</span></label>";
+                }
+            }
+        }   
+    customScroll_off();
+        document.getElementById("subDistrict1").innerHTML=strString;
+        customScroll_on();
+        loadTools();
+        ClickEvent();
+        
+        
+        strLocType = "radio";
+        strLocName = "LcationList";
+        
+        
+        createContent(strLocID,0,strLocName,strLocType,1);
+}
+</script>
+<!--<form action="jobsearch.asp"  method="post" id="frmJobSearch" name="frmJobSearch">-->
+<div class="left-content">
+<div class="row">
+<div class="col-sm-12">
+<div class="col-fixed-100">
+<div id="sticky-anchor"></div>
+<form action="jobsearch.asp" id="frmJobSearch" method="post" name="frmJobSearch">
+<div id="sticky">
+<ul class="nav">
+<li class="dropdown">
+<a class="dropdown-toggle tlc" data-toggle="dropdown" href="#">
+<i>
+<img alt="Keyword" height="22" src="images/Keywards_icon.png" width="27"/></i>
+<span>Keyword (s)</span>
+</a>
+<ul class="dropdown-menu animated fadeInLeft">
+<li class="container">
+<div class="row">
+<div class="col-sm-12">
+<div class="stitle-text-box">
+Search by keyword :
+</div>
+<div class="input-group">
+<!--<input type="text" class="form-control" placeholder="Search for...">-->
+<input class="form-control" id="txtsearch" maxlength="50" name="txtsearch" onchange="createContent(this.id,0, this.name, this.type,1)" placeholder="Search for..." size="10" type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn done-button-s" onclick="showSearchedResult('dropdown_bottom')" type="button">
+<img alt="Keyword Button" height="17" src="images/S_Search.png" width="24"/></button>
+</span>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</li>
+<li class="dropdown dropdown-1 ttest">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<i>
+<img alt="Category" height="22" src="images/Category_icon.png" width="26"/></i>
+<span>Category </span>
+</a>
+<ul class="dropdown-menu animated fadeInLeft">
+<li class="container">
+<div class="row">
+<div class="col-sm-12">
+<div class="stitle-text-box">Select From Industrial Category :</div>
+<div class="filter radios p-body">
+<label class="label_radio" for="fcat-1" id="lbfcat-1">
+<input checked="" class="JObSerachLeftPannel" id="fcat-1" name="fcat" type="radio" value="-1"/><span id="spfcat-1"> All Category</span></label>
+<label class="label_radio" for="fcat1" id="lbfcat1">
+<input class="JObSerachLeftPannel" id="fcat1" name="fcat" type="radio" value="1"/><span id="spfcat1"> Accounting/Finance</span></label>
+<label class="label_radio" for="fcat26" id="lbfcat26">
+<input class="JObSerachLeftPannel" id="fcat26" name="fcat" type="radio" value="26"/><span id="spfcat26"> Agro (Plant/Animal/Fisheries)</span></label>
+<label class="label_radio" for="fcat2" id="lbfcat2">
+<input class="JObSerachLeftPannel" id="fcat2" name="fcat" type="radio" value="2"/><span id="spfcat2"> Bank/Non-Bank Fin. Institution</span></label>
+<label class="label_radio" for="fcat21" id="lbfcat21">
+<input class="JObSerachLeftPannel" id="fcat21" name="fcat" type="radio" value="21"/><span id="spfcat21"> Beauty Care/ Health &amp; Fitness</span></label>
+<label class="label_radio" for="fcat3" id="lbfcat3">
+<input class="JObSerachLeftPannel" id="fcat3" name="fcat" type="radio" value="3"/><span id="spfcat3"> Commercial/Supply Chain</span></label>
+<label class="label_radio" for="fcat16" id="lbfcat16">
+<input class="JObSerachLeftPannel" id="fcat16" name="fcat" type="radio" value="16"/><span id="spfcat16"> Customer Support/Call Centre</span></label>
+<label class="label_radio" for="fcat15" id="lbfcat15">
+<input class="JObSerachLeftPannel" id="fcat15" name="fcat" type="radio" value="15"/><span id="spfcat15"> Data Entry/Operator/BPO</span></label>
+<label class="label_radio" for="fcat18" id="lbfcat18">
+<input class="JObSerachLeftPannel" id="fcat18" name="fcat" type="radio" value="18"/><span id="spfcat18"> Design/Creative</span></label>
+<label class="label_radio" for="fcat25" id="lbfcat25">
+<input class="JObSerachLeftPannel" id="fcat25" name="fcat" type="radio" value="25"/><span id="spfcat25"> Driving/Motor Technician</span></label>
+<label class="label_radio" for="fcat4" id="lbfcat4">
+<input class="JObSerachLeftPannel" id="fcat4" name="fcat" type="radio" value="4"/><span id="spfcat4"> Education/Training</span></label>
+<label class="label_radio" for="fcat23" id="lbfcat23">
+<input class="JObSerachLeftPannel" id="fcat23" name="fcat" type="radio" value="23"/><span id="spfcat23"> Electrician/ Construction/ Repair</span></label>
+<label class="label_radio" for="fcat5" id="lbfcat5">
+<input class="JObSerachLeftPannel" id="fcat5" name="fcat" type="radio" value="5"/><span id="spfcat5"> Engineer/Architect</span></label>
+<label class="label_radio" for="fcat6" id="lbfcat6">
+<input class="JObSerachLeftPannel" id="fcat6" name="fcat" type="radio" value="6"/><span id="spfcat6"> Garments/Textile</span></label>
+<label class="label_radio" for="fcat7" id="lbfcat7">
+<input class="JObSerachLeftPannel" id="fcat7" name="fcat" type="radio" value="7"/><span id="spfcat7"> General Management/Admin</span></label>
+<label class="label_radio" for="fcat20" id="lbfcat20">
+<input class="JObSerachLeftPannel" id="fcat20" name="fcat" type="radio" value="20"/><span id="spfcat20"> Hospitality/ Travel/ Tourism</span></label>
+<label class="label_radio" for="fcat17" id="lbfcat17">
+<input class="JObSerachLeftPannel" id="fcat17" name="fcat" type="radio" value="17"/><span id="spfcat17"> HR/Org. Development</span></label>
+<label class="label_radio" for="fcat8" id="lbfcat8">
+<input class="JObSerachLeftPannel" id="fcat8" name="fcat" type="radio" value="8"/><span id="spfcat8"> IT/Telecommunication</span></label>
+<label class="label_radio" for="fcat22" id="lbfcat22">
+<input class="JObSerachLeftPannel" id="fcat22" name="fcat" type="radio" value="22"/><span id="spfcat22"> Law/Legal</span></label>
+<label class="label_radio" for="fcat9" id="lbfcat9">
+<input class="JObSerachLeftPannel" id="fcat9" name="fcat" type="radio" value="9"/><span id="spfcat9"> Marketing/Sales</span></label>
+<label class="label_radio" for="fcat10" id="lbfcat10">
+<input class="JObSerachLeftPannel" id="fcat10" name="fcat" type="radio" value="10"/><span id="spfcat10"> Media/Advertisement/Event Mgt.</span></label>
+<label class="label_radio" for="fcat11" id="lbfcat11">
+<input class="JObSerachLeftPannel" id="fcat11" name="fcat" type="radio" value="11"/><span id="spfcat11"> Medical/Pharma</span></label>
+<label class="label_radio" for="fcat12" id="lbfcat12">
+<input class="JObSerachLeftPannel" id="fcat12" name="fcat" type="radio" value="12"/><span id="spfcat12"> NGO/Development</span></label>
+<label class="label_radio" for="fcat19" id="lbfcat19">
+<input class="JObSerachLeftPannel" id="fcat19" name="fcat" type="radio" value="19"/><span id="spfcat19"> Production/Operation</span></label>
+<label class="label_radio" for="fcat13" id="lbfcat13">
+<input class="JObSerachLeftPannel" id="fcat13" name="fcat" type="radio" value="13"/><span id="spfcat13"> Research/Consultancy</span></label>
+<label class="label_radio" for="fcat14" id="lbfcat14">
+<input class="JObSerachLeftPannel" id="fcat14" name="fcat" type="radio" value="14"/><span id="spfcat14"> Secretary/Receptionist</span></label>
+<label class="label_radio" for="fcat24" id="lbfcat24">
+<input class="JObSerachLeftPannel" id="fcat24" name="fcat" type="radio" value="24"/><span id="spfcat24"> Security/Support Service</span></label>
+<label class="label_radio" for="fcat-10" id="lbfcat-10">
+<input class="JObSerachLeftPannel" id="fcat-10" name="fcat" type="radio" value="-10"/><span id="spfcat-10"> Others</span></label>
+</div>
+</div>
+<div class="col-sm-12">
+<input class="done-button-sm pull-right" name="btnSend" type="button" value="Close"/>
+</div>
+</div>
+</li>
+</ul>
+</li>
+<li class="dropdown dropdown-2 ttest">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<i>
+<img alt="Industry" height="23" src="images/Industry_icon.png" width="26"/></i>
+<span>Industry </span>
+</a>
+<ul class="dropdown-menu animated fadeInLeft">
+<li class="container">
+<div class="row">
+<div class="col-sm-12">
+<div class="stitle-text-box">Organization Type :</div>
+<div class="filter radios p-body">
+<label class="label_radio" for="qOT0" id="lbqOT0">
+<input checked="" class="JObSerachLeftPannel" id="qOT0" name="qOT" type="radio" value="0"/><span id="spqOT0">Any</span></label>
+<label class="label_radio" for="qOT1" id="lbqOT1">
+<input class="JObSerachLeftPannel" id="qOT1" name="qOT" type="radio" value="1"/><span id="spqOT1">Government</span></label>
+<label class="label_radio" for="qOT2" id="lbqOT2">
+<input class="JObSerachLeftPannel" id="qOT2" name="qOT" type="radio" value="2"/><span id="spqOT2">Semi Government</span></label>
+<label class="label_radio" for="qOT3" id="lbqOT3">
+<input class="JObSerachLeftPannel" id="qOT3" name="qOT" type="radio" value="3"/><span id="spqOT3">NGO</span></label>
+<label class="label_radio" for="qOT4" id="lbqOT4">
+<input class="JObSerachLeftPannel" id="qOT4" name="qOT" type="radio" value="4"/><span id="spqOT4">Private Firm/Company</span></label>
+<label class="label_radio" for="qOT5" id="lbqOT5">
+<input class="JObSerachLeftPannel" id="qOT5" name="qOT" type="radio" value="5"/><span id="spqOT5">International Agencies</span></label>
+<label class="label_radio" for="qOT6" id="lbqOT6">
+<input class="JObSerachLeftPannel" id="qOT6" name="qOT" type="radio" value="6"/><span id="spqOT6">Others</span></label>
+</div>
+<div class="stitle-text-box">Industry Type :</div>
+<div class="filter radios p-body">
+<label class="label_radio" for="iCat0" id="lbiCat0">
+<input checked="" class="JObSerachLeftPannel" id="iCat0" name="iCat" type="radio" value="0"/><span id="spiCat0">Any</span></label>
+<label class="label_radio" for="iCat3" id="lbiCat3">
+<input class="JObSerachLeftPannel" id="iCat3" name="iCat" type="radio" value="3"/><span id="spiCat3">Agro based Industry</span></label>
+<label class="label_radio" for="iCat21" id="lbiCat21">
+<input class="JObSerachLeftPannel" id="iCat21" name="iCat" type="radio" value="21"/><span id="spiCat21">Airline/ Travel/ Tourism</span></label>
+<label class="label_radio" for="iCat5" id="lbiCat5">
+<input class="JObSerachLeftPannel" id="iCat5" name="iCat" type="radio" value="5"/><span id="spiCat5">Architecture/ Engineering/ Construction</span></label>
+<label class="label_radio" for="iCat14" id="lbiCat14">
+<input class="JObSerachLeftPannel" id="iCat14" name="iCat" type="radio" value="14"/><span id="spiCat14">Automobile/Industrial Machine</span></label>
+<label class="label_radio" for="iCat1" id="lbiCat1">
+<input class="JObSerachLeftPannel" id="iCat1" name="iCat" type="radio" value="1"/><span id="spiCat1">Bank/ Non-Bank Fin. Institution</span></label>
+<label class="label_radio" for="iCat19" id="lbiCat19">
+<input class="JObSerachLeftPannel" id="iCat19" name="iCat" type="radio" value="19"/><span id="spiCat19">Education</span></label>
+<label class="label_radio" for="iCat8" id="lbiCat8">
+<input class="JObSerachLeftPannel" id="iCat8" name="iCat" type="radio" value="8"/><span id="spiCat8">Electronics/ Consumer Durables</span></label>
+<label class="label_radio" for="iCat15" id="lbiCat15">
+<input class="JObSerachLeftPannel" id="iCat15" name="iCat" type="radio" value="15"/><span id="spiCat15">Energy/ Power/ Fuel</span></label>
+<label class="label_radio" for="iCat23" id="lbiCat23">
+<input class="JObSerachLeftPannel" id="iCat23" name="iCat" type="radio" value="23"/><span id="spiCat23">Entertainment/ Recreation</span></label>
+<label class="label_radio" for="iCat26" id="lbiCat26">
+<input class="JObSerachLeftPannel" id="iCat26" name="iCat" type="radio" value="26"/><span id="spiCat26">Fire, Safety &amp; Protection</span></label>
+<label class="label_radio" for="iCat24" id="lbiCat24">
+<input class="JObSerachLeftPannel" id="iCat24" name="iCat" type="radio" value="24"/><span id="spiCat24">Food &amp; Beverage Industry</span></label>
+<label class="label_radio" for="iCat2" id="lbiCat2">
+<input class="JObSerachLeftPannel" id="iCat2" name="iCat" type="radio" value="2"/><span id="spiCat2">Garments/ Textile</span></label>
+<label class="label_radio" for="iCat18" id="lbiCat18">
+<input class="JObSerachLeftPannel" id="iCat18" name="iCat" type="radio" value="18"/><span id="spiCat18">Govt./ Semi-Govt./ Autonomous</span></label>
+<label class="label_radio" for="iCat20" id="lbiCat20">
+<input class="JObSerachLeftPannel" id="iCat20" name="iCat" type="radio" value="20"/><span id="spiCat20">Hospital/ Diagnostic Center</span></label>
+<label class="label_radio" for="iCat13" id="lbiCat13">
+<input class="JObSerachLeftPannel" id="iCat13" name="iCat" type="radio" value="13"/><span id="spiCat13">Hotel/Restaurant</span></label>
+<label class="label_radio" for="iCat11" id="lbiCat11">
+<input class="JObSerachLeftPannel" id="iCat11" name="iCat" type="radio" value="11"/><span id="spiCat11">Information Technology (IT)</span></label>
+<label class="label_radio" for="iCat16" id="lbiCat16">
+<input class="JObSerachLeftPannel" id="iCat16" name="iCat" type="radio" value="16"/><span id="spiCat16">Logistics/ Transportation</span></label>
+<label class="label_radio" for="iCat7" id="lbiCat7">
+<input class="JObSerachLeftPannel" id="iCat7" name="iCat" type="radio" value="7"/><span id="spiCat7">Manufacturing (Heavy Industry)</span></label>
+<label class="label_radio" for="iCat22" id="lbiCat22">
+<input class="JObSerachLeftPannel" id="iCat22" name="iCat" type="radio" value="22"/><span id="spiCat22">Manufacturing (Light Industry)</span></label>
+<label class="label_radio" for="iCat10" id="lbiCat10">
+<input class="JObSerachLeftPannel" id="iCat10" name="iCat" type="radio" value="10"/><span id="spiCat10">Media (Satellite/ Print/ Online)/ Advertising/ Event Mgt.</span></label>
+<label class="label_radio" for="iCat17" id="lbiCat17">
+<input class="JObSerachLeftPannel" id="iCat17" name="iCat" type="radio" value="17"/><span id="spiCat17">NGO/Development</span></label>
+<label class="label_radio" for="iCat4" id="lbiCat4">
+<input class="JObSerachLeftPannel" id="iCat4" name="iCat" type="radio" value="4"/><span id="spiCat4">Pharmaceuticals</span></label>
+<label class="label_radio" for="iCat6" id="lbiCat6">
+<input class="JObSerachLeftPannel" id="iCat6" name="iCat" type="radio" value="6"/><span id="spiCat6">Real Estate/ Development</span></label>
+<label class="label_radio" for="iCat25" id="lbiCat25">
+<input class="JObSerachLeftPannel" id="iCat25" name="iCat" type="radio" value="25"/><span id="spiCat25">Security Service</span></label>
+<label class="label_radio" for="iCat12" id="lbiCat12">
+<input class="JObSerachLeftPannel" id="iCat12" name="iCat" type="radio" value="12"/><span id="spiCat12">Telecommunication</span></label>
+<label class="label_radio" for="iCat9" id="lbiCat9">
+<input class="JObSerachLeftPannel" id="iCat9" name="iCat" type="radio" value="9"/><span id="spiCat9">Wholesale/ Retail/ Export-Import</span></label>
+<label class="label_radio" for="iCat-10" id="lbiCat-10">
+<input class="JObSerachLeftPannel" id="iCat-10" name="iCat" type="radio" value="-10"/><span id="spiCat-10">Others</span></label>
+</div>
+</div>
+<div class="col-sm-12">
+<input class="done-button-sm pull-right" name="btnSend" type="button" value="Close"/>
+</div>
+</div>
+</li>
+</ul>
+</li>
+<li class="dropdown dropdown-3 ttest">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<i>
+<img alt="Location" height="22" src="images/Location_icon.png" width="26"/></i>
+<span>Location </span>
+</a>
+<ul class="dropdown-menu animated fadeInLeft">
+<li class="containerl">
+<div class="row">
+<div class="col-sm-5 loc">
+<div class="stitle-text-box" id="locationTitle" style="margin-top: 0px;">Location :</div>
+<div class="filter radios" style="height: 200px;">
+<label class="label_radio" for="Country0" id="lbCountry0">
+<input checked="" id="Country0" name="Country" onclick="setCountry(this.id, this.value)" type="radio" value="0"/><span id="spCountry0"><strong>Inside Bangladesh</strong></span></label>
+<label class="label_radio" for="Country1" id="lbCountry1" style="margin-top: 135px">
+<input id="Country1" name="Country" onclick="setCountry(this.id, this.value)" type="radio" value="1"/><span id="spCountry1"><strong>Outside of Bangladesh</strong></span></label>
+</div>
+<div class="filter radios1 p-body-s" data-height="130" style="margin: -163px 0px 5px 25px; border: 1px solid #595b5d;">
+<label class="label_radio" for="District1" id="lbDistrict1">
+<input id="District1" name="District" onclick="setDestict(this.id, this.value);" type="radio" value="1"/><span id="spDistrict1">Dhaka Division</span></label>
+<label class="label_radio" for="District2" id="lbDistrict2">
+<input id="District2" name="District" onclick="setDestict(this.id, this.value);" type="radio" value="2"/><span id="spDistrict2">Chittagong Division</span></label>
+<label class="label_radio" for="District3" id="lbDistrict3">
+<input id="District3" name="District" onclick="setDestict(this.id, this.value);" type="radio" value="3"/><span id="spDistrict3">Rajshahi Division</span></label>
+<label class="label_radio" for="District4" id="lbDistrict4">
+<input id="District4" name="District" onclick="setDestict(this.id, this.value);" type="radio" value="4"/><span id="spDistrict4">Khulna Division</span></label>
+<label class="label_radio" for="District5" id="lbDistrict5">
+<input id="District5" name="District" onclick="setDestict(this.id, this.value);" type="radio" value="5"/><span id="spDistrict5">Sylhet Division</span></label>
+<label class="label_radio" for="District6" id="lbDistrict6">
+<input id="District6" name="District" onclick="setDestict(this.id, this.value);" type="radio" value="6"/><span id="spDistrict6">Rangpur Division</span></label>
+<label class="label_radio" for="District7" id="lbDistrict7">
+<input id="District7" name="District" onclick="setDestict(this.id, this.value);" type="radio" value="7"/><span id="spDistrict7">Barisal Division</span></label>
+<label class="label_radio" for="District8" id="lbDistrict8">
+<input id="District8" name="District" onclick="setDestict(this.id, this.value);" type="radio" value="8"/><span id="spDistrict8">Mymensingh Division</span></label>
+<label class="label_radio" for="District9" id="lbDistrict9">
+<input id="District9" name="District" onclick="setDestict(this.id, this.value);" type="radio" value="-1"/><span id="spDistrict9">Anywhere</span></label>
+</div>
+</div>
+<div class="col-sm-2">
+<div class="loc-arrow" style="color: #FFF; font-size: 24px; text-align: center;">⇨</div>
+</div>
+<div class="col-sm-5 loc">
+<div class="filter radios p-body-l" data-height="200" id="subDistrict1" style="margin: 35px 0px 0px 0px; /*overflow: hidden; */">
+<label class="label_radio" for="LcationList82" id="lbLcationList82">
+<input class="JObSerachLeftPannel" id="LcationList82" name="LcationList" type="radio" value="Dhaka"/><span id="spLcationList82">All in Dhaka</span></label>
+<label class="label_radio" for="LcationList14" id="lbLcationList14">
+<input class="JObSerachLeftPannel" id="LcationList14" name="LcationList" type="radio" value="14"/><span id="spLcationList14">Dhaka</span></label>
+<label class="label_radio" for="LcationList16" id="lbLcationList16">
+<input class="JObSerachLeftPannel" id="LcationList16" name="LcationList" type="radio" value="16"/><span id="spLcationList16">Faridpur</span></label>
+<label class="label_radio" for="LcationList19" id="lbLcationList19">
+<input class="JObSerachLeftPannel" id="LcationList19" name="LcationList" type="radio" value="19"/><span id="spLcationList19">Gazipur</span></label>
+<label class="label_radio" for="LcationList20" id="lbLcationList20">
+<input class="JObSerachLeftPannel" id="LcationList20" name="LcationList" type="radio" value="20"/><span id="spLcationList20">Gopalganj</span></label>
+<label class="label_radio" for="LcationList29" id="lbLcationList29">
+<input class="JObSerachLeftPannel" id="LcationList29" name="LcationList" type="radio" value="29"/><span id="spLcationList29">kishoreganj</span></label>
+<label class="label_radio" for="LcationList34" id="lbLcationList34">
+<input class="JObSerachLeftPannel" id="LcationList34" name="LcationList" type="radio" value="34"/><span id="spLcationList34">Madaripur</span></label>
+<label class="label_radio" for="LcationList36" id="lbLcationList36">
+<input class="JObSerachLeftPannel" id="LcationList36" name="LcationList" type="radio" value="36"/><span id="spLcationList36">Manikganj</span></label>
+<label class="label_radio" for="LcationList39" id="lbLcationList39">
+<input class="JObSerachLeftPannel" id="LcationList39" name="LcationList" type="radio" value="39"/><span id="spLcationList39">Munshiganj</span></label>
+<label class="label_radio" for="LcationList43" id="lbLcationList43">
+<input class="JObSerachLeftPannel" id="LcationList43" name="LcationList" type="radio" value="43"/><span id="spLcationList43">Narayanganj</span></label>
+<label class="label_radio" for="LcationList44" id="lbLcationList44">
+<input class="JObSerachLeftPannel" id="LcationList44" name="LcationList" type="radio" value="44"/><span id="spLcationList44">Narsingdi</span></label>
+<label class="label_radio" for="LcationList53" id="lbLcationList53">
+<input class="JObSerachLeftPannel" id="LcationList53" name="LcationList" type="radio" value="53"/><span id="spLcationList53">Rajbari</span></label>
+<label class="label_radio" for="LcationList58" id="lbLcationList58">
+<input class="JObSerachLeftPannel" id="LcationList58" name="LcationList" type="radio" value="58"/><span id="spLcationList58">Shariatpur</span></label>
+<label class="label_radio" for="LcationList63" id="lbLcationList63">
+<input class="JObSerachLeftPannel" id="LcationList63" name="LcationList" type="radio" value="63"/><span id="spLcationList63">Tangail</span></label>
+</div>
+</div>
+<div class="col-sm-12">
+<input class="done-button-sm pull-right" name="btnSend" type="button" value="Close"/>
+</div>
+</div>
+</li>
+</ul>
+</li>
+<li class="dropdown dropdown-7">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<i>
+<img alt="Deadline" height="22" src="images/Deadline_icon.png" width="26"/></i>
+<span>Posted/Deadline</span>
+</a>
+<ul class="dropdown-menu animated fadeInLeft">
+<li class="container">
+<div class="row">
+<div class="col-sm-12">
+<div class="stitle-text-box">Posted within :</div>
+<div class="filter radios">
+<label class="label_radio" for="qPosted0" id="lbqPosted0">
+<input checked="" class="JObSerachLeftPannel" id="qPosted0" name="qPosted" type="radio" value="0"/><span id="spqPosted0">Any</span></label>
+<label class="label_radio" for="qPosted1" id="lbqPosted1">
+<input class="JObSerachLeftPannel" id="qPosted1" name="qPosted" type="radio" value="1"/><span id="spqPosted1">Today</span></label>
+<label class="label_radio" for="qPosted2" id="lbqPosted2">
+<input class="JObSerachLeftPannel" id="qPosted2" name="qPosted" type="radio" value="2"/><span id="spqPosted2">Last 2 days</span></label>
+<label class="label_radio" for="qPosted3" id="lbqPosted3">
+<input class="JObSerachLeftPannel" id="qPosted3" name="qPosted" type="radio" value="3"/><span id="spqPosted3">Last 3 days</span></label>
+<label class="label_radio" for="qPosted4" id="lbqPosted4">
+<input class="JObSerachLeftPannel" id="qPosted4" name="qPosted" type="radio" value="4"/><span id="spqPosted4">Last 4 days</span></label>
+<label class="label_radio" for="qPosted5" id="lbqPosted5">
+<input class="JObSerachLeftPannel" id="qPosted5" name="qPosted" type="radio" value="5"/><span id="spqPosted5">Last 5 days</span></label>
+</div>
+<div class="stitle-text-box">Deadline :</div>
+<div class="filter radios">
+<label class="label_radio" for="qDeadline0" id="lbqDeadline0">
+<input checked="" class="JObSerachLeftPannel" id="qDeadline0" name="qDeadline" type="radio" value="0"/><span id="spqDeadline0">Any</span></label>
+<label class="label_radio" for="qDeadline1" id="lbqDeadline1">
+<input class="JObSerachLeftPannel" id="qDeadline1" name="qDeadline" type="radio" value="1"/><span id="spqDeadline1">Today</span></label>
+<label class="label_radio" for="qDeadline2" id="lbqDeadline2">
+<input class="JObSerachLeftPannel" id="qDeadline2" name="qDeadline" type="radio" value="2"/><span id="spqDeadline2">Tomorrow</span></label>
+<label class="label_radio" for="qDeadline3" id="lbqDeadline3">
+<input class="JObSerachLeftPannel" id="qDeadline3" name="qDeadline" type="radio" value="3"/><span id="spqDeadline3">Next 2 days</span></label>
+<label class="label_radio" for="qDeadline4" id="lbqDeadline4">
+<input class="JObSerachLeftPannel" id="qDeadline4" name="qDeadline" type="radio" value="4"/><span id="spqDeadline4">Next 3 days</span></label>
+<label class="label_radio" for="qDeadline5" id="lbqDeadline5">
+<input class="JObSerachLeftPannel" id="qDeadline5" name="qDeadline" type="radio" value="5"/><span id="spqDeadline5">Next 4 days</span></label>
+</div>
+</div>
+<div class="col-sm-12">
+<input class="done-button-sm pull-right" name="btnSend" type="button" value="Close"/>
+</div>
+</div>
+</li>
+</ul>
+</li>
+<li class="dropdown dropdown-8 ttest">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<i>
+<img alt="Newspaper" height="22" src="images/Newspaper_icon.png" width="26"/></i>
+<span>Newspaper Job</span>
+</a>
+<ul class="dropdown-menu animated fadeInLeft">
+<li class="container">
+<div class="row">
+<div class="col-sm-12">
+<div class="stitle-text-box">Newspaper List:</div>
+<div class="filter radios p-body">
+<label class="label_radio" for="Newspaper0" id="lbNewspaper0">
+<input checked="" class="JObSerachLeftPannel" id="Newspaper0" name="Newspaper" type="radio" value="0"/><span id="spNewspaper0">All Jobs</span></label>
+<label class="label_radio" for="Newspaper1" id="lbNewspaper1">
+<input id="Newspaper1" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="1"/><span id="spNewspaper1">Bdjobs.com Online Job Posting</span></label>
+<label class="label_radio" for="Newspaper2" id="lbNewspaper2">
+<input id="Newspaper2" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="2"/><span id="spNewspaper2">The Daily Ittefaq</span></label>
+<label class="label_radio" for="Newspaper5" id="lbNewspaper5">
+<input id="Newspaper5" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="5"/><span id="spNewspaper5">The Daily Observer</span></label>
+<label class="label_radio" for="Newspaper6" id="lbNewspaper6">
+<input id="Newspaper6" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="6"/><span id="spNewspaper6">The Daily Prothom Alo</span></label>
+<label class="label_radio" for="Newspaper4" id="lbNewspaper4">
+<input id="Newspaper4" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="4"/><span id="spNewspaper4">The Daily Janakantha</span></label>
+<label class="label_radio" for="Newspaper8" id="lbNewspaper8">
+<input id="Newspaper8" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="8"/><span id="spNewspaper8">The Daily Jugantor</span></label>
+<label class="label_radio" for="Newspaper9" id="lbNewspaper9">
+<input id="Newspaper9" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="9"/><span id="spNewspaper9">The Daily Inqilab</span></label>
+<label class="label_radio" for="Newspaper7" id="lbNewspaper7">
+<input id="Newspaper7" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="7"/><span id="spNewspaper7">The Daily Star</span></label>
+<label class="label_radio" for="Newspaper3" id="lbNewspaper3">
+<input id="Newspaper3" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="3"/><span id="spNewspaper3">The Daily Independent</span></label>
+<label class="label_radio" for="Newspaper18" id="lbNewspaper18">
+<input id="Newspaper18" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="18"/><span id="spNewspaper18">The Daily Jai Jai Din</span></label>
+<label class="label_radio" for="Newspaper13" id="lbNewspaper13">
+<input id="Newspaper13" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="13"/><span id="spNewspaper13">The Daily New Age</span></label>
+<label class="label_radio" for="Newspaper12" id="lbNewspaper12">
+<input id="Newspaper12" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="12"/><span id="spNewspaper12">The Daily Financial Express</span></label>
+<label class="label_radio" for="Newspaper20" id="lbNewspaper20">
+<input id="Newspaper20" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="20"/><span id="spNewspaper20">The Daily Amar Desh</span></label>
+<label class="label_radio" for="Newspaper21" id="lbNewspaper21">
+<input id="Newspaper21" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="21"/><span id="spNewspaper21">The Daily Juger Alo (Rangpur)</span></label>
+<label class="label_radio" for="Newspaper19" id="lbNewspaper19">
+<input id="Newspaper19" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="19"/><span id="spNewspaper19">The Daily Sunshine (Rajshahi)</span></label>
+<label class="label_radio" for="Newspaper11" id="lbNewspaper11">
+<input id="Newspaper11" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="11"/><span id="spNewspaper11">The Daily Azadi (Ctg.)</span></label>
+<label class="label_radio" for="Newspaper10" id="lbNewspaper10">
+<input id="Newspaper10" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="10"/><span id="spNewspaper10">The Daily Purbokon (Ctg.)</span></label>
+<label class="label_radio" for="Newspaper17" id="lbNewspaper17">
+<input id="Newspaper17" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="17"/><span id="spNewspaper17">The Daily Paribartan (Barisal)</span></label>
+<label class="label_radio" for="Newspaper16" id="lbNewspaper16">
+<input id="Newspaper16" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="16"/><span id="spNewspaper16">The Daily Sonali Sangbad (Rajshahi)</span></label>
+<label class="label_radio" for="Newspaper14" id="lbNewspaper14">
+<input id="Newspaper14" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="14"/><span id="spNewspaper14">The Daily Sylheter Daak (Sylhet)</span></label>
+<label class="label_radio" for="Newspaper15" id="lbNewspaper15">
+<input id="Newspaper15" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="15"/><span id="spNewspaper15">The Daily Purbanchal (Khulna)</span></label>
+<label class="label_radio" for="Newspaper22" id="lbNewspaper22">
+<input id="Newspaper22" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="22"/><span id="spNewspaper22">The Daily Songram</span></label>
+<label class="label_radio" for="Newspaper23" id="lbNewspaper23">
+<input id="Newspaper23" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="23"/><span id="spNewspaper23">The Daily Naya Diganta</span></label>
+<label class="label_radio" for="Newspaper24" id="lbNewspaper24">
+<input id="Newspaper24" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="24"/><span id="spNewspaper24">The Daily Shomokal</span></label>
+<label class="label_radio" for="Newspaper25" id="lbNewspaper25">
+<input id="Newspaper25" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="25"/><span id="spNewspaper25">The Daily Amader Somoy</span></label>
+<label class="label_radio" for="Newspaper26" id="lbNewspaper26">
+<input id="Newspaper26" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="26"/><span id="spNewspaper26">The Daily Korotoa (Bogra)</span></label>
+<label class="label_radio" for="Newspaper27" id="lbNewspaper27">
+<input id="Newspaper27" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="27"/><span id="spNewspaper27">The Daily Comillar Kagoj (Comilla)</span></label>
+<label class="label_radio" for="Newspaper28" id="lbNewspaper28">
+<input id="Newspaper28" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="28"/><span id="spNewspaper28">The Daily Sabuj Sylhet (Sylhet)</span></label>
+<label class="label_radio" for="Newspaper29" id="lbNewspaper29">
+<input id="Newspaper29" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="29"/><span id="spNewspaper29">The Daily Pragatir Alo (Tangail)</span></label>
+<label class="label_radio" for="Newspaper30" id="lbNewspaper30">
+<input id="Newspaper30" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="30"/><span id="spNewspaper30">The Daily Jahan (Mymensing)</span></label>
+<label class="label_radio" for="Newspaper32" id="lbNewspaper32">
+<input id="Newspaper32" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="32"/><span id="spNewspaper32">The Daily Ruposi Bangala (Comilla)</span></label>
+<label class="label_radio" for="Newspaper33" id="lbNewspaper33">
+<input id="Newspaper33" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="33"/><span id="spNewspaper33">The Daily Loksomaj (Jessore)</span></label>
+<label class="label_radio" for="Newspaper34" id="lbNewspaper34">
+<input id="Newspaper34" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="34"/><span id="spNewspaper34">Company`s Website</span></label>
+<label class="label_radio" for="Newspaper35" id="lbNewspaper35">
+<input id="Newspaper35" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="35"/><span id="spNewspaper35">The Daily Kaler Kantha</span></label>
+<label class="label_radio" for="Newspaper36" id="lbNewspaper36">
+<input id="Newspaper36" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="36"/><span id="spNewspaper36">The Daily Amader Arthonity</span></label>
+<label class="label_radio" for="Newspaper37" id="lbNewspaper37">
+<input id="Newspaper37" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="37"/><span id="spNewspaper37">The Daily Karnafuli (Ctg)</span></label>
+<label class="label_radio" for="Newspaper38" id="lbNewspaper38">
+<input id="Newspaper38" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="38"/><span id="spNewspaper38">The Daily Shuprovat Bangladesh</span></label>
+<label class="label_radio" for="Newspaper39" id="lbNewspaper39">
+<input id="Newspaper39" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="39"/><span id="spNewspaper39">The Daily Sonar Desh (Rajshahi)</span></label>
+<label class="label_radio" for="Newspaper40" id="lbNewspaper40">
+<input id="Newspaper40" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="40"/><span id="spNewspaper40">The Daily Gramer Kagoj (Jessore)</span></label>
+<label class="label_radio" for="Newspaper41" id="lbNewspaper41">
+<input id="Newspaper41" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="41"/><span id="spNewspaper41">The Daily Amader Comilla (Comilla)</span></label>
+<label class="label_radio" for="Newspaper42" id="lbNewspaper42">
+<input id="Newspaper42" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="42"/><span id="spNewspaper42">Daily Khabor</span></label>
+<label class="label_radio" for="Newspaper43" id="lbNewspaper43">
+<input id="Newspaper43" name="Newspaper" onclick="createContent(this.id,0, this.name, this.type,1)" type="radio" value="43"/><span id="spNewspaper43">Daily Probaho</span></label>
+</div>
+</div>
+<div class="col-sm-12">
+<input class="done-button-sm pull-right" name="btnSend" type="button" value="Close"/>
+</div>
+</div>
+</li>
+</ul>
+</li>
+<li class="dropdown dropdown-10">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<i>
+<img alt="" height="22" src="images/Other-Filter.png" width="26"/></i>
+<span>Other Filters</span>
+</a>
+<ul class="dropdown-menu animated fadeInLeft">
+<li class="containerm">
+<div class="row">
+<div class="col-sm-5">
+<div class="row">
+<div class="col-sm-12">
+<div class="stitle-text-box-s">Gender :</div>
+<div class="filter-sub radios">
+<label class="label_check" for="qGender1" id="lbqGender1">
+<input class="JObSerachLeftPannel" id="qGender1" name="qGender" type="checkbox" value="M"/><span id="spqGender1">Male</span></label>
+<label class="label_check" for="qGender2" id="lbqGender2">
+<input class="JObSerachLeftPannel" id="qGender2" name="qGender" type="checkbox" value="F"/><span id="spqGender2">Female</span></label>
+<label class="label_check" for="qGenderB0" id="lbqGenderB0">
+<input class="JObSerachLeftPannel" id="qGenderB0" name="qGenderB" type="checkbox" value="B"/><span id="spqGenderB0">Both</span></label>
+</div>
+</div>
+<div class="col-sm-12 empt-d">
+ 
+</div>
+<div class="col-sm-12">
+<div class="stitle-text-box-s">Job Type :</div>
+<div class="filter radios">
+<label class="label_radio" for="qJobSpecialSkill-1" id="lbqJobSpecialSkill-1">
+<input checked="checked" class="JObSerachLeftPannel" id="qJobSpecialSkill-1" name="qJobSpecialSkill" type="radio" value="-1"/><span id="spqJobSpecialSkill-1">All jobs</span></label>
+<label class="label_radio" for="qJobSpecialSkill1" id="lbqJobSpecialSkill1">
+<input class="JObSerachLeftPannel" id="qJobSpecialSkill1" name="qJobSpecialSkill" type="radio" value="1"/><span id="spqJobSpecialSkill1">Special skilled jobs</span></label>
+<label class="label_radio" for="qJobSpecialSkill0" id="lbqJobSpecialSkill0">
+<input class="JObSerachLeftPannel" id="qJobSpecialSkill0" name="qJobSpecialSkill" type="radio" value="0"/><span id="spqJobSpecialSkill0">All except special skilled jobs</span></label>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-7">
+<div class="row">
+<div class="col-sm-6">
+<div class="stitle-text-box-s">Job Nature :</div>
+<select class="form-control" id="qJobNature" name="qJobNature" onchange="createContent(this.id, 0, this.name, this.type, 0)">
+<option selected="" value="0">Any</option>
+<option value="FullTime">Full-Time</option>
+<option value="PartTime">Part-Time</option>
+<option value="Contract">Contractual</option>
+</select>
+</div>
+<div class="col-sm-6">
+<div class="stitle-text-box-s">Job Level :</div>
+<select class="form-control" id="qJobLevel" name="qJobLevel" onchange="createContent(this.id, 0, this.name, this.type, 0)">
+<option selected="" value="0">Any</option>
+<option value="Entry">Entry level</option>
+<option value="Mid">Mid level</option>
+<option value="Top">Top level</option>
+</select>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12 empt-dl">
+ 
+</div>
+</div>
+<div class="row">
+<div class="col-sm-6">
+<div class="stitle-text-box-s">Experience Range :</div>
+<select class="form-control" id="qExp" name="qExp" onchange="createContent(this.id, 0, this.name, this.type, 0)">
+<option selected="" value="0">Any</option>
+<option value="1">Below 1 year</option>
+<option value="2">1  -  &lt; 3 years</option>
+<option value="3">3  -  &lt; 5 years</option>
+<option value="4">5  -  &lt; 10 years</option>
+<option value="5">Over 10 years</option>
+</select>
+</div>
+<div class="col-sm-6">
+<div class="stitle-text-box-s">Age Range :</div>
+<select class="form-control" id="qAge" name="qAge" onchange="createContent(this.id, 0, this.name, this.type, 0)">
+<option selected="" value="0">Any</option>
+<option value="1">Below 20 years</option>
+<option value="2">20  -  &lt; 30 years</option>
+<option value="3">30  -  &lt; 40 years</option>
+<option value="4">40  -  &lt; 50 years</option>
+<option value="5">Over 50 years</option>
+</select>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<input class="done-button-sm pull-right" name="btnSend" onclick="" type="button" value="Close"/>
+</div>
+</div>
+</li>
+</ul>
+</li>
+<li>
+<a class="llc" href="javascript:ClearAllFilters()">
+<span>Clear All</span>
+<i class="fa fa-md">
+<img alt="Clear" height="14" src="images/Clear_Icon.png" style="vertical-align: text-top;" width="14"/></i>
+</a>
+</li>
+</ul>
+</div>
+<input id="hidOrder" name="hidOrder" type="hidden" value="''"/>
+<input id="pg" name="pg" type="hidden" value="1"/>
+<input id="hidJobSearch" name="hidJobSearch" type="hidden" value="JobSearch"/>
+<input id="MPostings" name="MPostings" type="hidden" value=""/>
+<input id="ver" name="ver" type="hidden" value=""/>
+</form>
+<!-- End Left filter  -->
+<script type="text/javascript">
+$(".col-fixed-100 .dropdown-menu")
+.on({
+        "click": function (e) {
+        e.stopPropagation();
+        }
+        });
+</script>
+</div>
+<div class="col-offset-120" id="jobList">
+<div class="boxed">
+<div class="row">
+<div class="col-sm-12">
+<div class="cont-pagination-wrapper">
+<div class="row">
+<div class="col-sm-6">
+Click at the job title to view details
+</div>
+<div class="col-sm-6">
+<div class="topr-pagination-div">
+<div style="float:left; margin:2px 0px 0px 0px;">Jobs per page </div>
+<div style="float:left;">
+<select class="form-control" id="cmbjobsPerPage" name="cmbjobsPerPage" onchange="setPerpageRecord(this.value);">
+<option onclick="ga('send', 'event','Pagging - Top' , 'click', '10', 1);" value="10">10</option>
+<option onclick="ga('send', 'event','Pagging - Top' , 'click', '20', 1);" selected="" value="20">20</option>
+<option onclick="ga('send', 'event','Pagging - Top' , 'click', '30', 1);" value="30">30</option>
+<option onclick="ga('send', 'event','Pagging - Top' , 'click', '40', 1);" value="40">40</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="norm-jobs-wrapper" onclick="DivOpen('id=667670&amp;ln=1');">
+<div class="row">
+<div class="col-sm-3 col-sm-push-3">
+<!--<div class="row">
+<div class="col-sm-12">
+<div class="comp_logo"><img src="images/38951.jpg" alt=""></div>
+</div>
+</div>-->
+</div>
+<div class="col-sm-9 col-sm-pull-9">
+<div class="row">
+<div class="col-sm-12">
+<div class="comp-name-text">A Leading Paper Industry</div>
+</div>
+<div class="col-sm-12">
+<div class="job-title-text">
+<a href="jobdetails.asp?id=667670&amp;ln=1" onclick="clickJObTitle()" target="_blank">
+Assistant Manager
+</a>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="edu-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="edu-text-s">
+Education:
+</div>
+</div>
+<div class="col-sm-10">
+<div class="edu-text-d">
+Graduation in Chemical Engineering
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="row">
+<div class="col-sm-9">
+<div class="exp-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="exp-text-s">Experience:</div>
+</div>
+<div class="col-sm-10">
+<div class="exp-text-d">
+8 to 10 year(s)
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="dead-text">
+<div class="dead-text-s">Deadline: </div>
+<div class="dead-text-d">
+<strong>Oct 28, </strong>2016
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="norm-jobs-wrapper" onclick="DivOpen('id=667669&amp;ln=1');">
+<div class="row">
+<div class="col-sm-3 col-sm-push-3">
+<!--<div class="row">
+<div class="col-sm-12">
+<div class="comp_logo"><img src="images/38951.jpg" alt=""></div>
+</div>
+</div>-->
+</div>
+<div class="col-sm-9 col-sm-pull-9">
+<div class="row">
+<div class="col-sm-12">
+<div class="comp-name-text">Augmedix</div>
+</div>
+<div class="col-sm-12">
+<div class="job-title-text">
+<a href="jobdetails.asp?id=667669&amp;ln=1" onclick="clickJObTitle()" target="_blank">
+Software Project Manager
+</a>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="edu-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="edu-text-s">
+Education:
+</div>
+</div>
+<div class="col-sm-10">
+<div class="edu-text-d">
+Bachelor of Science in CS or equivalent 
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="row">
+<div class="col-sm-9">
+<div class="exp-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="exp-text-s">Experience:</div>
+</div>
+<div class="col-sm-10">
+<div class="exp-text-d">
+At least 3 year(s)
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="dead-text">
+<div class="dead-text-s">Deadline: </div>
+<div class="dead-text-d">
+<strong>Oct 6, </strong>2016
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="norm-jobs-wrapper" onclick="DivOpen('id=667667&amp;ln=1');">
+<div class="row">
+<div class="col-sm-3 col-sm-push-3">
+<!--<div class="row">
+<div class="col-sm-12">
+<div class="comp_logo"><img src="images/38951.jpg" alt=""></div>
+</div>
+</div>-->
+</div>
+<div class="col-sm-9 col-sm-pull-9">
+<div class="row">
+<div class="col-sm-12">
+<div class="comp-name-text">New Vision Solutions Ltd</div>
+</div>
+<div class="col-sm-12">
+<div class="job-title-text">
+<a href="jobdetails.asp?id=667667&amp;ln=1" onclick="clickJObTitle()" target="_blank">
+Research Manager
+</a>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="edu-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="edu-text-s">
+Education:
+</div>
+</div>
+<div class="col-sm-10">
+<div class="edu-text-d">
+<ul><li>Education and Experience</li><li>   Minimum Masters Degree from any reputed university (Social ...</li></ul>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="col-sm-12">
+        <div class="row">
+        <div class="col-sm-9">
+        <div class="exp-text">
+        <div class="row">
+        <div class="col-sm-2">
+        <div class="exp-text-s">Experience:</div>
+        </div>
+        <div class="col-sm-10">
+        <div class="exp-text-d">
+        At most 5 year(s)
+        </div>
+        </div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="dead-text">
+<div class="dead-text-s">Deadline: </div>
+<div class="dead-text-d">
+<strong>Oct 28, </strong>2016
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="norm-jobs-wrapper" onclick="DivOpen('id=667666&amp;ln=1');">
+<div class="row">
+<div class="col-sm-3 col-sm-push-3">
+<!--<div class="row">
+<div class="col-sm-12">
+<div class="comp_logo"><img src="images/38951.jpg" alt=""></div>
+</div>
+</div>-->
+</div>
+<div class="col-sm-9 col-sm-pull-9">
+<div class="row">
+<div class="col-sm-12">
+<div class="comp-name-text">Meghna Group of Industries.</div>
+</div>
+<div class="col-sm-12">
+<div class="job-title-text">
+<a href="jobdetails.asp?id=667666&amp;ln=1" onclick="clickJObTitle()" target="_blank">
+Divisional Manager / Regional Manager - Sales (FMCG Products)
+</a>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="edu-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="edu-text-s">
+Education:
+</div>
+</div>
+<div class="col-sm-10">
+<div class="edu-text-d">
+MBA major in Marketing or Master Degree in any discipline having relevant working experience in ...
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="row">
+<div class="col-sm-9">
+<div class="exp-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="exp-text-s">Experience:</div>
+</div>
+<div class="col-sm-10">
+<div class="exp-text-d">
+At least 7 year(s)
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="dead-text">
+<div class="dead-text-s">Deadline: </div>
+<div class="dead-text-d">
+<strong>Oct 14, </strong>2016
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="norm-jobs-wrapper" onclick="DivOpen('id=667665&amp;ln=1');">
+<div class="row">
+<div class="col-sm-3 col-sm-push-3">
+<!--<div class="row">
+<div class="col-sm-12">
+<div class="comp_logo"><img src="images/38951.jpg" alt=""></div>
+</div>
+</div>-->
+</div>
+<div class="col-sm-9 col-sm-pull-9">
+<div class="row">
+<div class="col-sm-12">
+<div class="comp-name-text">Meghna Group of Industries.</div>
+</div>
+<div class="col-sm-12">
+<div class="job-title-text">
+<a href="jobdetails.asp?id=667665&amp;ln=1" onclick="clickJObTitle()" target="_blank">
+Territory Manager - Sales
+</a>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="edu-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="edu-text-s">
+Education:
+</div>
+</div>
+<div class="col-sm-10">
+<div class="edu-text-d">
+MBA major in Marketing or Master Degree in any discipline having relevant working experience in ...
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="row">
+<div class="col-sm-9">
+<div class="exp-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="exp-text-s">Experience:</div>
+</div>
+<div class="col-sm-10">
+<div class="exp-text-d">
+At least 4 year(s)
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="dead-text">
+<div class="dead-text-s">Deadline: </div>
+<div class="dead-text-d">
+<strong>Oct 14, </strong>2016
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="norm-jobs-wrapper" onclick="DivOpen('id=667664&amp;ln=1');">
+<div class="row">
+<div class="col-sm-3 col-sm-push-3">
+<!--<div class="row">
+<div class="col-sm-12">
+<div class="comp_logo"><img src="images/38951.jpg" alt=""></div>
+</div>
+</div>-->
+</div>
+<div class="col-sm-9 col-sm-pull-9">
+<div class="row">
+<div class="col-sm-12">
+<div class="comp-name-text">A Leading Paper Industry</div>
+</div>
+<div class="col-sm-12">
+<div class="job-title-text">
+<a href="jobdetails.asp?id=667664&amp;ln=1" onclick="clickJObTitle()" target="_blank">
+Asst. Manager to Sr. Manager
+</a>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="edu-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="edu-text-s">
+Education:
+</div>
+</div>
+<div class="col-sm-10">
+<div class="edu-text-d">
+<ul><li>Diploma in any Discipline. </li><li>(Masters in Chemical will get preference)</li></ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="row">
+<div class="col-sm-9">
+<div class="exp-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="exp-text-s">Experience:</div>
+</div>
+<div class="col-sm-10">
+<div class="exp-text-d">
+7 to 10 year(s)
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="dead-text">
+<div class="dead-text-s">Deadline: </div>
+<div class="dead-text-d">
+<strong>Oct 28, </strong>2016
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="norm-jobs-wrapper" onclick="DivOpen('id=667663&amp;ln=1');">
+<div class="row">
+<div class="col-sm-3 col-sm-push-3">
+<!--<div class="row">
+<div class="col-sm-12">
+<div class="comp_logo"><img src="images/38951.jpg" alt=""></div>
+</div>
+</div>-->
+</div>
+<div class="col-sm-9 col-sm-pull-9">
+<div class="row">
+<div class="col-sm-12">
+<div class="comp-name-text">A Leading Paper Mill Industry</div>
+</div>
+<div class="col-sm-12">
+<div class="job-title-text">
+<a href="jobdetails.asp?id=667663&amp;ln=1" onclick="clickJObTitle()" target="_blank">
+Assistant Manager - Senior Manager
+</a>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="edu-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="edu-text-s">
+Education:
+</div>
+</div>
+<div class="col-sm-10">
+<div class="edu-text-d">
+Graduate in Electrical Engineering
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="row">
+<div class="col-sm-9">
+<div class="exp-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="exp-text-s">Experience:</div>
+</div>
+<div class="col-sm-10">
+<div class="exp-text-d">
+8 to 12 year(s)
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="dead-text">
+<div class="dead-text-s">Deadline: </div>
+<div class="dead-text-d">
+<strong>Oct 28, </strong>2016
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="norm-jobs-wrapper" onclick="DivOpen('id=667662&amp;ln=1');">
+<div class="row">
+<div class="col-sm-3 col-sm-push-3">
+<!--<div class="row">
+<div class="col-sm-12">
+<div class="comp_logo"><img src="images/38951.jpg" alt=""></div>
+</div>
+</div>-->
+</div>
+<div class="col-sm-9 col-sm-pull-9">
+<div class="row">
+<div class="col-sm-12">
+<div class="comp-name-text">Shohagh Group</div>
+</div>
+<div class="col-sm-12">
+<div class="job-title-text">
+<a href="jobdetails.asp?id=667662&amp;ln=1" onclick="clickJObTitle()" target="_blank">
+Maintenance Engineer
+</a>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="edu-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="edu-text-s">
+Education:
+</div>
+</div>
+<div class="col-sm-10">
+<div class="edu-text-d">
+Only Diploma in Electrical, Electronics, Mechatronics ,Air condition &amp; Refrigeration applicant`s ...
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="row">
+<div class="col-sm-9">
+<div class="exp-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="exp-text-s">Experience:</div>
+</div>
+<div class="col-sm-10">
+<div class="exp-text-d">
+At least 2 year(s)
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="dead-text">
+<div class="dead-text-s">Deadline: </div>
+<div class="dead-text-d">
+<strong>Oct 5, </strong>2016
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="norm-jobs-wrapper" onclick="DivOpen('id=667661&amp;ln=1');">
+<div class="row">
+<div class="col-sm-3 col-sm-push-3">
+<!--<div class="row">
+<div class="col-sm-12">
+<div class="comp_logo"><img src="images/38951.jpg" alt=""></div>
+</div>
+</div>-->
+</div>
+<div class="col-sm-9 col-sm-pull-9">
+<div class="row">
+<div class="col-sm-12">
+<div class="comp-name-text">Windmill Infotech Limited</div>
+</div>
+<div class="col-sm-12">
+<div class="job-title-text">
+<a href="jobdetails.asp?id=667661&amp;ln=1" onclick="clickJObTitle()" target="_blank">
+PHP Programmer
+</a>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="edu-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="edu-text-s">
+Education:
+</div>
+</div>
+<div class="col-sm-10">
+<div class="edu-text-d">
+Minimum B.Sc in CSE/ CS/ B.Sc in Computer Science from any reputed University with good academic ...
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="row">
+<div class="col-sm-9">
+<div class="exp-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="exp-text-s">Experience:</div>
+</div>
+<div class="col-sm-10">
+<div class="exp-text-d">
+3 to 5 year(s)
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="dead-text">
+<div class="dead-text-s">Deadline: </div>
+<div class="dead-text-d">
+<strong>Oct 10, </strong>2016
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="norm-jobs-wrapper" onclick="DivOpen('id=667660&amp;ln=1');">
+<div class="row">
+<div class="col-sm-3 col-sm-push-3">
+<!--<div class="row">
+<div class="col-sm-12">
+<div class="comp_logo"><img src="images/38951.jpg" alt=""></div>
+</div>
+</div>-->
+</div>
+<div class="col-sm-9 col-sm-pull-9">
+<div class="row">
+<div class="col-sm-12">
+<div class="comp-name-text">Smart Care Corporation</div>
+</div>
+<div class="col-sm-12">
+<div class="job-title-text">
+<a href="jobdetails.asp?id=667660&amp;ln=1" onclick="clickJObTitle()" target="_blank">
+Assistant Accountant
+</a>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="edu-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="edu-text-s">
+Education:
+</div>
+</div>
+<div class="col-sm-10">
+<div class="edu-text-d">
+Post-graduation in Commerce from any recognized University
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="row">
+<div class="col-sm-9">
+<div class="exp-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="exp-text-s">Experience:</div>
+</div>
+<div class="col-sm-10">
+<div class="exp-text-d">
+Na
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="dead-text">
+<div class="dead-text-s">Deadline: </div>
+<div class="dead-text-d">
+<strong>Oct 6, </strong>2016
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="norm-jobs-wrapper" onclick="DivOpen('id=667659&amp;ln=1');">
+<div class="row">
+<div class="col-sm-3 col-sm-push-3">
+<!--<div class="row">
+<div class="col-sm-12">
+<div class="comp_logo"><img src="images/38951.jpg" alt=""></div>
+</div>
+</div>-->
+</div>
+<div class="col-sm-9 col-sm-pull-9">
+<div class="row">
+<div class="col-sm-12">
+<div class="comp-name-text">Smart Care Corporation</div>
+</div>
+<div class="col-sm-12">
+<div class="job-title-text">
+<a href="jobdetails.asp?id=667659&amp;ln=1" onclick="clickJObTitle()" target="_blank">
+Senior Accountant
+</a>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="edu-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="edu-text-s">
+Education:
+</div>
+</div>
+<div class="col-sm-10">
+<div class="edu-text-d">
+Post-graduation in Commerce from any recognized University
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="row">
+<div class="col-sm-9">
+<div class="exp-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="exp-text-s">Experience:</div>
+</div>
+<div class="col-sm-10">
+<div class="exp-text-d">
+At least 5 year(s)
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="dead-text">
+<div class="dead-text-s">Deadline: </div>
+<div class="dead-text-d">
+<strong>Oct 6, </strong>2016
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="norm-jobs-wrapper" onclick="DivOpen('id=667657&amp;ln=1');">
+<div class="row">
+<div class="col-sm-3 col-sm-push-3">
+<!--<div class="row">
+<div class="col-sm-12">
+<div class="comp_logo"><img src="images/38951.jpg" alt=""></div>
+</div>
+</div>-->
+</div>
+<div class="col-sm-9 col-sm-pull-9">
+<div class="row">
+<div class="col-sm-12">
+<div class="comp-name-text">TECHNOKIT HEALTHCARE LTD.</div>
+</div>
+<div class="col-sm-12">
+<div class="job-title-text">
+<a href="jobdetails.asp?id=667657&amp;ln=1" onclick="clickJObTitle()" target="_blank">
+Asst. Sales Manager (Healthcare &amp; Nutrition Product)
+</a>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="edu-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="edu-text-s">
+Education:
+</div>
+</div>
+<div class="col-sm-10">
+<div class="edu-text-d">
+M.Sc/ B.Sc/ B.Com/ BBA/ MBA from any reputed university (Equivalent Qualification)
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="row">
+<div class="col-sm-9">
+<div class="exp-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="exp-text-s">Experience:</div>
+</div>
+<div class="col-sm-10">
+<div class="exp-text-d">
+2 to 3 year(s)
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="dead-text">
+<div class="dead-text-s">Deadline: </div>
+<div class="dead-text-d">
+<strong>Oct 13, </strong>2016
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="norm-jobs-wrapper" onclick="DivOpen('id=667658&amp;ln=1');">
+<div class="row">
+<div class="col-sm-3 col-sm-push-3">
+<!--<div class="row">
+<div class="col-sm-12">
+<div class="comp_logo"><img src="images/38951.jpg" alt=""></div>
+</div>
+</div>-->
+</div>
+<div class="col-sm-9 col-sm-pull-9">
+<div class="row">
+<div class="col-sm-12">
+<div class="comp-name-text">TECHNOKIT CORPORATION</div>
+</div>
+<div class="col-sm-12">
+<div class="job-title-text">
+<a href="jobdetails.asp?id=667658&amp;ln=1" onclick="clickJObTitle()" target="_blank">
+Executive, Service Engineer
+</a>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="edu-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="edu-text-s">
+Education:
+</div>
+</div>
+<div class="col-sm-10">
+<div class="edu-text-d">
+B.Sc in Mechanical/ Electrical Engineering or Diploma in Machanical/ Electrical Engineering from ...
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="row">
+<div class="col-sm-9">
+<div class="exp-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="exp-text-s">Experience:</div>
+</div>
+<div class="col-sm-10">
+<div class="exp-text-d">
+1 to 2 year(s)
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="dead-text">
+<div class="dead-text-s">Deadline: </div>
+<div class="dead-text-d">
+<strong>Oct 13, </strong>2016
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="norm-jobs-wrapper" onclick="DivOpen('id=667655&amp;ln=1');">
+<div class="row">
+<div class="col-sm-3 col-sm-push-3">
+<!--<div class="row">
+<div class="col-sm-12">
+<div class="comp_logo"><img src="images/38951.jpg" alt=""></div>
+</div>
+</div>-->
+</div>
+<div class="col-sm-9 col-sm-pull-9">
+<div class="row">
+<div class="col-sm-12">
+<div class="comp-name-text">A Renowned European Retailler Liaison Office</div>
+</div>
+<div class="col-sm-12">
+<div class="job-title-text">
+<a href="jobdetails.asp?id=667655&amp;ln=1" onclick="clickJObTitle()" target="_blank">
+Sr. Quality Controller (Woven)
+</a>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="edu-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="edu-text-s">
+Education:
+</div>
+</div>
+<div class="col-sm-10">
+<div class="edu-text-d">
+N/A
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="row">
+<div class="col-sm-9">
+<div class="exp-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="exp-text-s">Experience:</div>
+</div>
+<div class="col-sm-10">
+<div class="exp-text-d">
+At least 3 year(s)
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="dead-text">
+<div class="dead-text-s">Deadline: </div>
+<div class="dead-text-d">
+<strong>Oct 28, </strong>2016
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="norm-jobs-wrapper" onclick="DivOpen('id=667654&amp;ln=1');">
+<div class="row">
+<div class="col-sm-3 col-sm-push-3">
+<!--<div class="row">
+<div class="col-sm-12">
+<div class="comp_logo"><img src="images/38951.jpg" alt=""></div>
+</div>
+</div>-->
+</div>
+<div class="col-sm-9 col-sm-pull-9">
+<div class="row">
+<div class="col-sm-12">
+<div class="comp-name-text">SBC Interlining</div>
+</div>
+<div class="col-sm-12">
+<div class="job-title-text">
+<a href="jobdetails.asp?id=667654&amp;ln=1" onclick="clickJObTitle()" target="_blank">
+Senior Marketing Manager
+</a>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="edu-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="edu-text-s">
+Education:
+</div>
+</div>
+<div class="col-sm-10">
+<div class="edu-text-d">
+MBA degree is strongly preferred.
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="row">
+<div class="col-sm-9">
+<div class="exp-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="exp-text-s">Experience:</div>
+</div>
+<div class="col-sm-10">
+<div class="exp-text-d">
+Na
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="dead-text">
+<div class="dead-text-s">Deadline: </div>
+<div class="dead-text-d">
+<strong>Oct 27, </strong>2016
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="norm-jobs-wrapper" onclick="DivOpen('id=667653&amp;ln=1');">
+<div class="row">
+<div class="col-sm-3 col-sm-push-3">
+<!--<div class="row">
+<div class="col-sm-12">
+<div class="comp_logo"><img src="images/38951.jpg" alt=""></div>
+</div>
+</div>-->
+</div>
+<div class="col-sm-9 col-sm-pull-9">
+<div class="row">
+<div class="col-sm-12">
+<div class="comp-name-text">BRB Hospitals Limited</div>
+</div>
+<div class="col-sm-12">
+<div class="job-title-text">
+<a href="jobdetails.asp?id=667653&amp;ln=1" onclick="clickJObTitle()" target="_blank">
+Specialist
+</a>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="edu-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="edu-text-s">
+Education:
+</div>
+</div>
+<div class="col-sm-10">
+<div class="edu-text-d">
+MBBS with FCPS/ MD/ MS or other BMDC recognized professional qualification for Specialist ...
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="row">
+<div class="col-sm-9">
+<div class="exp-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="exp-text-s">Experience:</div>
+</div>
+<div class="col-sm-10">
+<div class="exp-text-d">
+At least 2 year(s)
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="dead-text">
+<div class="dead-text-s">Deadline: </div>
+<div class="dead-text-d">
+<strong>Oct 15, </strong>2016
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="norm-jobs-wrapper" onclick="DivOpen('id=667652&amp;ln=1');">
+<div class="row">
+<div class="col-sm-3 col-sm-push-3">
+<!--<div class="row">
+<div class="col-sm-12">
+<div class="comp_logo"><img src="images/38951.jpg" alt=""></div>
+</div>
+</div>-->
+</div>
+<div class="col-sm-9 col-sm-pull-9">
+<div class="row">
+<div class="col-sm-12">
+<div class="comp-name-text">BRB Hospitals Limited</div>
+</div>
+<div class="col-sm-12">
+<div class="job-title-text">
+<a href="jobdetails.asp?id=667652&amp;ln=1" onclick="clickJObTitle()" target="_blank">
+Medical Officer
+</a>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="edu-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="edu-text-s">
+Education:
+</div>
+</div>
+<div class="col-sm-10">
+<div class="edu-text-d">
+MBBS from Public Medical College (Emergency/ ICU/ Gyane &amp; Obs/ NICU/ Pediatrics/ Vaccination/ ...
+        
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="col-sm-12">
+        <div class="row">
+        <div class="col-sm-9">
+        <div class="exp-text">
+        <div class="row">
+        <div class="col-sm-2">
+        <div class="exp-text-s">Experience:</div>
+        </div>
+        <div class="col-sm-10">
+        <div class="exp-text-d">
+        3 to 5 year(s)
+        </div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="dead-text">
+<div class="dead-text-s">Deadline: </div>
+<div class="dead-text-d">
+<strong>Oct 15, </strong>2016
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="norm-jobs-wrapper" onclick="DivOpen('id=667651&amp;ln=1');">
+<div class="row">
+<div class="col-sm-3 col-sm-push-3">
+<!--<div class="row">
+<div class="col-sm-12">
+<div class="comp_logo"><img src="images/38951.jpg" alt=""></div>
+</div>
+</div>-->
+</div>
+<div class="col-sm-9 col-sm-pull-9">
+<div class="row">
+<div class="col-sm-12">
+<div class="comp-name-text">Bashundhara Group</div>
+</div>
+<div class="col-sm-12">
+<div class="job-title-text">
+<a href="jobdetails.asp?id=667651&amp;ln=1" onclick="clickJObTitle()" target="_blank">
+Resident Manager
+</a>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="edu-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="edu-text-s">
+Education:
+</div>
+</div>
+<div class="col-sm-10">
+<div class="edu-text-d">
+Graduation in Hospitality Management
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="row">
+<div class="col-sm-9">
+<div class="exp-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="exp-text-s">Experience:</div>
+</div>
+<div class="col-sm-10">
+<div class="exp-text-d">
+At least 5 year(s)
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="dead-text">
+<div class="dead-text-s">Deadline: </div>
+<div class="dead-text-d">
+<strong>Oct 7, </strong>2016
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="norm-jobs-wrapper" onclick="DivOpen('id=667648&amp;ln=1');">
+<div class="row">
+<div class="col-sm-3 col-sm-push-3">
+<!--<div class="row">
+<div class="col-sm-12">
+<div class="comp_logo"><img src="images/38951.jpg" alt=""></div>
+</div>
+</div>-->
+</div>
+<div class="col-sm-9 col-sm-pull-9">
+<div class="row">
+<div class="col-sm-12">
+<div class="comp-name-text">Meridian Foods Ltd.</div>
+</div>
+<div class="col-sm-12">
+<div class="job-title-text">
+<a href="jobdetails.asp?id=667648&amp;ln=1" onclick="clickJObTitle()" target="_blank">
+Supervisor - On Line Quality Control
+</a>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="edu-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="edu-text-s">
+Education:
+</div>
+</div>
+<div class="col-sm-10">
+<div class="edu-text-d">
+Diploma in Food Technology
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="row">
+<div class="col-sm-9">
+<div class="exp-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="exp-text-s">Experience:</div>
+</div>
+<div class="col-sm-10">
+<div class="exp-text-d">
+2 to 3 year(s)
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="dead-text">
+<div class="dead-text-s">Deadline: </div>
+<div class="dead-text-d">
+<strong>Oct 28, </strong>2016
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="norm-jobs-wrapper" onclick="DivOpen('id=667650&amp;ln=1');">
+<div class="row">
+<div class="col-sm-3 col-sm-push-3">
+<!--<div class="row">
+<div class="col-sm-12">
+<div class="comp_logo"><img src="images/38951.jpg" alt=""></div>
+</div>
+</div>-->
+</div>
+<div class="col-sm-9 col-sm-pull-9">
+<div class="row">
+<div class="col-sm-12">
+<div class="comp-name-text">Meridian Foods Ltd.</div>
+</div>
+<div class="col-sm-12">
+<div class="job-title-text">
+<a href="jobdetails.asp?id=667650&amp;ln=1" onclick="clickJObTitle()" target="_blank">
+Production Supervisor (Shift In-charge)
+</a>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="edu-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="edu-text-s">
+Education:
+</div>
+</div>
+<div class="col-sm-10">
+<div class="edu-text-d">
+Diploma in Food Technology
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="row">
+<div class="col-sm-9">
+<div class="exp-text">
+<div class="row">
+<div class="col-sm-2">
+<div class="exp-text-s">Experience:</div>
+</div>
+<div class="col-sm-10">
+<div class="exp-text-d">
+At least 2 year(s)
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="dead-text">
+<div class="dead-text-s">Deadline: </div>
+<div class="dead-text-d">
+<strong>Oct 28, </strong>2016
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="cont-pagination-wrapper">
+<div class="row">
+<div class="col-sm-4">
+<div class="pagination" style="float:left; margin:2px 0px 0px 0px;">
+<ul>
+<li><a class="prevnext disablelink" href="javascript:void(0)">« Previous</a></li>
+<li><a class="prevnext" href="javascript:GoPage(2)">Next »</a></li>
+</ul>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="middle-pagination-div">
+<div style="float:left; margin:2px 0px 0px 0px;">Jobs per page </div>
+<div style="float:left;">
+<select id="cmbjobsPerPageBottom" name="cmbjobsPerPage" onchange="setPerpageRecord(this.value);">
+<option onclick="ga('send', 'event','Pagging - Bottom' , 'click', '10', 1);" value="10">10</option>
+<option onclick="ga('send', 'event','Pagging - Bottom' , 'click', '20', 1);" selected="" value="20">20</option>
+<option onclick="ga('send', 'event','Pagging - Bottom' , 'click', '30', 1);" value="30">30</option>
+<option onclick="ga('send', 'event','Pagging - Bottom' , 'click', '40', 1);" value="40">40</option>
+</select>
+</div>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="pagination" id="bottomPagging" style="margin:0px 0px 0px 0px;">
+<ul> <li><h3>Pages :</h3> </li>
+<li><a class="currentpage">1</a></li>
+<li><a href="javascript:GoPage(2)">2</a> </li>
+<li><a href="javascript:GoPage(3)">3</a> </li>
+<li><a href="javascript:GoPage(4)">4</a> </li>
+<li><a href="javascript:GoPage(5)">5</a> </li>
+<li><a href="javascript:GoPage(151)">...151</a></li></ul>
+</div>
+</div>
+</div>
+</div>
+<!-- Training Box Start -->
+<div class="col-sm-12">
+<div class="training_box_wrapper" id="JobListing_Training" style="background:#FFFFFF;">
+<div class="panel panel-default training details">
+<div class="panel-heading">Courses from Bdjobs Training</div>
+<div class="panel-body">
+<div class="carousel slide vertical" data-interval="3000" data-pause="false" data-ride="carousel" id="training-slider">
+<div class="carousel-inner" role="listbox">
+<div class="item active">
+<div class="row">
+<div class="col-sm-6 pull-left">
+<div class="training-title"><a href="http://bdjobstraining.com/trainingdetails.asp?TrainingId=90350&amp;upcoming=0">Land Mutation Process and Land Management System</a></div>
+<h4>
+
+No. of Classes/Sessions: One Day
+  Course Duration: Friday, September 30, 2016
+</h4>
+<h4 class="class-shedule">
+
+ 
+
+</h4>
+<h4>
+
+Last Date of Reg: 
+September 29, 2016
+</h4>
+<div class="training-details-link">
+<a href="http://bdjobstraining.com/trainingdetails.asp?TrainingId=90350&amp;upcoming=0" target="_blank"><i class="icon-angle-right-n"></i> Click here for detail</a>
+</div>
+</div>
+<div class="col-sm-6 pull-right">
+<div class="training-title"><a href="http://bdjobstraining.com/trainingdetails.asp?TrainingId=90350&amp;upcoming=0">Front-desk Behaviour and Telephone Etiquettes</a></div>
+<h4>
+
+No. of Classes/Sessions: 1 Day
+  Course Duration: Friday, September 30, 2016
+</h4>
+<h4 class="class-shedule">
+
+Class Schedule and Time: <br/>Friday
+</h4>
+<h4>
+
+Last Date of Reg: 
+September 29, 2016
+</h4>
+<div class="training-details-link">
+<a href="http://bdjobstraining.com/trainingdetails.asp?TrainingId=90379&amp;upcoming=0" target="_blank"><i class="icon-angle-right-n"></i> Click here for detail</a>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="row">
+<div class="col-sm-6 pull-left">
+<div class="training-title"><a href="http://bdjobstraining.com/trainingdetails.asp?TrainingId=90393&amp;upcoming=0">Project Planning, Development and Management</a></div>
+<h4>
+
+No. of Classes/Sessions: 2 Days
+  Course Duration: 30 September - 1 October 2016
+</h4>
+<h4 class="class-shedule">
+
+Class Schedule and Time: <br/>Friday &amp; Saturday
+</h4>
+<h4>
+
+Last Date of Reg: 
+September 28, 2016
+</h4>
+<div class="training-details-link">
+<a href="http://bdjobstraining.com/trainingdetails.asp?TrainingId=90393&amp;upcoming=0" target="_blank"><i class="icon-angle-right-n"></i> Click here for detail</a>
+</div>
+</div>
+<div class="col-sm-6 pull-right">
+<div class="training-title"><a href="http://bdjobstraining.com/trainingdetails.asp?TrainingId=90393&amp;upcoming=0">PRINCE2 for Project Management</a></div>
+<h4>
+
+No. of Classes/Sessions: 5 Sessions
+  Course Duration: 7 - 21 October 2016
+  Total Hours: 15
+</h4>
+<h4 class="class-shedule">
+
+Class Schedule and Time: <br/>Friday &amp; Saturday
+</h4>
+<h4>
+
+Last Date of Reg: 
+October 6, 2016
+</h4>
+<div class="training-details-link">
+<a href="http://bdjobstraining.com/trainingdetails.asp?TrainingId=90404&amp;upcoming=0" target="_blank"><i class="icon-angle-right-n"></i> Click here for detail</a>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="row">
+<div class="col-sm-6 pull-left">
+<div class="training-title"><a href="http://bdjobstraining.com/trainingdetails.asp?TrainingId=90406&amp;upcoming=0">Stress and Anger Management Workshop</a></div>
+<h4>
+
+No. of Classes/Sessions: 1 Day
+  Course Duration: Friday, October 7, 2016
+</h4>
+<h4 class="class-shedule">
+
+Class Schedule and Time: <br/>Friday
+</h4>
+<h4>
+
+Last Date of Reg: 
+October 5, 2016
+</h4>
+<div class="training-details-link">
+<a href="http://bdjobstraining.com/trainingdetails.asp?TrainingId=90406&amp;upcoming=0" target="_blank"><i class="icon-angle-right-n"></i> Click here for detail</a>
+</div>
+</div>
+<div class="col-sm-6 pull-right">
+<div class="training-title"><a href="http://bdjobstraining.com/trainingdetails.asp?TrainingId=90406&amp;upcoming=0">Land Mutation Process and Land Management System</a></div>
+<h4>
+
+No. of Classes/Sessions: One Day
+  Course Duration: Friday, September 30, 2016
+</h4>
+<h4 class="class-shedule">
+
+ 
+
+</h4>
+<h4>
+
+Last Date of Reg: 
+September 29, 2016
+</h4>
+<div class="training-details-link">
+<a href="http://bdjobstraining.com/trainingdetails.asp?TrainingId=90350&amp;upcoming=0" target="_blank"><i class="icon-angle-right-n"></i> Click here for detail</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Training Box End -->
+</div>
+</div>
+</div>
+<!-- cj: 9/28/2016 8:00:00 PM -->
+<div class="jgads">
+<div class="g-ba">
+<div class="row">
+<div class="col-sm-12">
+<div class="gbac">
+<object data="http://www.ajkerdeal.com/images/Files/HTML/BdjobsBottomCat.html" onclick="ga('send', 'event', 'ajkerdeal', 'click', '/jobsearch.asp - Bottom', 1);" style=" overflow:hidden; height:120px; width:100%;" type="text/html"></object>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--</form>-->
+</div>
+<div class="right" id="RightAds">
+<div id="jobsarchRightBanner">
+</div>
+<div id="topGBAds" style="width:160px; height:600px;margin:0px 0px 10px 0px;">
+<script type="text/javascript">
+google_ad_client = "ca-pub-5130888087776673";
+google_ad_slot = "6549720749";
+google_ad_width = 160;
+google_ad_height = 600;
+</script>
+<!-- VerticalWideNew -->
+<script src="//pagead2.googlesyndication.com/pagead/show_ads.js" type="text/javascript">
+</script>
+</div>
+<div id="bottomGB" style="width:160px; height:1220px; margin:0px 0px 10px 0px; ">
+<object data="http://www.ajkerdeal.com/Images/Files/Html/BdjobsRightCat.html" onclick="ga('send', 'event', 'ajkerdeal', 'click', '/jobsearch.asp - Right', 1);" style="margin-bottom: 10px; width:160px; height:600px;" type="text/html"></object>
+<div id="538479032_160x600" style="width:160px;height:600px;margin:0;padding:0">
+<noscript><iframe frameborder="0" height="600" id="edbf0f253b" name="edbf0f253b" scrolling="no" src="//raiseit-d.openx.net/w/1.0/afr?auid=538479032&amp;cb={random}" width="160"><a href="//raiseit-d.openx.net/w/1.0/rc?cs=edbf0f253b&amp;cb={random}"><img alt="" border="0" src="//raiseit-d.openx.net/w/1.0/ai?auid=538479032&amp;cs=edbf0f253b&amp;cb={random}"/></a></iframe></noscript>
+</div>
+<script type="text/javascript">
+/* VerticalWide */ 
+var OX_ads = OX_ads || [];
+OX_ads.push({
+        slot_id: "538479032_160x600",
+        auid: "538479032"
+        });
+</script>
+<script src="//raiseit-d.openx.net/w/1.0/jstag" type="text/javascript"></script>
+</div>
+<div id="jobsarchRightBottomBanner">
+</div>
+<div id="jobsarchRightBottomBannerBottom" style="float:left">
+</div>
+<!--<div style="width:160px; height:248px;  margin:0px 0px 10px 0px; float:left;"></div>-->
+<!--<div style="width:160px; height:600px;margin:0px 0px 10px 0px;"></div>-->
+<div id="538479032_160x600" style="width:160px;height:600px;margin:0;padding:0">
+<noscript><iframe frameborder="0" height="600" id="edbf0f253b" name="edbf0f253b" scrolling="no" src="//raiseit-d.openx.net/w/1.0/afr?auid=538479032&amp;cb={random}" width="160"><a href="//raiseit-d.openx.net/w/1.0/rc?cs=edbf0f253b&amp;cb={random}"><img alt="" border="0" src="//raiseit-d.openx.net/w/1.0/ai?auid=538479032&amp;cs=edbf0f253b&amp;cb={random}"/></a></iframe></noscript>
+</div>
+<script type="text/javascript">
+/* VerticalWide */ 
+var OX_ads = OX_ads || [];
+OX_ads.push({
+        slot_id: "538479032_160x600",
+        auid: "538479032"
+        });
+</script>
+<script src="//raiseit-d.openx.net/w/1.0/jstag" type="text/javascript"></script>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+loadTools()
+ClickEvent()
+allchecked();
+</script>
+<!-- Fat footer -->
+<div id="lout_footer"></div>
+<div id="lin_footer01"></div>
+<div id="lin_footer02">
+<div id="footer">
+<div class="fatFooter">
+<div class="container">
+<div class="row">
+<div class="footer">
+<div class="col-md-3 col-sm-3">
+<h4>About Us</h4>
+<ul>
+<li><a href="http://www.bdjobs.com/about.asp" target="_blank">About Bdjobs.com</a></li>
+<li><a href="http://www.bdjobs.com/tos.asp" target="_blank">Terms &amp; Conditions</a></li>
+<li>
+<a class="in-partners" href="javascript:void(0);">International Partners <i class="icon-plus"></i></a>
+</li>
+<li>
+<ul class="all-partners">
+<li><a href="http://www.babajob.com/" target="_blank">BabaJob</a> <strong>(India)</strong></li>
+<li><a href="http://www.brightermonday.com/" target="_blank">Brighter Monday</a> <strong> (<!-- East --> Africa)</strong></li>
+<li><a href="http://www.catho.com.br/" target="_blank">Catho</a> <strong>(Brazil)</strong></li>
+<li><a href="http://www.jobberman.com/" target="_blank">Jobberman</a> <strong>(West Africa)</strong></li>
+<li><a href="http://www.jobsdb.com/" target="_blank">jobsDB</a> <strong>(S.E Asia)</strong></li>
+<li><a href="http://www.jobstreet.com/" target="_blank">JobStreet</a> <strong>(S.E Asia)</strong></li>
+<li><a href="https://www.jora.com/" target="_blank">Jora</a> <strong>(Worldwide)</strong></li>
+<li><a href="http://www.manager.com.br/" target="_blank">Manager</a> <strong>(Brazil)</strong></li>
+<li><a href="https://www.occ.com.mx/" target="_blank">OCC Mundial </a> <strong>(Mexico)</strong></li>
+<li><a href="http://www.seek.com.au/" target="_blank">SEEK</a> <strong>(Australia)</strong></li>
+<li><a href="https://www.workana.com" target="_blank">Workana</a> <strong>(Workana)</strong></li>
+<li><a href="http://www.zhaopin.com/" target="_blank">Zhaopin</a> <strong>(China)</strong></li>
+</ul>
+</li>
+<li><a href="http://jobs.bdjobs.com/feedback.asp" target="_blank">Feedback</a></li>
+<li><a href="http://www.bdjobs.com/contact.asp" target="_blank">Contact Us</a></li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-3">
+<h4>Job Seekers</h4>
+<ul>
+<li><a href="http://mybdjobs.bdjobs.com/createaccount.asp" target="_blank">Create Account</a></li>
+<li><a href="http://www.bdjobs.com/career/counsel.asp" target="_blank">Career Counseling</a></li>
+<li><a href="http://www.mybdjobs.bdjobs.com/" target="_blank">My Bdjobs</a></li>
+<li><a href="http://mybdjobs.bdjobs.com/mybdjobs/faq.asp#1" target="_blank">FAQ</a></li>
+<li><a href="http://mybdjobs.bdjobs.com/mybdjobs/videoHelp2.asp" target="_blank">Video Guides</a></li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-3">
+<h4>Employers</h4>
+<ul>
+<li><a href="http://corporate3.bdjobs.com/Corporate_NewAccount.asp" target="_blank">Create Account</a></li>
+<li><a href="http://corporate3.bdjobs.com/services.asp" target="_blank">Products/Service</a></li>
+<li><a href="http://corporate3.bdjobs.com/" target="_blank">Post a Job</a></li>
+<li><a href="http://corporate3.bdjobs.com/help/help.asp" target="_blank">FAQ</a></li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-3">
+<h4>Tools &amp; Social Media</h4>
+<ul>
+<li><a href="http://www.bdjobs.com/apps/" target="_blank">Mobile App</a></li>
+<li><a href="http://forum.bdjobs.com/" target="_blank">Bdjobs Forum</a></li>
+<li><a href="https://www.facebook.com/mybdjobs" target="_blank">Facebook</a></li>
+<li><a href="https://plus.google.com/+BdjobscomLtdDhaka" target="_blank">Google+</a></li>
+<li><a href="https://www.youtube.com/mybdjobs" target="_blank">Youtube</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- -->
+</body>
